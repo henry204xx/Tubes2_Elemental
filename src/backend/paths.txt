@@ -1,0 +1,99 @@
+Path 1:
+Medusa
+├── Snake
+|   |
+|   ├── Animal
+|   |   |
+|   |   ├── Life
+|   |   |   |
+|   |   |   ├── Primordial soup
+|   |   |   |   |
+|   |   |   |   ├── Earth
+|   |   |   |   |   |
+|   |   |   |   └── Sea
+|   |   |   |       ├── Lake
+|   |   |   |       |   |
+|   |   |   |       |   ├── Pond
+|   |   |   |       |   |   |
+|   |   |   |       |   |   ├── Puddle
+|   |   |   |       |   |   |   |
+|   |   |   |       |   |   |   ├── Water
+|   |   |   |       |   |   |   |   |
+|   |   |   |       |   |   |   └── Water
+|   |   |   |       |   |   └── Water
+|   |   |   |       |   └── Pond
+|   |   |   |       └── Water
+|   |   |   └── Energy
+|   |   |       ├── Fire
+|   |   |       |   |
+|   |   |       └── Fire
+|   |   └── Desert
+|   |       ├── Sand
+|   |       |   |
+|   |       |   ├── Stone
+|   |       |   |   |
+|   |       |   |   ├── Air
+|   |       |   |   |   |
+|   |       |   |   └── Lava
+|   |       |   |       ├── Earth
+|   |       |   |       |   |
+|   |       |   |       └── Fire
+|   |       |   └── Wind
+|   |       |       ├── Air
+|   |       |       |   |
+|   |       |       └── Pressure
+|   |       |           ├── Air
+|   |       |           |   |
+|   |       |           └── Air
+|   |       └── Land
+|   |           ├── Earth
+|   |           |   |
+|   |           └── Earth
+|   └── Wire
+|       ├── Metal
+|       |   |
+|       |   ├── Stone
+|       |   |   |
+|       |   └── Heat
+|       |       ├── Air
+|       |       |   |
+|       |       └── Energy
+|       └── Electricity
+|           ├── Solar cell
+|           |   |
+|           |   ├── Sun
+|           |   |   |
+|           |   |   ├── Planet
+|           |   |   |   |
+|           |   |   |   ├── Continent
+|           |   |   |   |   |
+|           |   |   |   |   ├── Land
+|           |   |   |   |   |   |
+|           |   |   |   |   └── Earth
+|           |   |   |   └── Continent
+|           |   |   └── Fire
+|           |   └── Energy
+|           └── Sun
+├── Hero
+|   ├── Human
+|   |   |
+|   |   ├── Clay
+|   |   |   |
+|   |   |   ├── Mud
+|   |   |   |   |
+|   |   |   |   ├── Water
+|   |   |   |   |   |
+|   |   |   |   └── Earth
+|   |   |   └── Stone
+|   |   └── Life
+|   └── Lightning
+|       ├── Energy
+|       |   |
+|       └── Cloud
+|           ├── Atmosphere
+|           |   |
+|           |   ├── Air
+|           |   |   |
+|           |   └── Planet
+|           └── Water
+

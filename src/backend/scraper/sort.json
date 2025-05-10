@@ -1,0 +1,4892 @@
+{
+  "Acid rain": [
+    "Rain + Sickness",
+    "Cloud + Sickness",
+    "Rain + Smog",
+    "Cloud + Smog",
+    "Rain + City",
+    "Rain + Smoke",
+    "Cloud + Smoke"
+  ],
+  "Air": [
+    "Fire + Mist"
+  ],
+  "Airplane": [
+    "Bat + Steel",
+    "Bat + Machine",
+    "Bat + Metal",
+    "Bird + Sailboat",
+    "Bird + Train",
+    "Bird + Steamboat",
+    "Bird + Boat",
+    "Pilot + Container",
+    "Vulture + Steel",
+    "Seagull + Steel",
+    "Pigeon + Steel",
+    "Owl + Steel",
+    "Owl + Steam engine",
+    "Hummingbird + Steel",
+    "Eagle + Steel",
+    "Duck + Steel",
+    "Crow + Steel",
+    "Bird + Steel",
+    "Bird + Steam engine",
+    "Bird + Car",
+    "Vulture + Machine",
+    "Seagull + Machine",
+    "Pigeon + Machine",
+    "Owl + Machine",
+    "Hummingbird + Machine",
+    "Eagle + Machine",
+    "Duck + Machine",
+    "Crow + Machine",
+    "Bird + Machine",
+    "Vulture + Metal",
+    "Seagull + Metal",
+    "Pigeon + Metal",
+    "Owl + Metal",
+    "Hummingbird + Metal",
+    "Eagle + Metal",
+    "Duck + Metal",
+    "Crow + Metal",
+    "Bird + Metal"
+  ],
+  "Alarm clock": [
+    "Watch + Dawn",
+    "Watch + Bell",
+    "Watch + Sound",
+    "Clock + Dawn",
+    "Clock + Bell",
+    "Clock + Sound"
+  ],
+  "Alchemist": [
+    "Gold + Philosophy",
+    "Human + Gold"
+  ],
+  "Alcohol": [
+    "Time + Juice",
+    "Wheat + Juice",
+    "Wheat + Fruit",
+    "Fruit + Sun"
+  ],
+  "Algae": [
+    "Grass + Lake",
+    "Grass + Pond",
+    "Water + Grass",
+    "Water + Plant"
+  ],
+  "Alien": [
+    "Life + Saturn",
+    "Life + Space",
+    "Life + Jupiter",
+    "Life + Galaxy cluster",
+    "Life + Mars",
+    "Life + Galaxy",
+    "Life + Venus",
+    "Life + Solar system",
+    "Life + Mercury"
+  ],
+  "Allergy": [
+    "Human + Pollen",
+    "Human + Dust"
+  ],
+  "Alligator": [
+    "Lizard + Swamp",
+    "Lizard + River",
+    "Lizard + Lake"
+  ],
+  "Alpaca": [
+    "Sheep + Mountain goat",
+    "Sheep + Mountain range",
+    "Sheep + Mountain"
+  ],
+  "Ambulance": [
+    "Car + Doctor",
+    "Car + Hospital"
+  ],
+  "Angel": [
+    "Human + Light",
+    "Human + Bird"
+  ],
+  "Angler": [
+    "Sailor + Fishing rod",
+    "Human + Fishing rod"
+  ],
+  "Animal": [
+    "Life + Forest",
+    "Life + Mountain range",
+    "Life + Desert",
+    "Life + Beach",
+    "Life + Mountain",
+    "Life + Land"
+  ],
+  "Ant": [
+    "Grass + Spider",
+    "Grass + Animal"
+  ],
+  "Ant farm": [
+    "Anthill + Jar",
+    "Ant + Jar",
+    "Anthill + Farm",
+    "Farm + Ant",
+    "Ant + Glass"
+  ],
+  "Antarctica": [
+    "Desert + Ice",
+    "Continent + Ice",
+    "Desert + Snow",
+    "Continent + Snow"
+  ],
+  "Anthill": [
+    "Ant + Hill",
+    "Ant + Container",
+    "Ant + Soil",
+    "Ant + House",
+    "Ant + Land",
+    "Ant + Earth"
+  ],
+  "Apron": [
+    "Fabric + Baker",
+    "Fabric + Cook"
+  ],
+  "Aquarium": [
+    "Fish + Container",
+    "Small + Swimming pool",
+    "Glass + Fish",
+    "Glass + Pond",
+    "Glass + Puddle",
+    "Glass + Water"
+  ],
+  "Archeologist": [
+    "Ruins + Science",
+    "Ruins + Human"
+  ],
+  "Archipelago": [
+    "Island + Ocean",
+    "Island + Island",
+    "Island + Sea"
+  ],
+  "Arctic": [
+    "Cold + Ocean",
+    "Cold + Sea"
+  ],
+  "Armadillo": [
+    "Armor + Dog",
+    "Armor + Cat",
+    "Armor + Animal"
+  ],
+  "Armor": [
+    "Steel + Fabric",
+    "Metal + Fabric"
+  ],
+  "Arrow": [
+    "Wood + Bow",
+    "Wood + Bullet"
+  ],
+  "Ash": [
+    "Campfire + Time",
+    "Campfire + Paper",
+    "Campfire + Rain",
+    "Fire + Paper",
+    "Campfire + Water",
+    "Vampire + Dawn",
+    "Vampire + Sun",
+    "Fire + Tree",
+    "Fire + Mineral",
+    "Fire + Grass",
+    "Fire + Plant"
+  ],
+  "Astronaut": [
+    "Human + Moon rover",
+    "Human + Saturn",
+    "Human + Spaceship",
+    "Human + Space",
+    "Human + Jupiter",
+    "Human + Space station",
+    "Human + Rocket",
+    "Human + Mars",
+    "Human + Venus",
+    "Human + Solar system",
+    "Human + Moon",
+    "Human + Mercury"
+  ],
+  "Astronomer": [
+    "Human + Telescope"
+  ],
+  "Atmosphere": [
+    "Air + Sky",
+    "Air + Planet"
+  ],
+  "Atomic bomb": [
+    "Explosion + Big",
+    "Explosion + Explosion",
+    "Explosion + Energy"
+  ],
+  "Aurora": [
+    "Electricity + Arctic",
+    "Sky + Arctic",
+    "Electricity + Antarctica",
+    "Sky + Antarctica",
+    "Electricity + Sky",
+    "Electricity + Atmosphere",
+    "Sun + Atmosphere"
+  ],
+  "Avalanche": [
+    "Sound + Glacier",
+    "Gun + Glacier",
+    "Wave + Glacier",
+    "Earthquake + Glacier",
+    "Earthquake + Snow",
+    "Sound + Mountain range",
+    "Gun + Mountain range",
+    "Sound + Mountain",
+    "Gun + Mountain",
+    "Wave + Mountain range",
+    "Wave + Mountain",
+    "Earthquake + Mountain range",
+    "Earthquake + Mountain"
+  ],
+  "Aviary": [
+    "Big + Birdcage"
+  ],
+  "Axe": [
+    "Wood + Tool",
+    "Tool + Lumberjack",
+    "Wood + Blade",
+    "Wood + Stone"
+  ],
+  "Bacon": [
+    "Ham + Campfire",
+    "Pig + Campfire",
+    "Ham + Fire",
+    "Pig + Fire"
+  ],
+  "Bacteria": [
+    "Life + Small",
+    "Life + Primordial soup",
+    "Life + Mud"
+  ],
+  "Baker": [
+    "Human + Toast",
+    "Human + Cookie",
+    "Human + Bakery",
+    "Human + Pie",
+    "Human + Donut",
+    "Human + Cookie dough",
+    "Human + Bread",
+    "Human + Banana bread",
+    "Human + Pizza",
+    "Human + Dough",
+    "Human + Batter"
+  ],
+  "Bakery": [
+    "City + Cake",
+    "Village + Cake",
+    "House + Cake",
+    "Baker + Container",
+    "City + Donut",
+    "City + Bread",
+    "City + Baker",
+    "Village + Donut",
+    "Village + Bread",
+    "Village + Baker",
+    "House + Donut",
+    "House + Bread",
+    "House + Baker"
+  ],
+  "Banana": [
+    "Fruit + Monkey"
+  ],
+  "Banana bread": [
+    "Bread + Banana",
+    "Dough + Banana"
+  ],
+  "Bandage": [
+    "Fabric + Blood",
+    "Fabric + Sword",
+    "Fabric + Blade"
+  ],
+  "Bank": [
+    "Money + Container",
+    "Money + Skyscraper",
+    "Money + City",
+    "Money + House",
+    "House + Vault",
+    "Safe + Skyscraper",
+    "Safe + City",
+    "Gold + Skyscraper",
+    "Gold + City",
+    "Safe + House",
+    "Gold + House"
+  ],
+  "Barn": [
+    "Container + Hay bale",
+    "Container + Hay",
+    "Container + Sheep",
+    "Container + Goat",
+    "Container + Cow",
+    "Container + Pig",
+    "Container + Livestock",
+    "Container + Horse",
+    "House + Hay",
+    "House + Sheep",
+    "House + Goat",
+    "House + Cow",
+    "House + Livestock",
+    "House + Farm",
+    "House + Field"
+  ],
+  "Barrel": [
+    "Wine + Wood",
+    "Wine + Container"
+  ],
+  "Bat": [
+    "Mouse + Hummingbird",
+    "Mouse + Bird",
+    "Mouse + Sky",
+    "Mouse + Atmosphere",
+    "Mouse + Air"
+  ],
+  "Batter": [
+    "Coconut milk + Flour",
+    "Milk + Flour"
+  ],
+  "Battery": [
+    "Electricity + Ore",
+    "Container + Electricity",
+    "Container + Energy",
+    "Electricity + Mineral"
+  ],
+  "Bayonet": [
+    "Gun + Axe",
+    "Gun + Sword",
+    "Gun + Blade"
+  ],
+  "Bbq": [
+    "Campfire + Steel",
+    "Campfire + Garden",
+    "Campfire + Meat",
+    "Campfire + House",
+    "Campfire + Metal"
+  ],
+  "Beach": [
+    "Sand + Ocean",
+    "Sand + Wave",
+    "Sand + Sea",
+    "Sand + Lake",
+    "Sand + Water"
+  ],
+  "Beaver": [
+    "Animal + Wood",
+    "Animal + Stream",
+    "Animal + River",
+    "Animal + Dam"
+  ],
+  "Bee": [
+    "Animal + Garden",
+    "Animal + Flower"
+  ],
+  "Beehive": [
+    "Wood + Bee",
+    "Forest + Bee",
+    "Container + Bee",
+    "Tree + Bee",
+    "House + Bee",
+    "Wall + Bee"
+  ],
+  "Beekeeper": [
+    "Farmer + Beehive",
+    "Human + Beehive",
+    "Farmer + Bee",
+    "Human + Bee"
+  ],
+  "Beer": [
+    "Alcohol + Wheat"
+  ],
+  "Bell": [
+    "Steel + Hammer",
+    "Sound + Wood",
+    "Sound + Steel",
+    "Metal + Hammer",
+    "Sound + Metal"
+  ],
+  "Bicycle": [
+    "Wheel + Wheel",
+    "Wheel + Machine",
+    "Wheel + Chain"
+  ],
+  "Big": [
+    "Universe + Philosophy",
+    "Galaxy cluster + Philosophy",
+    "Galaxy + Philosophy",
+    "Sun + Philosophy",
+    "Solar system + Philosophy",
+    "Planet + Philosophy"
+  ],
+  "Binoculars": [
+    "Telescope + Telescope",
+    "Glasses + Glasses"
+  ],
+  "Bird": [
+    "Time + Pterodactyl",
+    "Time + Dinosaur",
+    "Egg + Airplane",
+    "Animal + Airplane",
+    "Egg + Sky",
+    "Egg + Air",
+    "Animal + Sky",
+    "Animal + Air"
+  ],
+  "Birdcage": [
+    "Bird + Container",
+    "Bird + Cage",
+    "Bird + Safe",
+    "Bird + Wall"
+  ],
+  "Birdhouse": [
+    "Egg + Container",
+    "Bird + House",
+    "Bird + Wall"
+  ],
+  "Black hole": [
+    "Darkness + Star",
+    "Darkness + Sun",
+    "Pressure + Star",
+    "Pressure + Sun"
+  ],
+  "Blade": [
+    "Rock + Steel",
+    "Rock + Metal",
+    "Stone + Steel",
+    "Stone + Metal"
+  ],
+  "Blender": [
+    "Blade + Motion",
+    "Blade + Wind turbine",
+    "Blade + Electricity",
+    "Blade + Windmill",
+    "Blade + Glass"
+  ],
+  "Blizzard": [
+    "Snow + Big",
+    "Snow + Snow",
+    "Snow + Storm",
+    "Snow + Hurricane",
+    "Snow + Tornado",
+    "Snow + Wind"
+  ],
+  "Blood": [
+    "Warrior + Sword",
+    "Human + Blade"
+  ],
+  "Blood bag": [
+    "Blood + Sack",
+    "Blood + Bottle",
+    "Blood + Container"
+  ],
+  "Boat": [
+    "Wood + Ocean",
+    "Wood + Sea",
+    "Wood + River",
+    "Wood + Lake",
+    "Wood + Water"
+  ],
+  "Boiler": [
+    "Pressure + Container",
+    "Steam + Tool",
+    "Pressure + Tool",
+    "Steam + Metal",
+    "Pressure + Metal"
+  ],
+  "Bone": [
+    "Time + Corpse",
+    "Vulture + Meat",
+    "Vulture + Corpse",
+    "Wolf + Meat",
+    "Wolf + Corpse"
+  ],
+  "Bonsai tree": [
+    "Tree + Small",
+    "Tree + Pottery",
+    "Tree + Wire",
+    "Tree + Scissors"
+  ],
+  "Book": [
+    "Newspaper + Newspaper",
+    "Paper + Wood",
+    "Paper + Legend",
+    "Container + Legend",
+    "Container + Fairy tale",
+    "Container + Story",
+    "Container + Idea"
+  ],
+  "Bottle": [
+    "Container + Chocolate milk",
+    "Container + Wine",
+    "Container + Beer",
+    "Container + Coconut milk",
+    "Container + Alcohol",
+    "Container + Soda",
+    "Container + Perfume",
+    "Container + Oil",
+    "Container + Milk",
+    "Container + Juice",
+    "Container + Liquid",
+    "Container + Water"
+  ],
+  "Boulder": [
+    "Rock + Rock",
+    "Big + Rock",
+    "Rock + Stone",
+    "Rock + Earth",
+    "Small + Hill",
+    "Big + Stone"
+  ],
+  "Bow": [
+    "Wood + Rope",
+    "Wood + Wire"
+  ],
+  "Box": [
+    "Container + Cookie",
+    "Container + Cake",
+    "Container + Donut",
+    "Container + Pizza",
+    "Container + Crayon",
+    "Container + Pencil",
+    "Container + Cereal"
+  ],
+  "Bread": [
+    "Dough + Energy",
+    "Dough + Fire"
+  ],
+  "Brick": [
+    "Clay + Sun",
+    "Mud + Sun",
+    "Clay + Stone",
+    "Clay + Fire",
+    "Mud + Fire"
+  ],
+  "Bridge": [
+    "Stream + Wood",
+    "Stream + Steel",
+    "Wood + River",
+    "Steel + River",
+    "Stream + Metal",
+    "Metal + River"
+  ],
+  "Broom": [
+    "Wood + Hay"
+  ],
+  "Bucket": [
+    "Chicken wing + Box",
+    "Container + Yogurt",
+    "Bottle + Paint",
+    "Bottle + River",
+    "Container + Wood",
+    "Chicken wing + Container",
+    "Container + Paint"
+  ],
+  "Bullet": [
+    "Gunpowder + Steel",
+    "Gunpowder + Container",
+    "Gunpowder + Tool",
+    "Gunpowder + Metal"
+  ],
+  "Bulletproof vest": [
+    "Gun + Armor",
+    "Bullet + Armor"
+  ],
+  "Bus": [
+    "Car + Train",
+    "Car + Car",
+    "Car + Big",
+    "Car + City"
+  ],
+  "Butcher": [
+    "Human + Ham",
+    "Human + Meat"
+  ],
+  "Butter": [
+    "Milk + Motion",
+    "Milk + Tool",
+    "Milk + Pressure",
+    "Milk + Energy"
+  ],
+  "Butterfly": [
+    "Animal + Garden",
+    "Animal + Flower",
+    "Animal + Double rainbow!",
+    "Animal + Rainbow"
+  ],
+  "Butterfly net": [
+    "Bee + Net",
+    "Butterfly + Net"
+  ],
+  "Cable car": [
+    "Mountain range + Car",
+    "Mountain + Car",
+    "Mountain range + Rope",
+    "Mountain + Rope",
+    "Mountain range + Wire",
+    "Mountain + Wire"
+  ],
+  "Cactus": [
+    "Desert + Tree",
+    "Sand + Tree",
+    "Desert + Plant",
+    "Sand + Plant"
+  ],
+  "Cage": [
+    "Hamster + Container",
+    "Hamster + House",
+    "Hamster + Wall",
+    "Fox + Steel",
+    "Lion + Steel",
+    "Wolf + Steel",
+    "Fox + Wall",
+    "Fox + Metal",
+    "Lion + Wall",
+    "Lion + Metal",
+    "Wolf + Wall",
+    "Wolf + Metal"
+  ],
+  "Cake": [
+    "Donut + Candle",
+    "Dough + Candle",
+    "Bread + Sugar"
+  ],
+  "Camel": [
+    "Dune + Cow",
+    "Desert + Saddle",
+    "Desert + Horseshoe",
+    "Desert + Cow",
+    "Sand + Cow",
+    "Dune + Livestock",
+    "Dune + Horse",
+    "Desert + Livestock",
+    "Desert + Horse",
+    "Sand + Livestock",
+    "Sand + Horse",
+    "Dune + Animal",
+    "Desert + Animal"
+  ],
+  "Campfire": [
+    "Fire + Wood"
+  ],
+  "Candle": [
+    "Wax + Thread",
+    "Wax + Flashlight",
+    "Wax + Light",
+    "Wax + Lamp",
+    "Wax + Fire"
+  ],
+  "Candy cane": [
+    "Sugar + Santa",
+    "Sugar + Reindeer",
+    "Sugar + Christmas stocking",
+    "Sugar + Christmas tree"
+  ],
+  "Cannon": [
+    "Gun + Pirate ship",
+    "Gunpowder + Pirate ship",
+    "Gun + Castle",
+    "Gunpowder + Castle"
+  ],
+  "Canvas": [
+    "Fabric + Paint"
+  ],
+  "Car": [
+    "Wagon + Combustion engine",
+    "Motorcycle + Motorcycle",
+    "Cart + Combustion engine",
+    "Wheel + Motorcycle",
+    "Motorcycle + Machine",
+    "Bicycle + Bicycle",
+    "Wheel + Steel",
+    "Wheel + Bicycle",
+    "Wheel + Metal"
+  ],
+  "Caramel": [
+    "Sugar + Heat"
+  ],
+  "Carbon dioxide": [
+    "Fish + Oxygen",
+    "Bird + Oxygen",
+    "Human + Oxygen",
+    "Animal + Oxygen",
+    "Tree + Night",
+    "Grass + Night",
+    "Plant + Night"
+  ],
+  "Carrot": [
+    "Vegetable + Grass",
+    "Vegetable + Garden",
+    "Vegetable + Snowman",
+    "Snowman + Sun"
+  ],
+  "Cart": [
+    "Wheel + Wood"
+  ],
+  "Cashmere": [
+    "Mountain goat + Fabric",
+    "Mountain goat + Wool",
+    "Mountain goat + Thread",
+    "Mountain goat + Tool",
+    "Mountain goat + Scissors"
+  ],
+  "Castle": [
+    "Knight + Container",
+    "Monarch + Container",
+    "Vampire + House",
+    "Knight + House",
+    "Vampire + Wall",
+    "Knight + Wall",
+    "Knight + Stone",
+    "Warrior + House",
+    "Monarch + House",
+    "Warrior + Wall",
+    "Monarch + Wall",
+    "Warrior + Stone"
+  ],
+  "Cat": [
+    "Animal + Coconut milk",
+    "Animal + Milk",
+    "Animal + Night"
+  ],
+  "Catnip": [
+    "Cat + Grass",
+    "Cat + Flower",
+    "Cat + Plant"
+  ],
+  "Cauldron": [
+    "Witch + Fireplace",
+    "Witch + Campfire",
+    "Witch + Steel",
+    "Witch + Metal",
+    "Pottery + Steel",
+    "Pottery + Metal"
+  ],
+  "Cave": [
+    "Container + Bat",
+    "House + Bat",
+    "Container + Fox",
+    "Container + Lion",
+    "Container + Wolf",
+    "House + Fox",
+    "House + Lion",
+    "House + Wolf"
+  ],
+  "Caviar": [
+    "Roe + Cook",
+    "Roe + Salt"
+  ],
+  "Centaur": [
+    "Horse + Story",
+    "Horse + Human"
+  ],
+  "Cereal": [
+    "Wheat + Chocolate milk",
+    "Wheat + Coconut milk",
+    "Wheat + Milk"
+  ],
+  "Chain": [
+    "Rope + Steel",
+    "Wire + Steel",
+    "Rope + Metal",
+    "Wire + Metal"
+  ],
+  "Chainsaw": [
+    "Axe + Motion",
+    "Axe + Machine",
+    "Axe + Electricity",
+    "Lumberjack + Machine",
+    "Lumberjack + Electricity"
+  ],
+  "Chameleon": [
+    "Turtle + Double rainbow!",
+    "Snake + Double rainbow!",
+    "Lizard + Double rainbow!",
+    "Turtle + Rainbow",
+    "Snake + Rainbow",
+    "Lizard + Rainbow"
+  ],
+  "Charcoal": [
+    "Fire + Wood",
+    "Fire + Tree",
+    "Fire + Organic matter",
+    "Fire + Corpse"
+  ],
+  "Cheese": [
+    "Milk + Time",
+    "Milk + Cook",
+    "Milk + Tool",
+    "Milk + Bacteria"
+  ],
+  "Cheeseburger": [
+    "Cheese + Sandwich",
+    "Cheese + Hamburger"
+  ],
+  "Chicken": [
+    "Egg + Livestock",
+    "Egg + Farmer",
+    "Egg + Domestication",
+    "Bird + Livestock",
+    "Bird + Farmer",
+    "Bird + Domestication",
+    "Egg + Farm",
+    "Bird + Farm",
+    "Egg + Barn",
+    "Bird + Barn"
+  ],
+  "Chicken coop": [
+    "Chicken + Container",
+    "Chicken + Barn",
+    "Chicken + House",
+    "Chicken + Wall"
+  ],
+  "Chicken soup": [
+    "Chicken wing + Liquid",
+    "Chicken wing + Water",
+    "Chicken + Liquid",
+    "Chicken + Water"
+  ],
+  "Chicken wing": [
+    "Chicken + Bbq",
+    "Chicken + Bone"
+  ],
+  "Chill": [
+    "Human + Ice",
+    "Human + Cold",
+    "Air + Cold"
+  ],
+  "Chimney": [
+    "House + Fireplace",
+    "Fireplace + Stone",
+    "Fireplace + Brick",
+    "Smoke + Fireplace",
+    "House + Smoke",
+    "Smoke + Stone",
+    "Smoke + Brick"
+  ],
+  "Chocolate": [
+    "Sugar + Coconut milk",
+    "Sugar + Seed",
+    "Sugar + Oil",
+    "Sugar + Milk"
+  ],
+  "Chocolate milk": [
+    "Chocolate + Coconut milk",
+    "Chocolate + Milk"
+  ],
+  "Christmas stocking": [
+    "Santa + Wool",
+    "Reindeer + Wool",
+    "Fireplace + Wool",
+    "Christmas tree + Wool"
+  ],
+  "Christmas tree": [
+    "Tree + Candle",
+    "Tree + Gift",
+    "Tree + Light",
+    "Tree + Star",
+    "Tree + Light bulb"
+  ],
+  "Cigarette": [
+    "Tobacco + Paper"
+  ],
+  "Circus": [
+    "Tent + Big",
+    "Tent + Animal"
+  ],
+  "City": [
+    "Skyscraper + Post office",
+    "Bank + Post office",
+    "Skyscraper + Container",
+    "Village + Big",
+    "Bank + Container",
+    "Skyscraper + Skyscraper",
+    "Village + Skyscraper",
+    "Skyscraper + Bank",
+    "Village + Village"
+  ],
+  "Clay": [
+    "Rock + Liquid",
+    "Mineral + Rock",
+    "Mineral + Sand",
+    "Stone + Liquid",
+    "Mineral + Stone",
+    "Mud + Sand",
+    "Mud + Stone"
+  ],
+  "Clock": [
+    "Time + Wheel",
+    "Time + Machine",
+    "Time + Tool",
+    "Time + Electricity",
+    "Cuckoo + Container",
+    "Watch + Big",
+    "Sundial + Wheel",
+    "Sundial + Machine",
+    "Sundial + Tool",
+    "Sundial + Electricity"
+  ],
+  "Closet": [
+    "Container + Vacuum cleaner",
+    "Container + Robot vacuum",
+    "Container + Broom",
+    "Container + Umbrella",
+    "Container + Toolbox"
+  ],
+  "Cloud": [
+    "Sky + Mist",
+    "Sky + Water",
+    "Atmosphere + Mist",
+    "Atmosphere + Water"
+  ],
+  "Coal": [
+    "Time + Peat",
+    "Rock + Peat",
+    "Stone + Peat",
+    "Pressure + Peat",
+    "Earth + Peat",
+    "Pressure + Organic matter"
+  ],
+  "Coconut": [
+    "Palm + Nuts",
+    "Palm + Fruit",
+    "Palm + Vegetable",
+    "Palm + Meat",
+    "Beach + Fruit",
+    "Beach + Vegetable"
+  ],
+  "Coconut milk": [
+    "Coconut + Axe",
+    "Coconut + Milk",
+    "Coconut + Hammer",
+    "Coconut + Tool",
+    "Coconut + Sword",
+    "Coconut + Blade"
+  ],
+  "Coffin": [
+    "Container + Vampire",
+    "Wood + Corpse",
+    "Container + Corpse"
+  ],
+  "Cold": [
+    "Space + Thermometer",
+    "Human + Snow",
+    "Human + Storm",
+    "Human + Rain",
+    "Human + Mountain range",
+    "Human + Mountain",
+    "Human + Wind"
+  ],
+  "Combustion engine": [
+    "Petroleum + Steam engine",
+    "Petroleum + Wheel",
+    "Petroleum + Machine",
+    "Explosion + Steam engine",
+    "Explosion + Machine"
+  ],
+  "Computer": [
+    "Email + Container",
+    "Hacker + Machine",
+    "Hacker + Tool",
+    "Hacker + Wire",
+    "Hacker + Electricity"
+  ],
+  "Computer mouse": [
+    "Computer + Mouse",
+    "Computer + Animal"
+  ],
+  "Confetti": [
+    "Paper + Scissors",
+    "Paper + Blade"
+  ],
+  "Constellation": [
+    "Star + Star"
+  ],
+  "Container": [
+    "Philosophy + Box",
+    "Philosophy + Bucket",
+    "Philosophy + Bottle",
+    "Philosophy + Pottery",
+    "Philosophy + Safe",
+    "Philosophy + House"
+  ],
+  "Continent": [
+    "Land + Big",
+    "Mountain range + Mountain range",
+    "Land + Land",
+    "Land + Earth"
+  ],
+  "Cook": [
+    "Human + Campfire",
+    "Human + Nuts",
+    "Human + Fruit",
+    "Human + Vegetable"
+  ],
+  "Cookbook": [
+    "Recipe + Recipe",
+    "Book + Cook"
+  ],
+  "Cookie": [
+    "Cookie dough + Cookie cutter",
+    "Cookie dough + Baker",
+    "Dough + Cookie cutter",
+    "Cookie dough + Heat",
+    "Cookie dough + Fire"
+  ],
+  "Cookie cutter": [
+    "Blade + Cookie dough",
+    "Blade + Dough"
+  ],
+  "Cookie dough": [
+    "Dough + Cookie",
+    "Dough + Chocolate",
+    "Dough + Sugar"
+  ],
+  "Coral": [
+    "Tree + Ocean",
+    "Fossil + Ocean",
+    "Bone + Ocean",
+    "Tree + Sea",
+    "Fossil + Sea",
+    "Bone + Sea"
+  ],
+  "Corpse": [
+    "Human + Time",
+    "Human + Grim reaper",
+    "Human + Arrow",
+    "Human + Death",
+    "Human + Bullet",
+    "Human + Blade",
+    "Human + Explosion"
+  ],
+  "Cotton": [
+    "Plant + Fabric",
+    "Plant + Wool",
+    "Plant + Thread",
+    "Plant + Sheep",
+    "Plant + Cloud"
+  ],
+  "Cotton candy": [
+    "Sugar + Thread",
+    "Sugar + Cloud",
+    "Sugar + Air"
+  ],
+  "Cow": [
+    "Livestock + Grass",
+    "Livestock + Farmer",
+    "Livestock + Barn",
+    "Livestock + Field"
+  ],
+  "Crayon": [
+    "Wax + Paint",
+    "Double rainbow! + Wax",
+    "Rainbow + Wax",
+    "Pencil + Paint",
+    "Double rainbow! + Pencil",
+    "Rainbow + Pencil"
+  ],
+  "Crow": [
+    "Pigeon + Scarecrow",
+    "Owl + Scarecrow",
+    "Hummingbird + Scarecrow",
+    "Bird + Scarecrow",
+    "Pigeon + Field",
+    "Owl + Field",
+    "Hummingbird + Field",
+    "Bird + Field"
+  ],
+  "Crystal ball": [
+    "Snow globe + Witch",
+    "Glass + Witch",
+    "Snow globe + Wizard",
+    "Snow globe + Magic",
+    "Glass + Wizard",
+    "Glass + Magic"
+  ],
+  "Cuckoo": [
+    "Owl + Alarm clock",
+    "Hummingbird + Alarm clock",
+    "Owl + Clock",
+    "Hummingbird + Clock",
+    "Bird + Alarm clock",
+    "Bird + Clock"
+  ],
+  "Cup": [
+    "Bottle + Milk shake",
+    "Container + Milk shake",
+    "Bottle + Tea",
+    "Bottle + Smoothie",
+    "Container + Tea",
+    "Container + Smoothie"
+  ],
+  "Current": [
+    "Ocean + Motion",
+    "Sea + Motion",
+    "Ocean + Science",
+    "Ocean + Cold",
+    "Sea + Science",
+    "Sea + Cold",
+    "Ocean + Heat",
+    "Sea + Heat"
+  ],
+  "Cutting board": [
+    "Wood + Cook"
+  ],
+  "Cyborg": [
+    "Robot + Baker",
+    "Robot + Pilot",
+    "Robot + Lumberjack",
+    "Robot + Engineer",
+    "Robot + Doctor",
+    "Robot + Cook",
+    "Robot + Sailor",
+    "Robot + Firefighter",
+    "Robot + Farmer",
+    "Robot + Electrician",
+    "Robot + Astronaut",
+    "Robot + Human"
+  ],
+  "Cyclist": [
+    "Human + Bicycle",
+    "Human + Wheel"
+  ],
+  "Dam": [
+    "Beaver + Stream",
+    "Stream + Wall",
+    "Beaver + Tree",
+    "River + Beaver",
+    "Beaver + House",
+    "Beaver + Lake",
+    "Beaver + Water",
+    "River + Wall",
+    "Water + Wall"
+  ],
+  "Darkness": [
+    "Sky + Twilight",
+    "Sky + Night"
+  ],
+  "Dawn": [
+    "Time + Night",
+    "Day + Night"
+  ],
+  "Day": [
+    "Time + Dawn",
+    "Sun + Time",
+    "Sun + Night",
+    "Sun + Sky"
+  ],
+  "Death": [
+    "Time + Life",
+    "Skeleton + Philosophy",
+    "Graveyard + Philosophy",
+    "Grave + Philosophy",
+    "Corpse + Philosophy"
+  ],
+  "Desert": [
+    "Sand + Vulture",
+    "Sand + Cactus",
+    "Sand + Lizard",
+    "Sand + Sand",
+    "Sand + Land"
+  ],
+  "Dew": [
+    "Tree + Dawn",
+    "Grass + Dawn",
+    "Tree + Fog",
+    "Grass + Fog",
+    "Grass + Water",
+    "Plant + Dawn",
+    "Plant + Fog",
+    "Fog + Dawn",
+    "Water + Dawn"
+  ],
+  "Diamond": [
+    "Coal + Pressure"
+  ],
+  "Dinosaur": [
+    "Lizard + Time",
+    "Lizard + Big"
+  ],
+  "Diver": [
+    "Scuba tank + Swimmer",
+    "Scuba tank + Human",
+    "Scuba tank + Ocean",
+    "Scuba tank + Sea",
+    "Scuba tank + Lake"
+  ],
+  "Doctor": [
+    "Human + Stethoscope",
+    "Human + Hospital"
+  ],
+  "Dog": [
+    "Wolf + Campfire",
+    "Wolf + Bone",
+    "Wolf + Farmer",
+    "Wolf + Domestication",
+    "Wolf + Farm",
+    "Wolf + Barn",
+    "Wolf + Field"
+  ],
+  "Doge": [
+    "Dog + Internet",
+    "Dog + Computer"
+  ],
+  "Doghouse": [
+    "Husky + Container",
+    "Dog + Container",
+    "Husky + House",
+    "Husky + Wall",
+    "Dog + House",
+    "Dog + Wall"
+  ],
+  "Domestication": [
+    "Farmer + Science",
+    "Animal + Science",
+    "Animal + Farmer",
+    "Animal + Human"
+  ],
+  "Don quixote": [
+    "Windmill + Legend",
+    "Windmill + Story",
+    "Windmill + Knight",
+    "Windmill + Hero"
+  ],
+  "Donut": [
+    "Cookie dough + Oil",
+    "Cookie dough + Wheel",
+    "Dough + Oil",
+    "Dough + Wheel"
+  ],
+  "Double rainbow!": [
+    "Rainbow + Rainbow"
+  ],
+  "Dough": [
+    "Flour + Rain",
+    "Flour + Puddle",
+    "Flour + Water"
+  ],
+  "Dragon": [
+    "Lizard + Legend",
+    "Lizard + Story",
+    "Lizard + Airplane",
+    "Lizard + Sky",
+    "Lizard + Fire",
+    "Lizard + Air"
+  ],
+  "Drone": [
+    "Robot + Paper airplane",
+    "Robot + Seaplane",
+    "Robot + Helicopter",
+    "Robot + Airplane"
+  ],
+  "Drum": [
+    "Wood + Music",
+    "Wood + Fabric",
+    "Wood + Leather"
+  ],
+  "Drunk": [
+    "Human + Wine",
+    "Human + Beer",
+    "Human + Alcohol"
+  ],
+  "Dry ice": [
+    "Carbon dioxide + Ice",
+    "Carbon dioxide + Cold"
+  ],
+  "Duck": [
+    "Duckling + Time",
+    "Duckling + Big",
+    "Pigeon + Lake",
+    "Owl + Lake",
+    "Chicken + Lake",
+    "Pigeon + Pond",
+    "Owl + Pond",
+    "Chicken + Pond",
+    "Pigeon + Water",
+    "Owl + Water",
+    "Chicken + Water",
+    "Bird + Lake",
+    "Bird + Pond",
+    "Bird + Water"
+  ],
+  "Duckling": [
+    "Egg + Duck"
+  ],
+  "Dune": [
+    "Sandstorm + Desert",
+    "Sand + Desert",
+    "Wind + Desert",
+    "Wind + Beach",
+    "Wind + Sand"
+  ],
+  "Dust": [
+    "Soil + Air",
+    "Land + Air",
+    "Earth + Air"
+  ],
+  "Dynamite": [
+    "Gunpowder + Pipe",
+    "Gunpowder + Container",
+    "Gunpowder + Wire"
+  ],
+  "Eagle": [
+    "Bird + Mountain range",
+    "Bird + Mountain"
+  ],
+  "Earthquake": [
+    "Continent + Motion",
+    "Earth + Motion",
+    "Earth + Energy"
+  ],
+  "Eclipse": [
+    "Sun + Moon"
+  ],
+  "Egg": [
+    "Spider + Spider",
+    "Woodpecker + Woodpecker",
+    "Tyrannosaurus rex + Tyrannosaurus rex",
+    "Pterodactyl + Pterodactyl",
+    "Parrot + Parrot",
+    "Bee + Bee",
+    "Ant + Ant",
+    "Life + Container",
+    "Vulture + Vulture",
+    "Seagull + Seagull",
+    "Piranha + Piranha",
+    "Pigeon + Pigeon",
+    "Penguin + Penguin",
+    "Peacock + Peacock",
+    "Owl + Owl",
+    "Ostrich + Ostrich",
+    "Moth + Moth",
+    "Hummingbird + Hummingbird",
+    "Flying fish + Flying fish",
+    "Eagle + Eagle",
+    "Duck + Duck",
+    "Dragon + Dragon",
+    "Dinosaur + Dinosaur",
+    "Crow + Crow",
+    "Chicken + Chicken",
+    "Chameleon + Chameleon",
+    "Turtle + Turtle",
+    "Snake + Snake",
+    "Scorpion + Scorpion",
+    "Lizard + Lizard",
+    "Frog + Frog",
+    "Fish + Fish",
+    "Butterfly + Butterfly",
+    "Bird + Bird",
+    "Phoenix + Phoenix"
+  ],
+  "Egg timer": [
+    "Egg + Watch",
+    "Egg + Alarm clock",
+    "Egg + Clock"
+  ],
+  "Electric car": [
+    "Wagon + Wind turbine",
+    "Electricity + Wagon",
+    "Solar cell + Wagon",
+    "Car + Wind turbine",
+    "Electricity + Car",
+    "Solar cell + Car"
+  ],
+  "Electric eel": [
+    "Fish + Electricity"
+  ],
+  "Electrician": [
+    "Human + Wire",
+    "Human + Electricity"
+  ],
+  "Electricity": [
+    "Steel + Lightning",
+    "Wind turbine + Motion",
+    "Storm + Science",
+    "Solar cell + Light",
+    "Wind turbine + Storm",
+    "Solar cell + Star",
+    "Wind turbine + Sandstorm",
+    "Wind turbine + Wind",
+    "Metal + Lightning",
+    "Solar cell + Sun"
+  ],
+  "Email": [
+    "Letter + Internet",
+    "Letter + Computer mouse",
+    "Letter + Computer",
+    "Letter + Electricity"
+  ],
+  "Energy": [
+    "Heat + Science",
+    "Fire + Science",
+    "Fire + Atmosphere",
+    "Fire + Fire"
+  ],
+  "Engineer": [
+    "Human + Steam engine",
+    "Human + Machine"
+  ],
+  "Eruption": [
+    "Volcano + Time",
+    "Pressure + Volcano",
+    "Pressure + Lava"
+  ],
+  "Excalibur": [
+    "Sword + Legend",
+    "Sword + Fairy tale",
+    "Sword + Story",
+    "Sword + Monarch",
+    "Sword + Lake",
+    "Sword + Stone"
+  ],
+  "Excavator": [
+    "Shovel + Car",
+    "Shovel + Big"
+  ],
+  "Explosion": [
+    "Explosion + Petroleum",
+    "Volcano + Petroleum",
+    "Heat + Petroleum",
+    "Pressure + Petroleum",
+    "Lava + Petroleum",
+    "Fire + Petroleum",
+    "Gunpowder + Lightning",
+    "Gunpowder + Electricity",
+    "Pressure + Volcano",
+    "Fire + Gunpowder"
+  ],
+  "Fabric": [
+    "Thread + Wheel",
+    "Thread + Machine",
+    "Thread + Tool"
+  ],
+  "Factory": [
+    "House + Tool",
+    "House + Chimney"
+  ],
+  "Fairy tale": [
+    "Story + Unicorn",
+    "Story + Knight",
+    "Story + Dragon",
+    "Story + Castle",
+    "Story + Monarch"
+  ],
+  "Family": [
+    "Love + Container",
+    "Human + Human",
+    "Human + House"
+  ],
+  "Family tree": [
+    "Time + Family",
+    "Tree + Family",
+    "Tree + Village"
+  ],
+  "Farm": [
+    "House + Tractor",
+    "Farmer + Container",
+    "Farmer + Barn",
+    "Farmer + House",
+    "House + Barn"
+  ],
+  "Farmer": [
+    "Human + Orchard",
+    "Human + Pitchfork",
+    "Human + Grass",
+    "Human + Plant",
+    "Human + Barn",
+    "Human + Field",
+    "Human + Plow"
+  ],
+  "Faun": [
+    "Legend + Mountain goat",
+    "Legend + Goat",
+    "Wizard + Mountain goat",
+    "Magic + Mountain goat",
+    "Human + Mountain goat",
+    "Wizard + Goat",
+    "Magic + Goat",
+    "Human + Goat"
+  ],
+  "Fence": [
+    "Wood + Garden",
+    "Wood + Field",
+    "Wood + Wall",
+    "Grass + Wall",
+    "Garden + Wall",
+    "Field + Wall"
+  ],
+  "Field": [
+    "Tool + Soil",
+    "Farmer + Soil",
+    "Tool + Land",
+    "Farmer + Land",
+    "Tool + Earth",
+    "Farmer + Earth",
+    "Plow + Soil",
+    "Plow + Land",
+    "Plow + Earth"
+  ],
+  "Fire": [
+    "Fire + Alcohol",
+    "Fire + Coal"
+  ],
+  "Fire extinguisher": [
+    "Carbon dioxide + Steel",
+    "Carbon dioxide + Boiler",
+    "Carbon dioxide + Metal",
+    "Carbon dioxide + Pressure",
+    "Carbon dioxide + Fire"
+  ],
+  "Firefighter": [
+    "Human + Firetruck",
+    "Human + Fire extinguisher",
+    "Human + Fire"
+  ],
+  "Fireplace": [
+    "Campfire + Container",
+    "Campfire + House",
+    "Campfire + Wall",
+    "Campfire + Brick",
+    "Wood + Container"
+  ],
+  "Firestation": [
+    "House + Firetruck",
+    "Firefighter + City",
+    "Firefighter + Village",
+    "House + Firefighter",
+    "Firefighter + Land"
+  ],
+  "Firetruck": [
+    "Fire extinguisher + Wagon",
+    "Firefighter + Wagon",
+    "Fire + Wagon",
+    "Fire extinguisher + Car",
+    "Firefighter + Car",
+    "Fire + Car"
+  ],
+  "Firewall": [
+    "Fire + Wall"
+  ],
+  "Fireworks": [
+    "Explosion + Sky",
+    "Explosion + Atmosphere"
+  ],
+  "Fish": [
+    "Egg + Ocean",
+    "Egg + Sea",
+    "Egg + Lake",
+    "Egg + Water",
+    "Animal + Ocean",
+    "Animal + Sea",
+    "Animal + Lake",
+    "Animal + Water"
+  ],
+  "Fishing rod": [
+    "Swordfish + Wood",
+    "Swordfish + Thread",
+    "Piranha + Wood",
+    "Piranha + Thread",
+    "Fish + Wood",
+    "Fish + Thread",
+    "Swordfish + Tool",
+    "Piranha + Tool",
+    "Swordfish + Wire",
+    "Piranha + Wire",
+    "Fish + Tool",
+    "Fish + Wire"
+  ],
+  "Flamethrower": [
+    "Gun + Campfire",
+    "Gun + Volcano",
+    "Gun + Fire"
+  ],
+  "Flashlight": [
+    "Tool + Light",
+    "Tool + Lamp",
+    "Tool + Light bulb",
+    "Human + Lamp"
+  ],
+  "Flood": [
+    "Rain + Time",
+    "Rain + Big",
+    "Rain + Rain",
+    "Tsunami + City",
+    "River + City",
+    "Rain + River",
+    "Rain + Lake",
+    "House + Tsunami",
+    "House + River"
+  ],
+  "Flour": [
+    "Wheat + Rock",
+    "Wheat + Wheat",
+    "Wheat + Wheel",
+    "Wheat + Windmill",
+    "Wheat + Stone"
+  ],
+  "Flower": [
+    "Grass + Seed",
+    "Garden + Seed",
+    "Grass + Garden",
+    "Plant + Garden",
+    "Grass + Double rainbow!",
+    "Grass + Rainbow",
+    "Plant + Double rainbow!",
+    "Plant + Rainbow"
+  ],
+  "Flute": [
+    "Wood + Wind",
+    "Wood + Air"
+  ],
+  "Flying fish": [
+    "Fish + Bird",
+    "Fish + Sky",
+    "Fish + Air"
+  ],
+  "Flying squirrel": [
+    "Squirrel + Seaplane",
+    "Squirrel + Helicopter",
+    "Squirrel + Seagull",
+    "Squirrel + Pigeon",
+    "Squirrel + Hummingbird",
+    "Squirrel + Airplane",
+    "Squirrel + Bird",
+    "Squirrel + Air"
+  ],
+  "Fog": [
+    "Cloud + Hill",
+    "Cloud + Forest",
+    "Cloud + City",
+    "Cloud + Field",
+    "Cloud + Mountain",
+    "Cloud + Earth"
+  ],
+  "Force knight": [
+    "Knight + Light sword",
+    "Warrior + Light sword",
+    "Human + Light sword"
+  ],
+  "Forest": [
+    "Tree + Container",
+    "Tree + Tree",
+    "Tree + Plant",
+    "Tree + Land"
+  ],
+  "Fork": [
+    "Pitchfork + Small"
+  ],
+  "Fortune cookie": [
+    "Paper + Cookie",
+    "Paper + Gingerbread man",
+    "Paper + Cookie dough"
+  ],
+  "Fossil": [
+    "Skeleton + Time",
+    "Grave + Time",
+    "Dinosaur + Time",
+    "Bone + Time",
+    "Skeleton + Rock",
+    "Dinosaur + Rock",
+    "Bone + Rock",
+    "Corpse + Rock",
+    "Skeleton + Stone",
+    "Dinosaur + Stone",
+    "Bone + Stone",
+    "Skeleton + Earth",
+    "Dinosaur + Earth",
+    "Bone + Earth",
+    "Corpse + Stone"
+  ],
+  "Fountain": [
+    "Statue + Stream",
+    "Statue + Water"
+  ],
+  "Fox": [
+    "Chicken coop + Dog",
+    "Chicken coop + Wolf",
+    "Chicken coop + Animal",
+    "Chicken + Dog",
+    "Chicken + Wolf",
+    "Chicken + Animal"
+  ],
+  "Frankenstein's monster": [
+    "Corpse + Legend",
+    "Corpse + Story",
+    "Zombie + Lightning",
+    "Zombie + Electricity",
+    "Corpse + Lightning",
+    "Corpse + Electricity"
+  ],
+  "French fries": [
+    "Oil + Potato",
+    "Oil + Vegetable",
+    "Fire + Potato"
+  ],
+  "Fridge": [
+    "Ice cream + Container",
+    "Ice + Steel",
+    "Ice + Container",
+    "Cold + Steel",
+    "Cold + Container",
+    "Cold + Machine",
+    "Ice + Metal",
+    "Cold + Electricity",
+    "Cold + Metal"
+  ],
+  "Frog": [
+    "Egg + Pond",
+    "Egg + Puddle",
+    "Animal + Pond",
+    "Animal + Puddle"
+  ],
+  "Frozen yogurt": [
+    "Yogurt + Ice",
+    "Yogurt + Cold"
+  ],
+  "Fruit": [
+    "Flower + Time",
+    "Farmer + Orchard",
+    "Flower + Tree",
+    "Tree + Farmer",
+    "Flower + Rain",
+    "Flower + Water"
+  ],
+  "Fruit tree": [
+    "Fruit + Wood",
+    "Fruit + Tree",
+    "Fruit + Plant"
+  ],
+  "Galaxy": [
+    "Star + Container",
+    "Supernova + Container",
+    "Solar system + Container",
+    "Star + Star",
+    "Star + Space",
+    "Star + Solar system",
+    "Space + Space",
+    "Solar system + Space",
+    "Solar system + Solar system"
+  ],
+  "Galaxy cluster": [
+    "Galaxy + Container",
+    "Galaxy + Galaxy"
+  ],
+  "Garage": [
+    "Sleigh + Container",
+    "Ice cream truck + Container",
+    "Sleigh + Barn",
+    "Ice cream truck + Barn",
+    "Sleigh + House",
+    "Ice cream truck + House",
+    "Sleigh + Wall",
+    "Ice cream truck + Wall",
+    "Tractor + Container",
+    "Snowmobile + Container",
+    "Rv + Container",
+    "Motorcycle + Container",
+    "Electric car + Container",
+    "Bus + Container",
+    "Ambulance + Container",
+    "Tractor + Barn",
+    "Snowmobile + Barn",
+    "Rv + Barn",
+    "Motorcycle + Barn",
+    "Electric car + Barn",
+    "Bus + Barn",
+    "Ambulance + Barn",
+    "Tractor + House",
+    "Snowmobile + House",
+    "Rv + House",
+    "Motorcycle + House",
+    "Electric car + House",
+    "Bus + House",
+    "Ambulance + House",
+    "Tractor + Wall",
+    "Snowmobile + Wall",
+    "Rv + Wall",
+    "Motorcycle + Wall",
+    "Electric car + Wall",
+    "Bus + Wall",
+    "Ambulance + Wall",
+    "Car + Container",
+    "Car + Barn",
+    "Car + House",
+    "Car + Wall"
+  ],
+  "Garden": [
+    "Flower + Lawn",
+    "Flower + Container",
+    "Plant + Lawn",
+    "Flower + Grass",
+    "Flower + Flower",
+    "Plant + Grass",
+    "Flower + Plant",
+    "Flower + House",
+    "Plant + House"
+  ],
+  "Gardener": [
+    "Farmer + Garden",
+    "Human + Garden"
+  ],
+  "Gas": [
+    "Energy + Liquid",
+    "Air + Science",
+    "Air + Idea"
+  ],
+  "Geyser": [
+    "Steam + Hill",
+    "Steam + Mountain",
+    "Steam + Pressure",
+    "Steam + Earth"
+  ],
+  "Ghost": [
+    "Graveyard + Legend",
+    "Grave + Legend",
+    "Gravestone + Legend",
+    "Night + Legend",
+    "Graveyard + Story",
+    "Grave + Story",
+    "Gravestone + Story",
+    "Night + Story",
+    "Graveyard + Night",
+    "Grave + Night",
+    "Castle + Night",
+    "Gravestone + Night"
+  ],
+  "Gift": [
+    "Santa + Cookie",
+    "Santa + Wrapping paper",
+    "Fireplace + Wrapping paper",
+    "Christmas stocking + Wrapping paper",
+    "Christmas tree + Wrapping paper",
+    "Santa + Fireplace",
+    "Santa + Christmas stocking",
+    "Santa + Milk",
+    "Christmas tree + Santa",
+    "Santa + Chimney"
+  ],
+  "Gingerbread house": [
+    "House + Cookie",
+    "House + Cake",
+    "House + Gingerbread man",
+    "House + Donut",
+    "House + Cookie dough",
+    "House + Dough"
+  ],
+  "Gingerbread man": [
+    "Cookie + Story",
+    "Cookie + Magic",
+    "Cookie + Life",
+    "Cookie dough + Story",
+    "Cookie dough + Magic",
+    "Cookie dough + Life",
+    "Dough + Story",
+    "Dough + Magic",
+    "Dough + Life"
+  ],
+  "Glacier": [
+    "Time + Ice",
+    "Mountain range + Ice",
+    "Mountain + Ice",
+    "Mountain range + Snow",
+    "Mountain + Snow"
+  ],
+  "Glass": [
+    "Sand + Lightning",
+    "Sand + Electricity",
+    "Sand + Heat",
+    "Sand + Fire"
+  ],
+  "Glasses": [
+    "Glass + Steel",
+    "Lens + Lens",
+    "Human + Lens",
+    "Glass + Human",
+    "Glass + Glass",
+    "Glass + Metal"
+  ],
+  "Gnome": [
+    "Garden + Statue",
+    "Garden + Legend",
+    "Garden + Fairy tale",
+    "Garden + Story"
+  ],
+  "Goat": [
+    "Cow + Hill",
+    "Livestock + Hill",
+    "Cow + Mountain range",
+    "Cow + Mountain",
+    "Livestock + Mountain range",
+    "Livestock + Mountain"
+  ],
+  "Gold": [
+    "Steel + Butter",
+    "Metal + Butter",
+    "Steel + Light",
+    "Steel + Alchemist",
+    "Steel + Rainbow",
+    "Steel + Sun",
+    "Steel + Sand",
+    "Metal + Light",
+    "Metal + Alchemist",
+    "Metal + Rainbow",
+    "Metal + Sun",
+    "Metal + Sand"
+  ],
+  "Golem": [
+    "Statue + Legend",
+    "Story + Statue",
+    "Statue + Life",
+    "Clay + Legend",
+    "Clay + Story"
+  ],
+  "Granite": [
+    "Pressure + Rock",
+    "Pressure + Stone",
+    "Pressure + Lava"
+  ],
+  "Grass": [
+    "Plant + Land",
+    "Plant + Earth"
+  ],
+  "Grave": [
+    "Forest + Coffin",
+    "Coffin + Container",
+    "Gravestone + Coffin",
+    "Field + Coffin",
+    "Earth + Coffin",
+    "Forest + Corpse",
+    "Gravestone + Grave",
+    "Field + Corpse",
+    "Earth + Corpse"
+  ],
+  "Gravestone": [
+    "Graveyard + Rock",
+    "Grave + Rock",
+    "Death + Rock",
+    "Graveyard + Stone",
+    "Grave + Stone",
+    "Death + Stone"
+  ],
+  "Graveyard": [
+    "Gravestone + Container",
+    "Grave + Grave",
+    "Grave + Field",
+    "Grave + Land",
+    "Gravestone + Gravestone",
+    "Gravestone + Field",
+    "Gravestone + Land"
+  ],
+  "Greenhouse": [
+    "Plant + Container",
+    "Aquarium + Tree",
+    "Aquarium + Grass",
+    "Glass + Tree",
+    "Glass + Grass",
+    "Glass + Garden",
+    "Aquarium + Plant",
+    "Glass + Plant"
+  ],
+  "Grenade": [
+    "Explosion + Steel",
+    "Explosion + Warrior",
+    "Explosion + Metal"
+  ],
+  "Grilled cheese": [
+    "Cheese + Toast"
+  ],
+  "Grim reaper": [
+    "Boat + Scythe",
+    "Zombie + Scythe",
+    "Corpse + Scythe",
+    "Human + Scythe",
+    "Death + Scythe",
+    "River + Scythe"
+  ],
+  "Gun": [
+    "Bow + Steel",
+    "Bullet + Bow",
+    "Bow + Metal",
+    "Bow + Gunpowder",
+    "Bullet + Steel",
+    "Bullet + Container",
+    "Bullet + Metal"
+  ],
+  "Gunpowder": [
+    "Charcoal + Mineral",
+    "Energy + Mineral",
+    "Energy + Charcoal",
+    "Energy + Dust",
+    "Fire + Dust"
+  ],
+  "Gust": [
+    "Wind + Small",
+    "Air + Small"
+  ],
+  "Hacker": [
+    "Human + Internet",
+    "Human + Computer mouse",
+    "Human + Computer",
+    "Human + Glasses"
+  ],
+  "Hail": [
+    "Ice + Storm",
+    "Ice + Rain",
+    "Ice + Sky",
+    "Ice + Cloud",
+    "Ice + Wind",
+    "Ice + Steam"
+  ],
+  "Ham": [
+    "Smoke + Pig",
+    "Smoke + Meat"
+  ],
+  "Hamburger": [
+    "Meat + Bread",
+    "Meat + Cheese"
+  ],
+  "Hammer": [
+    "Tool + Rock",
+    "Tool + Woodpecker",
+    "Tool + Steel",
+    "Tool + Metal",
+    "Tool + Stone"
+  ],
+  "Hamster": [
+    "Mouse + Wheel",
+    "Mouse + Domestication",
+    "Rat + Wheel",
+    "Rat + Domestication"
+  ],
+  "Hangar": [
+    "Seaplane + Container",
+    "Helicopter + Container",
+    "Airplane + Container",
+    "Spaceship + Container",
+    "Seaplane + Barn",
+    "Helicopter + Barn",
+    "Rocket + Container",
+    "Seaplane + House",
+    "Helicopter + House",
+    "Seaplane + Wall",
+    "Helicopter + Wall",
+    "Airplane + Barn",
+    "Airplane + House",
+    "Airplane + Wall",
+    "Spaceship + Barn",
+    "Spaceship + House",
+    "Spaceship + Wall",
+    "Rocket + Barn",
+    "Rocket + House",
+    "Rocket + Wall"
+  ],
+  "Harp": [
+    "Angel + Music",
+    "Wire + Music",
+    "Angel + Musician",
+    "Angel + Wire"
+  ],
+  "Hay": [
+    "Grass + Pitchfork",
+    "Pitchfork + Farmer",
+    "Pitchfork + Farm",
+    "Pitchfork + Barn",
+    "Grass + Scythe",
+    "Grass + Grass",
+    "Grass + Farmer",
+    "Grass + Farm",
+    "Grass + Barn",
+    "Grass + Sun"
+  ],
+  "Hay bale": [
+    "Hay + Tractor",
+    "Hay + Hay",
+    "Hay + Machine",
+    "Hay + Barn"
+  ],
+  "Heat": [
+    "Lava + Philosophy",
+    "Fire + Science",
+    "Fire + Idea",
+    "Air + Energy"
+  ],
+  "Hedge": [
+    "Leaf + Fence",
+    "Leaf + Wall",
+    "Garden + Fence",
+    "Garden + Wall",
+    "Plant + Fence",
+    "Plant + Wall"
+  ],
+  "Hedgehog": [
+    "Mouse + Needle",
+    "Rat + Needle",
+    "Animal + Needle"
+  ],
+  "Helicopter": [
+    "Seaplane + Wind turbine",
+    "Seaplane + Windmill",
+    "Seaplane + Blade",
+    "Airplane + Wind turbine",
+    "Airplane + Windmill",
+    "Airplane + Blade"
+  ],
+  "Hero": [
+    "Human + Legend",
+    "Dragon + Knight",
+    "Human + Story",
+    "Human + Lightning"
+  ],
+  "Hill": [
+    "Boulder + Boulder",
+    "Big + Boulder",
+    "Stone + Boulder",
+    "Earth + Boulder",
+    "Mountain + Small"
+  ],
+  "Hippo": [
+    "Cow + River",
+    "Cow + Water",
+    "Horse + River",
+    "Horse + Water"
+  ],
+  "Honey": [
+    "Bee + Time",
+    "Beehive + Beekeeper",
+    "Bee + Beehive",
+    "Bee + Bee",
+    "Bee + Flower"
+  ],
+  "Horizon": [
+    "Ocean + Sky",
+    "Sea + Sky",
+    "Lake + Sky",
+    "Continent + Sky",
+    "Land + Sky",
+    "Earth + Sky"
+  ],
+  "Horse": [
+    "Livestock + Hay",
+    "Livestock + Saddle",
+    "Livestock + Horseshoe",
+    "Animal + Saddle",
+    "Animal + Horseshoe",
+    "Livestock + Barn",
+    "Animal + Field",
+    "Animal + Land"
+  ],
+  "Horseshoe": [
+    "Horse + Steel",
+    "Horse + Metal"
+  ],
+  "Hospital": [
+    "House + Ambulance",
+    "Wall + Ambulance",
+    "Doctor + Container",
+    "House + Doctor",
+    "Wall + Doctor",
+    "House + Sickness",
+    "Wall + Sickness"
+  ],
+  "Hot chocolate": [
+    "Chocolate milk + Heat",
+    "Chocolate + Heat"
+  ],
+  "Hourglass": [
+    "Time + Container",
+    "Glass + Time",
+    "Sand + Time",
+    "Sand + Container",
+    "Sand + Glass"
+  ],
+  "House": [
+    "Fireplace + Container",
+    "Family + Container",
+    "Wall + Tool",
+    "Wall + Human",
+    "Wall + Wall"
+  ],
+  "Human": [
+    "Time + Monkey",
+    "Time + Animal",
+    "Tool + Monkey",
+    "Tool + Animal",
+    "Clay + Life"
+  ],
+  "Hummingbird": [
+    "Bird + Small",
+    "Bird + Bee",
+    "Garden + Seagull",
+    "Garden + Pigeon",
+    "Garden + Owl",
+    "Flower + Seagull",
+    "Flower + Pigeon",
+    "Flower + Owl",
+    "Bird + Garden",
+    "Bird + Flower",
+    "Bird + Butterfly"
+  ],
+  "Hurricane": [
+    "Ocean + Storm",
+    "Sea + Storm",
+    "Ocean + Tornado",
+    "Sea + Tornado"
+  ],
+  "Husky": [
+    "Dog + Ice",
+    "Dog + Arctic",
+    "Dog + Glacier",
+    "Dog + Blizzard",
+    "Dog + Antarctica",
+    "Dog + Snow"
+  ],
+  "Ice": [
+    "Puddle + Solid",
+    "Water + Solid",
+    "Puddle + Cold",
+    "Water + Cold"
+  ],
+  "Ice cream": [
+    "Milk + Ice",
+    "Milk + Cold",
+    "Milk + Snow"
+  ],
+  "Ice cream truck": [
+    "Ice cream + Wagon",
+    "Ice cream + Bus",
+    "Ice cream + Car"
+  ],
+  "Ice sculpture": [
+    "Ice + Statue"
+  ],
+  "Iceberg": [
+    "Ocean + Ice",
+    "Ocean + Arctic",
+    "Sea + Ice",
+    "Sea + Arctic",
+    "Ocean + Antarctica",
+    "Sea + Antarctica"
+  ],
+  "Iced tea": [
+    "Tea + Ice",
+    "Tea + Cold"
+  ],
+  "Idea": [
+    "Mailman + Mailman",
+    "Librarian + Librarian",
+    "Baker + Baker",
+    "Diver + Diver",
+    "Pilot + Pilot",
+    "Lumberjack + Lumberjack",
+    "Gardener + Gardener",
+    "Engineer + Engineer",
+    "Doctor + Doctor",
+    "Cyclist + Cyclist",
+    "Angler + Angler",
+    "Light bulb + Engineer",
+    "Philosophy + Philosophy",
+    "Knight + Knight",
+    "Butcher + Butcher",
+    "Philosophy + Science",
+    "Warrior + Warrior",
+    "Swimmer + Swimmer",
+    "Surfer + Surfer",
+    "Skier + Skier",
+    "Science + Science",
+    "Sailor + Sailor",
+    "Monarch + Monarch",
+    "Hacker + Hacker",
+    "Firefighter + Firefighter",
+    "Farmer + Farmer",
+    "Electrician + Electrician",
+    "Astronaut + Astronaut",
+    "Alchemist + Alchemist",
+    "Light bulb + Science",
+    "Human + Light bulb"
+  ],
+  "Igloo": [
+    "House + Ice",
+    "House + Snowman",
+    "House + Cold",
+    "House + Snow"
+  ],
+  "Internet": [
+    "Computer + Web",
+    "Computer + Net",
+    "Computer + Computer",
+    "Computer + Wire"
+  ],
+  "Island": [
+    "Volcano + Ocean",
+    "Volcano + Sea"
+  ],
+  "Ivy": [
+    "Grass + Wall",
+    "Plant + Wall"
+  ],
+  "Jack-o'-lantern": [
+    "Pumpkin + Candle",
+    "Pumpkin + Skeleton",
+    "Pumpkin + Ghost",
+    "Pumpkin + Light",
+    "Pumpkin + Night",
+    "Pumpkin + Fire",
+    "Vegetable + Skeleton",
+    "Vegetable + Ghost",
+    "Vegetable + Night"
+  ],
+  "Jam": [
+    "Juice + Sugar",
+    "Juice + Fruit",
+    "Juice + Machine",
+    "Fruit + Machine",
+    "Fruit + Heat"
+  ],
+  "Jar": [
+    "Jam + Bucket",
+    "Jam + Bottle",
+    "Jam + Container",
+    "Jam + Glass"
+  ],
+  "Jerky": [
+    "Steak + Sun",
+    "Steak + Heat",
+    "Meat + Sun",
+    "Meat + Heat"
+  ],
+  "Juice": [
+    "Fruit + Rock",
+    "Vegetable + Rock",
+    "Fruit + Explosion",
+    "Fruit + Stone",
+    "Fruit + Pressure",
+    "Fruit + Water",
+    "Fruit + Earth",
+    "Vegetable + Explosion",
+    "Vegetable + Stone",
+    "Vegetable + Pressure",
+    "Vegetable + Water"
+  ],
+  "Jupiter": [
+    "Saturn + Big",
+    "Planet + Big",
+    "Planet + Gas",
+    "Planet + Storm",
+    "Planet + Cloud"
+  ],
+  "Kaiju": [
+    "Dinosaur + Legend",
+    "Dinosaur + Story",
+    "Dinosaur + Skyscraper",
+    "Dinosaur + City"
+  ],
+  "Katana": [
+    "Sword + Ninja",
+    "Blade + Ninja",
+    "Sword + Shuriken",
+    "Blade + Shuriken",
+    "Blade + Heat"
+  ],
+  "Kite": [
+    "Paper + Sky",
+    "Paper + Wind",
+    "Paper + Air"
+  ],
+  "Knife": [
+    "Sword + Cook",
+    "Blade + Cook"
+  ],
+  "Knight": [
+    "Warrior + Armor",
+    "Human + Armor",
+    "Warrior + Horse",
+    "Warrior + Hero"
+  ],
+  "Lake": [
+    "Sea + Small",
+    "Pond + Big",
+    "Pond + Pond",
+    "Pond + Water"
+  ],
+  "Lamp": [
+    "Light bulb + Steel",
+    "Light bulb + Metal"
+  ],
+  "Land": [
+    "Soil + Big",
+    "Continent + Small",
+    "Soil + Soil",
+    "Earth + Stone",
+    "Earth + Earth"
+  ],
+  "Laptop": [
+    "Computer + Small"
+  ],
+  "Lasso": [
+    "Rope + Wild boar",
+    "Rope + Sheep",
+    "Rope + Goat",
+    "Rope + Cow",
+    "Rope + Pig",
+    "Rope + Horse"
+  ],
+  "Lava": [
+    "Earth + Liquid",
+    "Earth + Heat",
+    "Earth + Fire"
+  ],
+  "Lava lamp": [
+    "Lamp + Volcano",
+    "Lamp + Lava",
+    "Lamp + Fire"
+  ],
+  "Lawn": [
+    "Grass + Lawn mower",
+    "Grass + Container",
+    "Field + Lawn mower",
+    "Grass + House"
+  ],
+  "Lawn mower": [
+    "Scythe + Helicopter",
+    "Scythe + Motion",
+    "Scythe + Machine",
+    "Scythe + Tool",
+    "Scythe + Electricity",
+    "Scythe + Windmill",
+    "Helicopter + Field",
+    "Grass + Machine",
+    "Grass + Tool"
+  ],
+  "Leaf": [
+    "Orchard + Wind",
+    "Forest + Wind",
+    "Tree + Wind",
+    "Flower + Wind"
+  ],
+  "Leather": [
+    "Tool + Sheep",
+    "Tool + Cow",
+    "Sword + Sheep",
+    "Sword + Cow",
+    "Blade + Sheep",
+    "Blade + Cow",
+    "Tool + Pig",
+    "Sword + Pig",
+    "Blade + Pig"
+  ],
+  "Legend": [
+    "Fairy tale + Time",
+    "Story + Time",
+    "Fairy tale + Big",
+    "Story + Fairy tale",
+    "Story + Big",
+    "Story + Story"
+  ],
+  "Lens": [
+    "Glass + Engineer",
+    "Glass + Tool"
+  ],
+  "Letter": [
+    "Paper + Pencil"
+  ],
+  "Librarian": [
+    "Human + Library"
+  ],
+  "Library": [
+    "Book + Container",
+    "Book + House"
+  ],
+  "Life": [
+    "Primordial soup + Time",
+    "Primordial soup + Storm",
+    "Primordial soup + Lightning",
+    "Primordial soup + Electricity",
+    "Lightning + Ocean",
+    "Electricity + Ocean",
+    "Lightning + Sea",
+    "Electricity + Sea",
+    "Lightning + Lake",
+    "Electricity + Lake",
+    "Primordial soup + Volcano",
+    "Primordial soup + Energy"
+  ],
+  "Light": [
+    "Electricity + Flashlight",
+    "Electricity + Light bulb"
+  ],
+  "Light bulb": [
+    "Light + Container",
+    "Glass + Light",
+    "Glass + Electricity"
+  ],
+  "Light sword": [
+    "Sword + Light",
+    "Sword + Force knight",
+    "Sword + Space",
+    "Sword + Electricity",
+    "Sword + Energy"
+  ],
+  "Lighthouse": [
+    "Spotlight + Ocean",
+    "Spotlight + Sea",
+    "Spotlight + House",
+    "Spotlight + Beach",
+    "Light + Ocean",
+    "Light + Sea",
+    "Light + House",
+    "Light + Beach"
+  ],
+  "Lightning": [
+    "Electricity + Storm",
+    "Electricity + Rain",
+    "Electricity + Cloud",
+    "Land + Storm",
+    "Energy + Storm",
+    "Energy + Rain",
+    "Energy + Cloud"
+  ],
+  "Lion": [
+    "Cat + Big",
+    "Cat + Monarch",
+    "Cat + Blood",
+    "Cat + Animal"
+  ],
+  "Liquid": [
+    "Energy + Solid",
+    "Water + Science",
+    "Water + Idea"
+  ],
+  "Little alchemy (element)": [
+    "Small + Alchemist"
+  ],
+  "Livestock": [
+    "Animal + Farmer",
+    "Animal + Domestication",
+    "Animal + Barn",
+    "Animal + Field"
+  ],
+  "Lizard": [
+    "Egg + Rock",
+    "Rock + Animal",
+    "Dinosaur + Small",
+    "Egg + Swamp",
+    "Swamp + Animal",
+    "Blood + Cold",
+    "Egg + Stone",
+    "Stone + Animal",
+    "Heat + Animal"
+  ],
+  "Log cabin": [
+    "Wood + House"
+  ],
+  "Love": [
+    "Human + Human"
+  ],
+  "Lumberjack": [
+    "Human + Chainsaw",
+    "Human + Axe",
+    "Human + Wood",
+    "Human + Tree"
+  ],
+  "Mac and cheese": [
+    "Cheese + Pasta"
+  ],
+  "Machine": [
+    "Tool + Engineer",
+    "Tool + Wheel",
+    "Boiler + Wheel",
+    "Tool + Tool",
+    "Tool + Chain",
+    "Boiler + Tool",
+    "Boiler + Chain"
+  ],
+  "Magic": [
+    "Energy + Witch",
+    "Energy + Wizard",
+    "Life + Double rainbow!",
+    "Life + Rainbow"
+  ],
+  "Magma": [
+    "Volcano + Science",
+    "Lava + Science"
+  ],
+  "Mail truck": [
+    "Car + Post office",
+    "Car + Mailman",
+    "Car + Letter"
+  ],
+  "Mailbox": [
+    "Mailman + Box",
+    "Mailman + Wood",
+    "Mailman + Steel",
+    "Mailman + Metal",
+    "Letter + Box",
+    "Letter + Wood",
+    "Letter + Steel",
+    "Letter + Metal"
+  ],
+  "Mailman": [
+    "Letter + Mailbox",
+    "Human + Newspaper",
+    "Human + Letter"
+  ],
+  "Manatee": [
+    "Cow + Fish",
+    "Cow + Ocean",
+    "Cow + Sea",
+    "Cow + River",
+    "Cow + Lake"
+  ],
+  "Map": [
+    "Paper + Hill",
+    "Paper + City",
+    "Paper + Village",
+    "Paper + Ocean",
+    "Paper + Sea",
+    "Paper + River",
+    "Paper + Mountain range",
+    "Paper + Mountain",
+    "Paper + Lake",
+    "Paper + Continent",
+    "Paper + Land"
+  ],
+  "Maple syrup": [
+    "Sap + Sugar",
+    "Sap + Heat"
+  ],
+  "Mars": [
+    "Planet + Rust",
+    "Planet + Desert"
+  ],
+  "Marshmallows": [
+    "Sugar + Campfire"
+  ],
+  "Mayonnaise": [
+    "Egg + Oil"
+  ],
+  "Meat": [
+    "Axe + Swordfish",
+    "Axe + Shark",
+    "Axe + Flying fish",
+    "Axe + Cow",
+    "Axe + Chicken",
+    "Axe + Pig",
+    "Axe + Livestock",
+    "Axe + Frog",
+    "Axe + Fish",
+    "Axe + Animal",
+    "Net + Swordfish",
+    "Net + Shark",
+    "Net + Piranha",
+    "Net + Flying fish",
+    "Net + Fish",
+    "Butcher + Swordfish",
+    "Butcher + Shark",
+    "Butcher + Flying fish",
+    "Butcher + Cow",
+    "Butcher + Chicken",
+    "Tool + Swordfish",
+    "Tool + Shark",
+    "Tool + Flying fish",
+    "Tool + Cow",
+    "Tool + Chicken",
+    "Butcher + Pig",
+    "Butcher + Livestock",
+    "Butcher + Frog",
+    "Butcher + Fish",
+    "Butcher + Animal",
+    "Sword + Shark",
+    "Sword + Cow",
+    "Sword + Chicken",
+    "Tool + Pig",
+    "Tool + Livestock",
+    "Tool + Frog",
+    "Tool + Fish",
+    "Tool + Animal",
+    "Sword + Pig",
+    "Sword + Livestock",
+    "Sword + Animal"
+  ],
+  "Medusa": [
+    "Snake + Legend",
+    "Snake + Story",
+    "Snake + Hero",
+    "Snake + Human"
+  ],
+  "Mercury": [
+    "Planet + Small",
+    "Planet + Heat"
+  ],
+  "Mermaid": [
+    "Fish + Legend",
+    "Fish + Swimmer",
+    "Swimmer + Magic",
+    "Fish + Magic",
+    "Fish + Human"
+  ],
+  "Metal": [
+    "Ore + Tool",
+    "Ore + Heat",
+    "Ore + Fire",
+    "Stone + Heat",
+    "Stone + Fire"
+  ],
+  "Meteor": [
+    "Meteoroid + Night",
+    "Meteoroid + Day",
+    "Meteoroid + Sky",
+    "Meteoroid + Atmosphere",
+    "Meteoroid + Air"
+  ],
+  "Meteoroid": [
+    "Space + Rock",
+    "Sun + Rock",
+    "Solar system + Rock",
+    "Space + Boulder",
+    "Sun + Boulder",
+    "Solar system + Boulder",
+    "Space + Stone",
+    "Sun + Stone",
+    "Solar system + Stone"
+  ],
+  "Microscope": [
+    "Tool + Lens",
+    "Bacteria + Lens",
+    "Bacteria + Safety glasses",
+    "Bacteria + Glasses",
+    "Bacteria + Glass"
+  ],
+  "Milk": [
+    "Goat + Liquid",
+    "Cow + Liquid",
+    "Goat + Tool",
+    "Goat + Farmer",
+    "Cow + Tool",
+    "Cow + Farmer",
+    "Goat + Water",
+    "Cow + Water"
+  ],
+  "Milk shake": [
+    "Ice cream + Yogurt",
+    "Ice cream + Milk",
+    "Ice cream + Water"
+  ],
+  "Mineral": [
+    "Organic matter + Rock",
+    "Organic matter + Hill",
+    "Organic matter + Boulder",
+    "Organic matter + Mountain",
+    "Organic matter + Stone",
+    "Organic matter + Earth"
+  ],
+  "Minotaur": [
+    "Cow + Legend",
+    "Cow + Werewolf",
+    "Cow + Story",
+    "Human + Cow"
+  ],
+  "Mirror": [
+    "Glass + Wood",
+    "Glass + Steel",
+    "Glass + Metal"
+  ],
+  "Mist": [
+    "Air + Rain",
+    "Air + Steam",
+    "Air + Water"
+  ],
+  "Mold": [
+    "Bread + Time",
+    "Fruit + Time",
+    "Vegetable + Time",
+    "Bread + Bacteria",
+    "Fruit + Bacteria",
+    "Vegetable + Bacteria"
+  ],
+  "Monarch": [
+    "Human + Castle",
+    "Human + Excalibur"
+  ],
+  "Money": [
+    "Paper + Diamond",
+    "Paper + Bank",
+    "Paper + Gold"
+  ],
+  "Monkey": [
+    "Animal + Tree"
+  ],
+  "Moon": [
+    "Sky + Time",
+    "Night + Cheese",
+    "Sky + Cheese",
+    "Night + Planet",
+    "Night + Stone",
+    "Night + Earth",
+    "Sky + Planet",
+    "Sky + Stone",
+    "Stone + Planet"
+  ],
+  "Moon rover": [
+    "Moon + Electric car",
+    "Moon + Car"
+  ],
+  "Moss": [
+    "Rock + Grass",
+    "Rock + Algae",
+    "Rock + Plant",
+    "Boulder + Grass",
+    "Boulder + Algae",
+    "Boulder + Plant",
+    "Stone + Grass",
+    "Stone + Algae",
+    "Stone + Plant"
+  ],
+  "Moth": [
+    "Butterfly + Candle",
+    "Butterfly + Flashlight",
+    "Butterfly + Light",
+    "Butterfly + Lamp",
+    "Butterfly + Night",
+    "Butterfly + Moon"
+  ],
+  "Motion": [
+    "Stream + Philosophy",
+    "Stream + Science",
+    "River + Philosophy",
+    "Tornado + Philosophy",
+    "Wind + Philosophy",
+    "River + Science",
+    "Tornado + Science",
+    "Wind + Science",
+    "Wind + Idea"
+  ],
+  "Motorcycle": [
+    "Bicycle + Steel",
+    "Bicycle + Steam engine",
+    "Bicycle + Combustion engine",
+    "Bicycle + Machine",
+    "Bicycle + Metal"
+  ],
+  "Mountain": [
+    "Hill + Hill",
+    "Big + Hill",
+    "Hill + Earthquake",
+    "Earth + Hill",
+    "Earth + Big",
+    "Earth + Earthquake"
+  ],
+  "Mountain goat": [
+    "Goat + Mountain range",
+    "Goat + Mountain"
+  ],
+  "Mountain range": [
+    "Mountain + Mountain",
+    "Mountain + Continent"
+  ],
+  "Mouse": [
+    "Cheese + Farm",
+    "Animal + Cheese",
+    "Cheese + Barn",
+    "Cheese + House",
+    "Cheese + Wall"
+  ],
+  "Mousetrap": [
+    "Mouse + Blade",
+    "Cheese + Wood",
+    "Cheese + Steel",
+    "Cheese + Metal"
+  ],
+  "Mud": [
+    "Water + Soil",
+    "Water + Earth"
+  ],
+  "Mummy": [
+    "Corpse + Fabric",
+    "Pyramid + Fabric",
+    "Pyramid + Corpse",
+    "Pyramid + Human"
+  ],
+  "Music": [
+    "Musician + Sheet music",
+    "Musician + Pan flute",
+    "Musician + Flute",
+    "Musician + Drum"
+  ],
+  "Musician": [
+    "Human + Sheet music",
+    "Human + Music",
+    "Human + Pan flute",
+    "Human + Flute",
+    "Human + Drum"
+  ],
+  "Narwhal": [
+    "Unicorn + Swordfish",
+    "Unicorn + Shark",
+    "Unicorn + Flying fish",
+    "Unicorn + Fish",
+    "Unicorn + Ocean",
+    "Unicorn + Sea",
+    "Unicorn + Water"
+  ],
+  "Needle": [
+    "Thread + Steel",
+    "Thread + Tool",
+    "Thread + Metal"
+  ],
+  "Nessie": [
+    "Dinosaur + Legend",
+    "Lake + Legend",
+    "Dinosaur + Story",
+    "Lake + Story"
+  ],
+  "Nest": [
+    "Egg + Hay",
+    "Egg + Container",
+    "Bird + Hay",
+    "Egg + Tree",
+    "Egg + Grass",
+    "Bird + Tree",
+    "Bird + Grass",
+    "Bird + House"
+  ],
+  "Net": [
+    "Angler + Rope",
+    "Swordfish + Rope",
+    "Flying fish + Rope",
+    "Fishing rod + Rope",
+    "Fish + Rope"
+  ],
+  "Newspaper": [
+    "Letter + Letter",
+    "Paper + Paper",
+    "Paper + Story"
+  ],
+  "Night": [
+    "Time + Twilight",
+    "Time + Day",
+    "Time + Moon",
+    "Sky + Moon"
+  ],
+  "Ninja": [
+    "Human + Shuriken"
+  ],
+  "Ninja turtle": [
+    "Turtle + Ninja",
+    "Turtle + Shuriken",
+    "Turtle + Katana"
+  ],
+  "Nuts": [
+    "Tree + Farmer",
+    "Tree + Domestication",
+    "Tree + Field"
+  ],
+  "Oasis": [
+    "Desert + Stream",
+    "Desert + Palm",
+    "Desert + Tree",
+    "Desert + River",
+    "Desert + Lake",
+    "Desert + Pond",
+    "Desert + Puddle",
+    "Desert + Water"
+  ],
+  "Obsidian": [
+    "Lava + Cold",
+    "Lava + Glass",
+    "Lava + Water"
+  ],
+  "Ocean": [
+    "Tide + Container",
+    "Sea + Big",
+    "Sea + Sea",
+    "Sea + Water"
+  ],
+  "Oil": [
+    "Sunflower + Wheel",
+    "Sunflower + Windmill",
+    "Sunflower + Stone",
+    "Sunflower + Pressure"
+  ],
+  "Omelette": [
+    "Egg + Tool",
+    "Egg + Heat",
+    "Egg + Fire"
+  ],
+  "Optical fiber": [
+    "Light + Internet",
+    "Rope + Light",
+    "Wire + Light"
+  ],
+  "Orchard": [
+    "Fruit tree + Fruit tree",
+    "Fruit tree + Forest",
+    "Fruit tree + Container",
+    "Fruit tree + Tree",
+    "Fruit tree + Farmer",
+    "Fruit tree + Farm",
+    "Fruit tree + Field"
+  ],
+  "Ore": [
+    "Hammer + Rock",
+    "Hammer + Hill",
+    "Hammer + Boulder",
+    "Hammer + Mountain",
+    "Hammer + Stone",
+    "Hammer + Earth"
+  ],
+  "Organic matter": [
+    "Corpse + Science",
+    "Life + Science",
+    "Bacteria + Death",
+    "Life + Death"
+  ],
+  "Origami": [
+    "Paper + Vulture",
+    "Paper + Seagull",
+    "Paper + Pigeon",
+    "Paper + Penguin",
+    "Paper + Owl",
+    "Paper + Lion",
+    "Paper + Hummingbird",
+    "Paper + Eagle",
+    "Paper + Duck",
+    "Paper + Dog",
+    "Paper + Cow",
+    "Paper + Chicken",
+    "Paper + Horse",
+    "Paper + Cat",
+    "Paper + Bird",
+    "Paper + Animal"
+  ],
+  "Ostrich": [
+    "Bird + Big",
+    "Bird + Sand",
+    "Bird + Earth"
+  ],
+  "Owl": [
+    "Bird + Wizard",
+    "Bird + Twilight",
+    "Bird + Night",
+    "Bird + Moon"
+  ],
+  "Oxygen": [
+    "Carbon dioxide + Tree",
+    "Carbon dioxide + Grass",
+    "Carbon dioxide + Algae",
+    "Carbon dioxide + Plant",
+    "Sun + Tree",
+    "Sun + Grass",
+    "Sun + Algae",
+    "Sun + Plant"
+  ],
+  "Ozone": [
+    "Oxygen + Oxygen",
+    "Electricity + Oxygen",
+    "Electricity + Atmosphere",
+    "Electricity + Air"
+  ],
+  "Paint": [
+    "Liquid + Pencil",
+    "Water + Pencil",
+    "Pottery + Double rainbow!",
+    "Liquid + Double rainbow!",
+    "Pottery + Rainbow",
+    "Liquid + Rainbow",
+    "Tool + Double rainbow!",
+    "Tool + Rainbow",
+    "Water + Double rainbow!",
+    "Water + Rainbow"
+  ],
+  "Painter": [
+    "Human + Painting",
+    "Human + Canvas",
+    "Human + Paint"
+  ],
+  "Painting": [
+    "Canvas + Painter",
+    "Canvas + Paint"
+  ],
+  "Paleontologist": [
+    "Science + Fossil",
+    "Science + Dinosaur",
+    "Human + Fossil",
+    "Human + Dinosaur"
+  ],
+  "Palm": [
+    "Tree + Island",
+    "Tree + Beach",
+    "Tree + Sand"
+  ],
+  "Pan flute": [
+    "Flute + Flute"
+  ],
+  "Paper": [
+    "Wood + Machine",
+    "Wood + Blender",
+    "Wood + Pressure",
+    "Wood + Water"
+  ],
+  "Paper airplane": [
+    "Airplane + Paper"
+  ],
+  "Paper cup": [
+    "Cup + Paper"
+  ],
+  "Parachute": [
+    "Pilot + Fabric",
+    "Airplane + Fabric",
+    "Pilot + Umbrella",
+    "Airplane + Umbrella",
+    "Umbrella + Sky",
+    "Umbrella + Atmosphere"
+  ],
+  "Paraglider": [
+    "Kite + Big"
+  ],
+  "Park": [
+    "City + Forest",
+    "Village + Forest",
+    "City + Grass",
+    "City + Garden",
+    "Village + Grass",
+    "Village + Garden",
+    "City + Field",
+    "Village + Field"
+  ],
+  "Parrot": [
+    "Pigeon + Pirate ship",
+    "Bird + Pirate ship",
+    "Pigeon + Pirate",
+    "Bird + Pirate"
+  ],
+  "Pasta": [
+    "Flour + Egg"
+  ],
+  "Peacock": [
+    "Bird + Leaf",
+    "Bird + Double rainbow!",
+    "Bird + Rainbow"
+  ],
+  "Peanut butter": [
+    "Nuts + Butter",
+    "Nuts + Pressure"
+  ],
+  "Peat": [
+    "Swamp + Time",
+    "Time + Grass",
+    "Swamp + Plant",
+    "Swamp + Pressure"
+  ],
+  "Pebble": [
+    "Small + Rock",
+    "Small + Stone",
+    "Small + Earth"
+  ],
+  "Pegasus": [
+    "Unicorn + Bird",
+    "Unicorn + Sky",
+    "Horse + Bird",
+    "Horse + Sky"
+  ],
+  "Pencil": [
+    "Wood + Coal",
+    "Wood + Charcoal"
+  ],
+  "Pencil sharpener": [
+    "Pencil + Sword",
+    "Pencil + Blender",
+    "Pencil + Blade"
+  ],
+  "Penguin": [
+    "Bird + Ice",
+    "Bird + Cold",
+    "Bird + Antarctica",
+    "Bird + Snow",
+    "Animal + Antarctica"
+  ],
+  "Penicillin": [
+    "Mold + Doctor",
+    "Mold + Hospital",
+    "Mold + Science",
+    "Mold + Idea"
+  ],
+  "Perfume": [
+    "Sunflower + Alcohol",
+    "Rose + Alcohol",
+    "Flower + Alcohol",
+    "Sunflower + Steam",
+    "Rose + Steam",
+    "Flower + Steam",
+    "Sunflower + Water",
+    "Rose + Water",
+    "Flower + Water"
+  ],
+  "Petroleum": [
+    "Fossil + Time",
+    "Fossil + Liquid",
+    "Fossil + Pressure",
+    "Fossil + Water"
+  ],
+  "Philosophy": [
+    "Egg + Chicken",
+    "Human + Story",
+    "Human + Idea"
+  ],
+  "Phoenix": [
+    "Fire + Egg",
+    "Fire + Bird",
+    "Fire + Death",
+    "Fire + Life"
+  ],
+  "Picnic": [
+    "Sandwich + Fabric",
+    "Sandwich + Lawn",
+    "Sandwich + Grass",
+    "Sandwich + Garden",
+    "Sandwich + Beach"
+  ],
+  "Pie": [
+    "Fruit + Bakery",
+    "Fruit + Baker",
+    "Cookie dough + Fruit",
+    "Dough + Fruit",
+    "Dough + Meat"
+  ],
+  "Pig": [
+    "Mud + Cow",
+    "Mud + Livestock",
+    "Mud + Animal"
+  ],
+  "Pigeon": [
+    "Bird + Letter",
+    "Bird + Statue",
+    "Bird + Skyscraper",
+    "Bird + City",
+    "Bird + Village"
+  ],
+  "Piggy bank": [
+    "Pig + Money",
+    "Pig + Pottery",
+    "Pig + Gold"
+  ],
+  "Pilot": [
+    "Human + Seaplane",
+    "Human + Airplane"
+  ],
+  "Pinocchio": [
+    "Wood + Story",
+    "Golem + Story",
+    "Wood + Life"
+  ],
+  "Pipe": [
+    "Tobacco + Wood",
+    "Tobacco + Tool"
+  ],
+  "Piranha": [
+    "Fish + Wolf",
+    "Fish + Blood"
+  ],
+  "Pirate": [
+    "Sailor + Pirate ship",
+    "Sailor + Bayonet",
+    "Sailor + Sword",
+    "Sailor + Gun"
+  ],
+  "Pirate ship": [
+    "Sailboat + Pirate",
+    "Boat + Pirate",
+    "Steam engine + Pirate",
+    "Pirate + Container",
+    "Pirate + House"
+  ],
+  "Pitchfork": [
+    "Hay + Steel",
+    "Hay + Tool",
+    "Hay + Metal"
+  ],
+  "Pizza": [
+    "Cheese + Bread",
+    "Cheese + Dough",
+    "Cheese + Wheel"
+  ],
+  "Planet": [
+    "Earth + Space",
+    "Continent + Ocean",
+    "Earth + Sky",
+    "Earth + Solar system",
+    "Continent + Continent"
+  ],
+  "Plankton": [
+    "Bacteria + Ocean",
+    "Bacteria + Sea",
+    "Bacteria + Water",
+    "Ocean + Life",
+    "Sea + Life",
+    "Water + Life"
+  ],
+  "Plant": [
+    "Tree + Small",
+    "Grass + Big",
+    "Seed + Soil",
+    "Seed + Land",
+    "Seed + Water",
+    "Seed + Earth",
+    "Algae + Land",
+    "Algae + Earth",
+    "Rain + Soil",
+    "Life + Soil"
+  ],
+  "Plasma": [
+    "Science + Star",
+    "Science + Sun",
+    "Heat + Heat",
+    "Heat + Pressure"
+  ],
+  "Platypus": [
+    "Beaver + Seagull",
+    "Beaver + Duck",
+    "Beaver + Bird"
+  ],
+  "Plow": [
+    "Field + Wood",
+    "Field + Steel",
+    "Earth + Wood",
+    "Earth + Steel",
+    "Field + Tool",
+    "Field + Metal",
+    "Earth + Metal"
+  ],
+  "Polar bear": [
+    "Animal + Ice",
+    "Animal + Arctic"
+  ],
+  "Pollen": [
+    "Flower + Wind",
+    "Flower + Dust",
+    "Plant + Wind",
+    "Plant + Dust"
+  ],
+  "Pond": [
+    "Lake + Small",
+    "Puddle + Big",
+    "Puddle + Puddle",
+    "Puddle + Water"
+  ],
+  "Popsicle": [
+    "Juice + Wood",
+    "Juice + Ice",
+    "Juice + Cold",
+    "Juice + Snow"
+  ],
+  "Post office": [
+    "Mailman + Letter",
+    "Mailman + Container",
+    "Mailman + House",
+    "Mailman + Wall",
+    "Letter + Letter",
+    "Letter + House",
+    "Letter + Wall"
+  ],
+  "Potato": [
+    "Earth + Vegetable"
+  ],
+  "Potter": [
+    "Human + Pottery",
+    "Human + Clay"
+  ],
+  "Pottery": [
+    "Clay + Wheel",
+    "Clay + Tool"
+  ],
+  "Pressure": [
+    "Geyser + Science",
+    "Ocean + Ocean",
+    "Atmosphere + Atmosphere",
+    "Air + Atmosphere",
+    "Air + Air"
+  ],
+  "Primordial soup": [
+    "Planet + Ocean",
+    "Lava + Ocean",
+    "Earth + Ocean",
+    "Planet + Sea",
+    "Lava + Sea",
+    "Earth + Sea"
+  ],
+  "Printer": [
+    "Computer + Newspaper",
+    "Computer + Paper"
+  ],
+  "Prism": [
+    "Crystal ball + Double rainbow!",
+    "Crystal ball + Rainbow",
+    "Glass + Double rainbow!",
+    "Glass + Rainbow"
+  ],
+  "Pterodactyl": [
+    "Dinosaur + Vulture",
+    "Dinosaur + Eagle",
+    "Dinosaur + Airplane",
+    "Dinosaur + Bird",
+    "Dinosaur + Sky",
+    "Dinosaur + Air"
+  ],
+  "Puddle": [
+    "Pond + Small",
+    "Water + Water"
+  ],
+  "Pumpkin": [
+    "Vegetable + Jack-o'-lantern",
+    "Plant + Jack-o'-lantern",
+    "Vegetable + Farmer",
+    "Vegetable + Field"
+  ],
+  "Pyramid": [
+    "Desert + Hill",
+    "Mummy + Container",
+    "Desert + Graveyard",
+    "Desert + Grave",
+    "Desert + Gravestone",
+    "Desert + Mountain",
+    "Desert + Stone"
+  ],
+  "Quicksand": [
+    "Sand + Swamp"
+  ],
+  "Quicksilver": [
+    "Metal + Liquid"
+  ],
+  "Rabbit": [
+    "Rabbit + Rabbit",
+    "Animal + Carrot"
+  ],
+  "Rain": [
+    "Cloud + Heat",
+    "Cloud + Pressure",
+    "Cloud + Water"
+  ],
+  "Rainbow": [
+    "Rain + Light",
+    "Prism + Light",
+    "Cloud + Light",
+    "Water + Light",
+    "Rain + Sun",
+    "Prism + Sun",
+    "Water + Sun"
+  ],
+  "Rainforest": [
+    "Rain + Forest"
+  ],
+  "Rat": [
+    "Mouse + Sailboat",
+    "Mouse + Pirate ship",
+    "Mouse + Big",
+    "Animal + Sailboat",
+    "Mouse + Skyscraper",
+    "Mouse + City",
+    "Mouse + Village",
+    "Animal + Pirate ship"
+  ],
+  "Recipe": [
+    "Newspaper + Bakery",
+    "Paper + Bakery",
+    "Newspaper + Baker",
+    "Paper + Baker",
+    "Newspaper + Flour",
+    "Newspaper + Fruit",
+    "Newspaper + Vegetable",
+    "Newspaper + Meat",
+    "Paper + Flour",
+    "Paper + Fruit",
+    "Paper + Cook",
+    "Paper + Vegetable",
+    "Paper + Meat"
+  ],
+  "Reed": [
+    "Grass + Swamp",
+    "Plant + Swamp",
+    "Grass + River",
+    "Grass + Pond",
+    "Grass + Puddle",
+    "Plant + River",
+    "Plant + Pond",
+    "Plant + Puddle"
+  ],
+  "Reindeer": [
+    "Livestock + Santa",
+    "Animal + Santa",
+    "Animal + Christmas stocking",
+    "Livestock + Christmas tree",
+    "Animal + Christmas tree"
+  ],
+  "Restaurant": [
+    "House + Cook"
+  ],
+  "Ring": [
+    "Diamond + Steel",
+    "Love + Steel",
+    "Love + Diamond",
+    "Diamond + Gold",
+    "Diamond + Metal",
+    "Love + Gold",
+    "Love + Metal"
+  ],
+  "River": [
+    "Rain + Hill",
+    "Stream + Big",
+    "Lake + Motion",
+    "Rain + Mountain",
+    "Water + Mountain"
+  ],
+  "Rivulet": [
+    "Stream + Small",
+    "Puddle + Motion"
+  ],
+  "Robot": [
+    "Golem + Armor",
+    "Life + Armor",
+    "Golem + Steel",
+    "Life + Steel",
+    "Golem + Metal",
+    "Life + Metal"
+  ],
+  "Robot vacuum": [
+    "Computer + Vacuum cleaner",
+    "Robot + Vacuum cleaner",
+    "Computer + Broom",
+    "Robot + Broom"
+  ],
+  "Rock": [
+    "Pebble + Pebble",
+    "Pebble + Big",
+    "Boulder + Small"
+  ],
+  "Rocket": [
+    "Atmosphere + Train",
+    "Atmosphere + Steamboat",
+    "Atmosphere + Boat",
+    "Atmosphere + Steel",
+    "Atmosphere + Pirate ship",
+    "Atmosphere + Car",
+    "Atmosphere + Machine",
+    "Atmosphere + Airplane",
+    "Atmosphere + Metal"
+  ],
+  "Roe": [
+    "Egg + Flying fish",
+    "Egg + Fish",
+    "Egg + Ocean",
+    "Egg + Sea",
+    "Egg + Lake",
+    "Egg + Water"
+  ],
+  "Roller coaster": [
+    "Park + Wagon",
+    "Park + Train",
+    "Park + Cart",
+    "Park + Car"
+  ],
+  "Rope": [
+    "Tool + Sailboat",
+    "Tool + Boat",
+    "Thread + Thread",
+    "Tool + Pirate ship",
+    "Thread + Wire",
+    "Wire + Tool"
+  ],
+  "Rose": [
+    "Love + Flower",
+    "Blade + Flower",
+    "Love + Plant",
+    "Blade + Plant"
+  ],
+  "Ruins": [
+    "Time + Hospital",
+    "Time + Castle",
+    "Time + Farm",
+    "Time + Skyscraper",
+    "Time + City",
+    "Time + Village",
+    "Time + House"
+  ],
+  "Ruler": [
+    "Wood + Pencil"
+  ],
+  "Rust": [
+    "Steel + Oxygen",
+    "Air + Steel",
+    "Metal + Oxygen",
+    "Air + Metal"
+  ],
+  "Rv": [
+    "House + Bus",
+    "House + Car"
+  ],
+  "Sack": [
+    "Container + Letter",
+    "Container + Flour",
+    "Container + Salt"
+  ],
+  "Saddle": [
+    "Horse + Fabric",
+    "Horse + Leather",
+    "Horse + Tool"
+  ],
+  "Safe": [
+    "Steel + Money",
+    "Metal + Money",
+    "Container + Gun",
+    "Steel + Gold",
+    "Container + Gold",
+    "Metal + Gold"
+  ],
+  "Safety glasses": [
+    "Glasses + Bulletproof vest",
+    "Glasses + Armor",
+    "Glasses + Engineer",
+    "Glasses + Tool",
+    "Glasses + Explosion"
+  ],
+  "Sailboat": [
+    "Steamboat + Fabric",
+    "Boat + Fabric",
+    "Steamboat + Wind",
+    "Boat + Wind"
+  ],
+  "Sailor": [
+    "Human + Sailboat",
+    "Human + Steamboat",
+    "Human + Boat",
+    "Human + Ocean",
+    "Human + Sea",
+    "Human + Lake"
+  ],
+  "Salt": [
+    "Ocean + Mineral",
+    "Sea + Mineral",
+    "Ocean + Sun",
+    "Ocean + Fire",
+    "Sea + Sun",
+    "Sea + Fire"
+  ],
+  "Samurai": [
+    "Human + Katana"
+  ],
+  "Sand": [
+    "Wind + Rock",
+    "Air + Rock",
+    "Pebble + Small",
+    "Pebble + Wind",
+    "Pebble + Air",
+    "Stone + Wind",
+    "Stone + Air"
+  ],
+  "Sand castle": [
+    "Castle + Dune",
+    "Castle + Desert",
+    "Castle + Beach",
+    "Castle + Sand"
+  ],
+  "Sandpaper": [
+    "Sand + Paper",
+    "Sand + Fabric"
+  ],
+  "Sandstone": [
+    "Sand + Rock",
+    "Sand + Stone",
+    "Sand + Earth"
+  ],
+  "Sandstorm": [
+    "Desert + Motion",
+    "Sand + Motion",
+    "Desert + Storm",
+    "Sand + Storm",
+    "Desert + Tornado",
+    "Desert + Wind",
+    "Sand + Tornado"
+  ],
+  "Sandwich": [
+    "Bread + Cheese",
+    "Bread + Vegetable",
+    "Bread + Ham",
+    "Bread + Bacon",
+    "Bread + Meat"
+  ],
+  "Santa": [
+    "Christmas stocking + Legend",
+    "Christmas stocking + Story",
+    "Christmas stocking + Human",
+    "Christmas tree + Legend",
+    "Christmas tree + Story",
+    "Christmas tree + Human"
+  ],
+  "Sap": [
+    "Tree + Blade"
+  ],
+  "Saturn": [
+    "Jupiter + Small",
+    "Ring + Planet"
+  ],
+  "Scalpel": [
+    "Sword + Ambulance",
+    "Blade + Ambulance",
+    "Sword + Doctor",
+    "Blade + Doctor",
+    "Sword + Hospital",
+    "Blade + Hospital"
+  ],
+  "Scarecrow": [
+    "Pumpkin + Sack",
+    "Jack-o'-lantern + Sack",
+    "Hay + Sack",
+    "Hay + Statue",
+    "Hay + Golem",
+    "Hay + Human",
+    "Farm + Statue",
+    "Barn + Statue"
+  ],
+  "Science": [
+    "Human + Microscope",
+    "Human + Universe",
+    "Human + Telescope"
+  ],
+  "Scissors": [
+    "Sword + Paper",
+    "Blade + Paper",
+    "Sword + Sword",
+    "Blade + Sword",
+    "Blade + Blade"
+  ],
+  "Scorpion": [
+    "Spider + Dune",
+    "Spider + Desert",
+    "Spider + Sand",
+    "Animal + Dune",
+    "Animal + Sand"
+  ],
+  "Scuba tank": [
+    "Container + Oxygen",
+    "Container + Atmosphere",
+    "Container + Air"
+  ],
+  "Scythe": [
+    "Axe + Wheat",
+    "Axe + Grass",
+    "Sword + Wheat",
+    "Blade + Wheat",
+    "Sword + Grass",
+    "Blade + Grass"
+  ],
+  "Sea": [
+    "Ocean + Small",
+    "Lake + Big",
+    "Lake + Lake",
+    "Lake + Water"
+  ],
+  "Seagull": [
+    "Rat + Ocean",
+    "Rat + Sea",
+    "Rat + Beach",
+    "Pigeon + Ocean",
+    "Pigeon + Sea",
+    "Pigeon + Beach",
+    "Bird + Ocean",
+    "Bird + Sea",
+    "Bird + Beach"
+  ],
+  "Seahorse": [
+    "Horse + Fish",
+    "Horse + Ocean",
+    "Horse + Sea",
+    "Horse + Lake",
+    "Horse + Water"
+  ],
+  "Seal": [
+    "Dog + Arctic",
+    "Dog + Ocean",
+    "Dog + Sea",
+    "Dog + Lake",
+    "Dog + Water"
+  ],
+  "Seaplane": [
+    "Airplane + Ocean",
+    "Airplane + Sea",
+    "Airplane + Lake",
+    "Airplane + Water"
+  ],
+  "Seasickness": [
+    "Sickness + Sailboat",
+    "Sickness + Steamboat",
+    "Sickness + Boat",
+    "Sickness + Ocean",
+    "Sickness + Sea",
+    "Sickness + Lake"
+  ],
+  "Seaweed": [
+    "Grass + Ocean",
+    "Grass + Sea",
+    "Plant + Ocean",
+    "Plant + Sea",
+    "Plant + Lake"
+  ],
+  "Seed": [
+    "Time + Flower",
+    "Pollen + Bee",
+    "Pollen + Plant"
+  ],
+  "Sewing machine": [
+    "Needle + Machine",
+    "Needle + Robot",
+    "Needle + Electricity",
+    "Thread + Machine",
+    "Thread + Robot",
+    "Thread + Electricity"
+  ],
+  "Shark": [
+    "Wolf + Fish",
+    "Blood + Fish",
+    "Wolf + Ocean",
+    "Blood + Ocean",
+    "Wolf + Sea",
+    "Blood + Sea"
+  ],
+  "Sheep": [
+    "Livestock + Hill",
+    "Mountain goat + Domestication",
+    "Livestock + Wool",
+    "Goat + Domestication",
+    "Livestock + Cloud",
+    "Livestock + Land"
+  ],
+  "Sheet music": [
+    "Music + Paper",
+    "Music + Book"
+  ],
+  "Shovel": [
+    "Tool + Gardener"
+  ],
+  "Shuriken": [
+    "Star + Steel",
+    "Ninja + Blade",
+    "Star + Sword",
+    "Star + Blade",
+    "Star + Metal"
+  ],
+  "Sickness": [
+    "Human + Swamp",
+    "Human + Sickness",
+    "Human + Bacteria"
+  ],
+  "Silo": [
+    "Wheat + Container",
+    "Wheat + Farm",
+    "Wheat + Barn",
+    "Wheat + Safe",
+    "Wheat + Bank",
+    "Wheat + House",
+    "Wheat + Wall"
+  ],
+  "Skateboard": [
+    "Wheel + Snowboard",
+    "Wheel + Skier",
+    "Wheel + Ski goggles"
+  ],
+  "Skeleton": [
+    "Time + Corpse",
+    "Bone + Bone",
+    "Bone + Corpse"
+  ],
+  "Ski goggles": [
+    "Skier + Sunglasses",
+    "Glacier + Sunglasses",
+    "Cold + Sunglasses",
+    "Skier + Glasses",
+    "Glacier + Glasses",
+    "Cold + Glasses",
+    "Snow + Sunglasses",
+    "Snow + Glasses"
+  ],
+  "Skier": [
+    "Human + Ski goggles",
+    "Human + Mountain range",
+    "Human + Mountain"
+  ],
+  "Sky": [
+    "Cloud + Atmosphere",
+    "Air + Cloud",
+    "Sun + Moon",
+    "Sun + Atmosphere"
+  ],
+  "Skyscraper": [
+    "House + Big",
+    "Village + Sky",
+    "House + Sky",
+    "House + Cloud"
+  ],
+  "Sleigh": [
+    "Wagon + Ice",
+    "Wagon + Arctic",
+    "Wagon + Antarctica",
+    "Wagon + Snow",
+    "Cart + Ice",
+    "Cart + Arctic",
+    "Cart + Antarctica",
+    "Cart + Snow"
+  ],
+  "Sloth": [
+    "Animal + Time",
+    "Tree + Manatee"
+  ],
+  "Small": [
+    "Philosophy + Confetti",
+    "Philosophy + Spider",
+    "Philosophy + Pebble",
+    "Philosophy + Rivulet",
+    "Philosophy + Bee",
+    "Philosophy + Ant",
+    "Philosophy + Seahorse",
+    "Philosophy + Oxygen",
+    "Philosophy + Carbon dioxide",
+    "Philosophy + Scorpion",
+    "Philosophy + Ozone",
+    "Philosophy + Bacteria"
+  ],
+  "Smartphone": [
+    "Small + Tablet"
+  ],
+  "Smog": [
+    "City + Fog",
+    "City + Atmosphere",
+    "Smoke + Fog",
+    "City + Smoke",
+    "City + Air"
+  ],
+  "Smoke": [
+    "Campfire + Time",
+    "Campfire + Storm",
+    "Campfire + Water",
+    "Fire + Wood",
+    "Fire + Tree",
+    "Fire + Grass",
+    "Earth + Gas",
+    "Fire + Plant",
+    "Fire + Air"
+  ],
+  "Smoke signal": [
+    "Smoke + Letter",
+    "Fabric + Campfire",
+    "Fabric + Smoke"
+  ],
+  "Smoothie": [
+    "Fruit + Ice",
+    "Fruit + Cold",
+    "Fruit + Blender"
+  ],
+  "Snake": [
+    "Animal + Rope",
+    "Electric eel + Land",
+    "Animal + Wire"
+  ],
+  "Snow": [
+    "Rain + Cold",
+    "Steam + Cold",
+    "Rain + Mountain range",
+    "Rain + Mountain"
+  ],
+  "Snow globe": [
+    "Crystal ball + Snowmobile",
+    "Crystal ball + Santa",
+    "Crystal ball + Christmas stocking",
+    "Glass + Snowmobile",
+    "Glass + Santa",
+    "Glass + Christmas stocking",
+    "Crystal ball + Christmas tree",
+    "Glass + Christmas tree",
+    "Crystal ball + Ice",
+    "Crystal ball + Snowman",
+    "Crystal ball + Snowball",
+    "Crystal ball + Cold",
+    "Crystal ball + Blizzard",
+    "Crystal ball + Snow",
+    "Glass + Snowman",
+    "Glass + Snowball",
+    "Glass + Blizzard",
+    "Glass + Snow"
+  ],
+  "Snowball": [
+    "Snow + Rock",
+    "Snow + Human",
+    "Snow + Stone",
+    "Snow + Earth"
+  ],
+  "Snowboard": [
+    "Ice + Wood",
+    "Snow + Wood",
+    "Ice + Surfer",
+    "Snow + Surfer",
+    "Surfer + Mountain range",
+    "Surfer + Mountain"
+  ],
+  "Snowboarder": [
+    "Human + Snowboard"
+  ],
+  "Snowman": [
+    "Snowball + Coal",
+    "Snowball + Carrot",
+    "Snow + Coal",
+    "Snow + Carrot",
+    "Snowball + Snowball",
+    "Snow + Human"
+  ],
+  "Snowmobile": [
+    "Ice + Motorcycle",
+    "Glacier + Motorcycle",
+    "Snow + Motorcycle",
+    "Ice + Car",
+    "Glacier + Car",
+    "Snow + Car"
+  ],
+  "Soap": [
+    "Oil + Wax",
+    "Wax + Ash",
+    "Wax + Clay",
+    "Oil + Ash",
+    "Oil + Clay"
+  ],
+  "Soda": [
+    "Carbon dioxide + Tea",
+    "Carbon dioxide + Juice",
+    "Carbon dioxide + Water"
+  ],
+  "Soil": [
+    "Land + Organic matter",
+    "Earth + Organic matter",
+    "Land + Life",
+    "Earth + Life"
+  ],
+  "Solar cell": [
+    "Sun + Machine",
+    "Tool + Light",
+    "Sun + Tool",
+    "Sun + Electricity",
+    "Sun + Energy"
+  ],
+  "Solar system": [
+    "Saturn + Container",
+    "Jupiter + Container",
+    "Mars + Container",
+    "Venus + Container",
+    "Sun + Container",
+    "Mercury + Container",
+    "Planet + Container",
+    "Planet + Sun",
+    "Planet + Planet"
+  ],
+  "Solid": [
+    "Earth + Science",
+    "Earth + Idea"
+  ],
+  "Sound": [
+    "Wave + Wolf",
+    "Wave + Human",
+    "Wave + Animal",
+    "Wave + Air"
+  ],
+  "Space": [
+    "Star + Sky",
+    "Star + Sun",
+    "Star + Moon",
+    "Solar system + Night",
+    "Solar system + Sky"
+  ],
+  "Space station": [
+    "Space + Village",
+    "Space + House",
+    "Space + Wall",
+    "Atmosphere + Village",
+    "Atmosphere + House",
+    "Atmosphere + Wall"
+  ],
+  "Spaceship": [
+    "Space + Steamboat",
+    "Space + Boat",
+    "Astronaut + Container",
+    "Space + Steel",
+    "Space + Pirate ship",
+    "Space + Car",
+    "Space + Airplane",
+    "Space + Metal"
+  ],
+  "Spaghetti": [
+    "Pasta + Thread",
+    "Pasta + Rope",
+    "Pasta + Wire"
+  ],
+  "Sphinx": [
+    "Statue + Lion",
+    "Statue + Pyramid",
+    "Statue + Desert",
+    "Lion + Stone"
+  ],
+  "Spider": [
+    "Animal + Web",
+    "Animal + Thread",
+    "Animal + Net"
+  ],
+  "Spoon": [
+    "Shovel + Small"
+  ],
+  "Spotlight": [
+    "Light + Steel",
+    "Light + Machine",
+    "Light + Metal"
+  ],
+  "Sprinkles": [
+    "Sugar + Confetti",
+    "Sugar + Paint",
+    "Sugar + Double rainbow!",
+    "Sugar + Rainbow"
+  ],
+  "Squirrel": [
+    "Mouse + Nuts",
+    "Mouse + Tree",
+    "Mouse + Plant",
+    "Animal + Nuts"
+  ],
+  "Star": [
+    "Night + Space",
+    "Space + Telescope",
+    "Sky + Space",
+    "Night + Telescope",
+    "Night + Sky",
+    "Sun + Space"
+  ],
+  "Starfish": [
+    "Star + Fish",
+    "Star + Ocean",
+    "Star + Sea"
+  ],
+  "Statue": [
+    "Medusa + Baker",
+    "Medusa + Drunk",
+    "Boulder + Hammer",
+    "Medusa + Pilot",
+    "Medusa + Lumberjack",
+    "Medusa + Engineer",
+    "Medusa + Doctor",
+    "Medusa + Butcher",
+    "Medusa + Surfer",
+    "Medusa + Sailor",
+    "Medusa + Hacker",
+    "Medusa + Firefighter",
+    "Medusa + Farmer",
+    "Medusa + Astronaut",
+    "Medusa + Human",
+    "Medusa + Mirror",
+    "Stone + Hammer"
+  ],
+  "Steak": [
+    "Cow + Bbq",
+    "Meat + Bbq",
+    "Cow + Fire",
+    "Meat + Fire"
+  ],
+  "Steam": [
+    "Water + Gas",
+    "Water + Heat",
+    "Water + Lava",
+    "Water + Fire"
+  ],
+  "Steam engine": [
+    "Boiler + Wheel",
+    "Steam + Wheel",
+    "Steam + Machine"
+  ],
+  "Steamboat": [
+    "Steam engine + Sailboat",
+    "Steam engine + Boat",
+    "Steam engine + Pirate ship",
+    "Steam engine + Ocean",
+    "Steam engine + Sea"
+  ],
+  "Steel": [
+    "Metal + Mineral",
+    "Metal + Coal",
+    "Metal + Charcoal",
+    "Metal + Ash"
+  ],
+  "Steel wool": [
+    "Wool + Steel",
+    "Wool + Wire",
+    "Wool + Metal"
+  ],
+  "Stethoscope": [
+    "Doctor + Drum",
+    "Doctor + Tool",
+    "Doctor + Sound",
+    "Tool + Hospital",
+    "Tool + Sound"
+  ],
+  "Stone": [
+    "Earth + Solid",
+    "Earth + Pressure",
+    "Air + Lava"
+  ],
+  "Storm": [
+    "Electricity + Cloud",
+    "Electricity + Atmosphere",
+    "Rain + Wind",
+    "Cloud + Cloud"
+  ],
+  "Story": [
+    "Human + Campfire",
+    "Human + Hero"
+  ],
+  "Stream": [
+    "Rivulet + Big",
+    "River + Small",
+    "Pond + Motion"
+  ],
+  "String phone": [
+    "Paper cup + Thread",
+    "Paper cup + Wire",
+    "Cup + Thread",
+    "Cup + Wire"
+  ],
+  "Stun gun": [
+    "Bow + Electricity",
+    "Bow + Energy",
+    "Gun + Wire",
+    "Gun + Electricity",
+    "Gun + Energy"
+  ],
+  "Sugar": [
+    "Wine + Energy",
+    "Beer + Energy",
+    "Wine + Fire",
+    "Beer + Fire",
+    "Alcohol + Energy",
+    "Alcohol + Fire",
+    "Juice + Energy",
+    "Fruit + Energy",
+    "Juice + Fire",
+    "Fruit + Fire"
+  ],
+  "Sun": [
+    "Day + Light",
+    "Sky + Light",
+    "Planet + Light",
+    "Day + Space",
+    "Day + Sky",
+    "Sky + Fire",
+    "Planet + Fire"
+  ],
+  "Sundial": [
+    "Light + Wheel",
+    "Day + Wheel",
+    "Sun + Wheel",
+    "Light + Watch",
+    "Light + Tool",
+    "Light + Clock",
+    "Day + Tool",
+    "Sun + Watch",
+    "Sun + Tool",
+    "Sun + Clock"
+  ],
+  "Sunflower": [
+    "Sun + Flower",
+    "Sun + Plant"
+  ],
+  "Sunglasses": [
+    "Glasses + Light",
+    "Glasses + Day",
+    "Glasses + Sky",
+    "Glasses + Sun",
+    "Glasses + Beach"
+  ],
+  "Supernova": [
+    "Explosion + Star",
+    "Explosion + Space",
+    "Explosion + Galaxy",
+    "Explosion + Sun"
+  ],
+  "Surfer": [
+    "Human + Wave",
+    "Human + Beach"
+  ],
+  "Sushi": [
+    "Caviar + Seaweed",
+    "Fish + Seaweed"
+  ],
+  "Swamp": [
+    "Tree + Lake",
+    "Reed + Lake",
+    "Algae + Lake",
+    "Reed + Pond",
+    "Algae + Pond",
+    "Reed + Mud",
+    "Mud + Tree",
+    "Mud + Grass"
+  ],
+  "Sweater": [
+    "Wool + Tool",
+    "Wool + Human"
+  ],
+  "Swim goggles": [
+    "Sunglasses + Ocean",
+    "Sunglasses + Sea",
+    "Sunglasses + River",
+    "Sunglasses + Lake",
+    "Sunglasses + Water",
+    "Glasses + Ocean",
+    "Glasses + Sea",
+    "Glasses + River",
+    "Glasses + Lake",
+    "Glasses + Water"
+  ],
+  "Swimmer": [
+    "Human + Swim goggles",
+    "Human + Swimming pool",
+    "Human + Pond",
+    "Human + Water"
+  ],
+  "Swimming pool": [
+    "Aquarium + Big",
+    "House + Swimmer",
+    "House + Lake"
+  ],
+  "Sword": [
+    "Blade + Wood",
+    "Blade + Steel",
+    "Blade + Metal"
+  ],
+  "Swordfish": [
+    "Shark + Sword",
+    "Shark + Blade",
+    "Fish + Sword",
+    "Fish + Blade"
+  ],
+  "Syringe": [
+    "Doctor + Needle",
+    "Tool + Needle"
+  ],
+  "Tablet": [
+    "Laptop + Small"
+  ],
+  "Tailor": [
+    "Human + Sewing machine",
+    "Human + Needle",
+    "Human + Thread"
+  ],
+  "Tank": [
+    "Car + Armor",
+    "Car + Steel",
+    "Car + Gun",
+    "Car + Metal"
+  ],
+  "Tea": [
+    "Leaf + Human",
+    "Leaf + Heat",
+    "Leaf + Water"
+  ],
+  "Telescope": [
+    "Glass + Saturn",
+    "Glass + Universe",
+    "Glass + Star",
+    "Glass + Space",
+    "Glass + Jupiter",
+    "Glass + Galaxy cluster",
+    "Glass + Supernova",
+    "Glass + Sky",
+    "Glass + Mars",
+    "Glass + Galaxy",
+    "Glass + Venus",
+    "Glass + Moon",
+    "Glass + Mercury",
+    "Glass + Planet"
+  ],
+  "Tent": [
+    "Fabric + Wood",
+    "Fabric + Village",
+    "Fabric + House",
+    "Fabric + Wall"
+  ],
+  "The one ring": [
+    "Ring + Magic",
+    "Ring + Volcano"
+  ],
+  "Thermometer": [
+    "Quicksilver + Engineer",
+    "Quicksilver + Tool",
+    "Quicksilver + Glass"
+  ],
+  "Thread": [
+    "Cotton + Wheel",
+    "Cotton + Machine",
+    "Cotton + Cotton",
+    "Cotton + Tool"
+  ],
+  "Tide": [
+    "Ocean + Time",
+    "Sea + Time",
+    "Ocean + Moon",
+    "Sea + Moon"
+  ],
+  "Titanic": [
+    "Steamboat + Legend",
+    "Steamboat + Iceberg",
+    "Boat + Iceberg",
+    "Iceberg + Legend"
+  ],
+  "Toast": [
+    "Sandwich + Fire",
+    "Bread + Fire"
+  ],
+  "Tobacco": [
+    "Grass + Smoke",
+    "Plant + Smoke",
+    "Plant + Fire"
+  ],
+  "Tool": [
+    "Wood + Rock",
+    "Human + Rock",
+    "Wood + Steel",
+    "Human + Wood",
+    "Human + Steel",
+    "Wood + Metal",
+    "Wood + Stone",
+    "Human + Metal",
+    "Human + Stone"
+  ],
+  "Toolbox": [
+    "Ruler + Box",
+    "Steel wool + Box",
+    "Ruler + Container",
+    "Hammer + Box",
+    "Tool + Box",
+    "Chain + Box",
+    "Steel wool + Container",
+    "Hammer + Container",
+    "Tool + Container",
+    "Chain + Container",
+    "Tool + Safe"
+  ],
+  "Tornado": [
+    "Wind + Big",
+    "Storm + Motion",
+    "Wind + Motion",
+    "Storm + Storm",
+    "Storm + Wind",
+    "Wind + Wind"
+  ],
+  "Toucan": [
+    "Palm + Seagull",
+    "Palm + Pigeon",
+    "Palm + Owl",
+    "Bird + Palm",
+    "Bird + Double rainbow!",
+    "Bird + Rainbow"
+  ],
+  "Tractor": [
+    "Wagon + Cow",
+    "Wagon + Farmer",
+    "Wagon + Field",
+    "Car + Cow",
+    "Car + Farmer",
+    "Car + Field"
+  ],
+  "Train": [
+    "Steam engine + Wagon",
+    "Steam engine + Steel",
+    "Steam engine + Wheel",
+    "Steam engine + Metal"
+  ],
+  "Trainyard": [
+    "Train + Garage",
+    "Train + Container",
+    "Train + House",
+    "Train + Wall"
+  ],
+  "Treasure": [
+    "Treasure map + Pirate ship",
+    "Treasure map + Pirate",
+    "Treasure map + Sailor",
+    "Treasure map + Island"
+  ],
+  "Treasure map": [
+    "Map + Treasure",
+    "Map + Pirate ship",
+    "Map + Pirate",
+    "Map + Island"
+  ],
+  "Tree": [
+    "Plant + Time",
+    "Nest + Container",
+    "Plant + Wood",
+    "Plant + Big"
+  ],
+  "Treehouse": [
+    "Tree + Wood",
+    "Tree + House"
+  ],
+  "Trojan horse": [
+    "Horse + Wood",
+    "Horse + Statue",
+    "Horse + Machine"
+  ],
+  "Tsunami": [
+    "Ocean + Meteor",
+    "Sea + Meteor",
+    "Ocean + Explosion",
+    "Ocean + Earthquake",
+    "Sea + Explosion",
+    "Sea + Earthquake"
+  ],
+  "Tunnel": [
+    "Train + Hill",
+    "Engineer + Hill",
+    "Cave + Hill",
+    "Train + Mountain range",
+    "Train + Mountain",
+    "Engineer + Mountain range",
+    "Engineer + Mountain",
+    "Cave + Mountain range",
+    "Cave + Mountain"
+  ],
+  "Turtle": [
+    "Egg + Beach",
+    "Egg + Sand",
+    "Animal + Beach"
+  ],
+  "Twilight": [
+    "Day + Time",
+    "Day + Night"
+  ],
+  "Tyrannosaurus rex": [
+    "Dinosaur + Monarch",
+    "Dinosaur + Meat",
+    "Dinosaur + Blood"
+  ],
+  "Ufo": [
+    "Alien + Container",
+    "Alien + Airplane",
+    "Alien + Spaceship",
+    "Alien + Space station",
+    "Alien + Sky",
+    "Alien + Rocket"
+  ],
+  "Umbrella": [
+    "Storm + Fabric",
+    "Rain + Fabric",
+    "Storm + Tool",
+    "Rain + Tool"
+  ],
+  "Unicorn": [
+    "Horse + Legend",
+    "Horse + Story",
+    "Horse + Magic",
+    "Horse + Double rainbow!",
+    "Horse + Rainbow"
+  ],
+  "Universe": [
+    "Space + Container",
+    "Galaxy cluster + Container",
+    "Galaxy cluster + Galaxy cluster"
+  ],
+  "Vacuum cleaner": [
+    "Broom + Machine",
+    "Broom + Electricity"
+  ],
+  "Vampire": [
+    "Human + Bat",
+    "Human + Vampire",
+    "Human + Blood"
+  ],
+  "Vase": [
+    "Bottle + Rose",
+    "Bottle + Flower",
+    "Bottle + Plant",
+    "Container + Rose",
+    "Container + Flower",
+    "Pottery + Rose",
+    "Pottery + Flower",
+    "Pottery + Plant"
+  ],
+  "Vault": [
+    "Safe + Big"
+  ],
+  "Vegetable": [
+    "Farmer + Forest",
+    "Plant + Domestication",
+    "Farmer + Plant",
+    "Plant + Field",
+    "Farmer + Field"
+  ],
+  "Venus": [
+    "Planet + Smog",
+    "Planet + Acid rain",
+    "Planet + Volcano"
+  ],
+  "Village": [
+    "Bakery + Container",
+    "House + Bakery",
+    "House + Container",
+    "Family + Family",
+    "House + House"
+  ],
+  "Vine": [
+    "Rainforest + Thread",
+    "Rainforest + Rope",
+    "Rainforest + Wire"
+  ],
+  "Vinegar": [
+    "Wine + Time",
+    "Wine + Oxygen",
+    "Wine + Air"
+  ],
+  "Volcano": [
+    "Pressure + Hill",
+    "Lava + Hill",
+    "Fire + Hill",
+    "Lava + Container",
+    "Pressure + Mountain",
+    "Lava + Mountain",
+    "Fire + Mountain",
+    "Lava + Earth"
+  ],
+  "Vulture": [
+    "Corpse + Pigeon",
+    "Corpse + Penguin",
+    "Corpse + Owl",
+    "Corpse + Hummingbird",
+    "Corpse + Eagle",
+    "Corpse + Duck",
+    "Corpse + Chicken",
+    "Desert + Pigeon",
+    "Desert + Penguin",
+    "Desert + Owl",
+    "Desert + Hummingbird",
+    "Desert + Eagle",
+    "Desert + Duck",
+    "Corpse + Bird",
+    "Desert + Bird"
+  ],
+  "Wagon": [
+    "Cart + Fabric",
+    "Cart + Cow",
+    "Cart + Horse",
+    "Cart + House",
+    "Cart + Wall"
+  ],
+  "Wall": [
+    "Wood + Wood",
+    "Stone + Stone",
+    "Brick + Brick"
+  ],
+  "Wand": [
+    "Wizard + Pencil",
+    "Wizard + Wood",
+    "Wizard + Tool",
+    "Wizard + Sword"
+  ],
+  "Warmth": [
+    "Heat + Human",
+    "Heat + Air"
+  ],
+  "Warrior": [
+    "Human + Bow",
+    "Human + Sword"
+  ],
+  "Watch": [
+    "Clock + Small",
+    "Clock + Human"
+  ],
+  "Water": [
+    "Heat + Ice",
+    "Heat + Snow"
+  ],
+  "Water gun": [
+    "Gun + Stream",
+    "Gun + Puddle",
+    "Gun + Water"
+  ],
+  "Water lily": [
+    "Flower + Stream",
+    "Flower + Lake",
+    "Flower + Pond",
+    "Flower + Puddle"
+  ],
+  "Water pipe": [
+    "Water + Pipe"
+  ],
+  "Waterfall": [
+    "River + Hill",
+    "Lake + Hill",
+    "River + Mountain range",
+    "River + Mountain",
+    "Lake + Mountain range",
+    "Lake + Mountain"
+  ],
+  "Wave": [
+    "Ocean + Storm",
+    "Sea + Storm",
+    "Lake + Storm",
+    "Ocean + Hurricane",
+    "Sea + Hurricane",
+    "Lake + Hurricane",
+    "Ocean + Wind",
+    "Sea + Wind",
+    "Lake + Wind"
+  ],
+  "Wax": [
+    "Beehive + Beekeeper",
+    "Beehive + Bee",
+    "Beehive + Tool",
+    "Beehive + Sword",
+    "Beehive + Blade",
+    "Beehive + Wall"
+  ],
+  "Web": [
+    "Spider + Fabric",
+    "Spider + Thread",
+    "Spider + Net",
+    "Spider + Cotton"
+  ],
+  "Werewolf": [
+    "Human + Werewolf",
+    "Human + Wolf"
+  ],
+  "Wheat": [
+    "Grass + Farmer",
+    "Grass + Domestication",
+    "Grass + Field"
+  ],
+  "Wheel": [
+    "Motion + Steel",
+    "Tool + Stream",
+    "Motion + Tool",
+    "Motion + Metal",
+    "Motion + Stone",
+    "Tool + River",
+    "Tool + Water"
+  ],
+  "Wild boar": [
+    "Pig + Hill",
+    "Pig + Forest",
+    "Pig + Animal"
+  ],
+  "Wind": [
+    "Motion + Atmosphere",
+    "Motion + Air",
+    "Air + Pressure"
+  ],
+  "Wind turbine": [
+    "Windmill + Machine",
+    "Windmill + Electrician",
+    "Windmill + Electricity",
+    "Wind + Electricity"
+  ],
+  "Windmill": [
+    "Wind + Flour",
+    "Wind + Wheat",
+    "Wheel + Wall",
+    "Wind + Wheel",
+    "Wind + House"
+  ],
+  "Windsurfer": [
+    "Wind + Surfer"
+  ],
+  "Wine": [
+    "Alcohol + Juice",
+    "Alcohol + Fruit"
+  ],
+  "Wire": [
+    "Steel + Rope",
+    "Steel + Electricity",
+    "Electricity + Rope",
+    "Metal + Rope",
+    "Metal + Electricity"
+  ],
+  "Witch": [
+    "Broom + Legend",
+    "Broom + Cauldron",
+    "Broom + Story",
+    "Broom + Wizard",
+    "Broom + Magic",
+    "Broom + Human",
+    "Cauldron + Legend",
+    "Cauldron + Story"
+  ],
+  "Wizard": [
+    "Human + Unicorn",
+    "Human + Magic",
+    "Human + Double rainbow!",
+    "Human + Rainbow"
+  ],
+  "Wolf": [
+    "Dog + Forest",
+    "Dog + Blood",
+    "Animal + Dog",
+    "Animal + Moon"
+  ],
+  "Wood": [
+    "Forest + Chainsaw",
+    "Forest + Axe",
+    "Tree + Chainsaw",
+    "Tree + Axe",
+    "Forest + Lumberjack",
+    "Tree + Lumberjack",
+    "Forest + Tool",
+    "Forest + Sword",
+    "Tree + Tool",
+    "Tree + Sword"
+  ],
+  "Woodpecker": [
+    "Bird + Wood",
+    "Bird + Forest",
+    "Bird + Tree"
+  ],
+  "Wool": [
+    "Sheep + Tool",
+    "Sheep + Scissors",
+    "Sheep + Blade"
+  ],
+  "Wrapping paper": [
+    "Paper + Gift",
+    "Paper + Santa",
+    "Paper + Christmas stocking",
+    "Paper + Christmas tree"
+  ],
+  "Writer": [
+    "Human + Pencil",
+    "Human + Book"
+  ],
+  "Yeti": [
+    "Glacier + Legend",
+    "Antarctica + Legend",
+    "Mountain range + Legend",
+    "Mountain + Legend",
+    "Glacier + Story",
+    "Antarctica + Story",
+    "Mountain range + Story",
+    "Mountain + Story"
+  ],
+  "Yogurt": [
+    "Bacteria + Ice cream",
+    "Bacteria + Milk"
+  ],
+  "Zombie": [
+    "Corpse + Story",
+    "Human + Zombie",
+    "Corpse + Bacteria",
+    "Corpse + Life"
+  ],
+  "Zoo": [
+    "Animal + Container",
+    "Animal + Cage"
+  ]
+}
