@@ -1,0 +1,2878 @@
+{
+  "Acid rain": {
+    "svgPath": "/downloaded_images/tier_6/Acid_rain_2.svg",
+    "tier": 6
+  },
+  "Air": {
+    "svgPath": "/downloaded_images/tier_0/Air_2.svg",
+    "tier": 0
+  },
+  "Airplane": {
+    "svgPath": "/downloaded_images/tier_9/Airplane_2.svg",
+    "tier": 9
+  },
+  "Alarm clock": {
+    "svgPath": "/downloaded_images/tier_8/Alarm_clock_2.svg",
+    "tier": 8
+  },
+  "Alchemist": {
+    "svgPath": "/downloaded_images/tier_8/Alchemist_2.svg",
+    "tier": 8
+  },
+  "Alcohol": {
+    "svgPath": "/downloaded_images/tier_11/Alcohol_2.svg",
+    "tier": 11
+  },
+  "Algae": {
+    "svgPath": "/downloaded_images/tier_9/Algae_2.svg",
+    "tier": 9
+  },
+  "Alien": {
+    "svgPath": "/downloaded_images/tier_7/Alien_2.svg",
+    "tier": 7
+  },
+  "Allergy": {
+    "svgPath": "/downloaded_images/tier_8/Allergy_2.svg",
+    "tier": 8
+  },
+  "Alligator": {
+    "svgPath": "/downloaded_images/tier_9/Alligator_2.svg",
+    "tier": 9
+  },
+  "Alpaca": {
+    "svgPath": "/downloaded_images/tier_10/Alpaca_2.svg",
+    "tier": 10
+  },
+  "Ambulance": {
+    "svgPath": "/downloaded_images/tier_11/Ambulance_2.svg",
+    "tier": 11
+  },
+  "Angel": {
+    "svgPath": "/downloaded_images/tier_9/Angel_2.svg",
+    "tier": 9
+  },
+  "Angler": {
+    "svgPath": "/downloaded_images/tier_10/Angler_2.svg",
+    "tier": 10
+  },
+  "Animal": {
+    "svgPath": "/downloaded_images/tier_7/Animal_2.svg",
+    "tier": 7
+  },
+  "Ant": {
+    "svgPath": "/downloaded_images/tier_10/Ant_2.svg",
+    "tier": 10
+  },
+  "Ant farm": {
+    "svgPath": "/downloaded_images/tier_11/Ant_farm_2.svg",
+    "tier": 11
+  },
+  "Antarctica": {
+    "svgPath": "/downloaded_images/tier_8/Antarctica_2.svg",
+    "tier": 8
+  },
+  "Anthill": {
+    "svgPath": "/downloaded_images/tier_11/Anthill_2.svg",
+    "tier": 11
+  },
+  "Apron": {
+    "svgPath": "/downloaded_images/tier_12/Apron_2.svg",
+    "tier": 12
+  },
+  "Aquarium": {
+    "svgPath": "/downloaded_images/tier_5/Aquarium_2.svg",
+    "tier": 5
+  },
+  "Archeologist": {
+    "svgPath": "/downloaded_images/tier_8/Archeologist_2.svg",
+    "tier": 8
+  },
+  "Archipelago": {
+    "svgPath": "/downloaded_images/tier_6/Archipelago_2.svg",
+    "tier": 6
+  },
+  "Arctic": {
+    "svgPath": "/downloaded_images/tier_9/Arctic_2.svg",
+    "tier": 9
+  },
+  "Armadillo": {
+    "svgPath": "/downloaded_images/tier_13/Armadillo_2.svg",
+    "tier": 13
+  },
+  "Armor": {
+    "svgPath": "/downloaded_images/tier_12/Armor_2.svg",
+    "tier": 12
+  },
+  "Arrow": {
+    "svgPath": "/downloaded_images/tier_11/Arrow_2.svg",
+    "tier": 11
+  },
+  "Ash": {
+    "svgPath": "/downloaded_images/tier_9/Ash_2.svg",
+    "tier": 9
+  },
+  "Astronaut": {
+    "svgPath": "/downloaded_images/tier_8/Astronaut_2.svg",
+    "tier": 8
+  },
+  "Astronomer": {
+    "svgPath": "/downloaded_images/tier_8/Astronomer_2.svg",
+    "tier": 8
+  },
+  "Atmosphere": {
+    "svgPath": "/downloaded_images/tier_4/Atmosphere_2.svg",
+    "tier": 4
+  },
+  "Atomic bomb": {
+    "svgPath": "/downloaded_images/tier_4/Atomic_bomb_2.svg",
+    "tier": 4
+  },
+  "Aurora": {
+    "svgPath": "/downloaded_images/tier_5/Aurora_2.svg",
+    "tier": 5
+  },
+  "Avalanche": {
+    "svgPath": "/downloaded_images/tier_4/Avalanche_2.svg",
+    "tier": 4
+  },
+  "Aviary": {
+    "svgPath": "/downloaded_images/tier_11/Aviary_2.svg",
+    "tier": 11
+  },
+  "Axe": {
+    "svgPath": "/downloaded_images/tier_11/Axe_2.svg",
+    "tier": 11
+  },
+  "Bacon": {
+    "svgPath": "/downloaded_images/tier_9/Bacon_2.svg",
+    "tier": 9
+  },
+  "Bacteria": {
+    "svgPath": "/downloaded_images/tier_7/Bacteria_2.svg",
+    "tier": 7
+  },
+  "Baker": {
+    "svgPath": "/downloaded_images/tier_13/Baker_2.svg",
+    "tier": 13
+  },
+  "Bakery": {
+    "svgPath": "/downloaded_images/tier_14/Bakery_2.svg",
+    "tier": 14
+  },
+  "Banana": {
+    "svgPath": "/downloaded_images/tier_11/Banana_2.svg",
+    "tier": 11
+  },
+  "Banana bread": {
+    "svgPath": "/downloaded_images/tier_13/Banana_bread_2.svg",
+    "tier": 13
+  },
+  "Bandage": {
+    "svgPath": "/downloaded_images/tier_12/Bandage_2.svg",
+    "tier": 12
+  },
+  "Bank": {
+    "svgPath": "/downloaded_images/tier_5/Bank_2.svg",
+    "tier": 5
+  },
+  "Barn": {
+    "svgPath": "/downloaded_images/tier_6/Barn_2.svg",
+    "tier": 6
+  },
+  "Barrel": {
+    "svgPath": "/downloaded_images/tier_13/Barrel_2.svg",
+    "tier": 13
+  },
+  "Bat": {
+    "svgPath": "/downloaded_images/tier_13/Bat_2.svg",
+    "tier": 13
+  },
+  "Batter": {
+    "svgPath": "/downloaded_images/tier_12/Batter_2.svg",
+    "tier": 12
+  },
+  "Battery": {
+    "svgPath": "/downloaded_images/tier_10/Battery_2.svg",
+    "tier": 10
+  },
+  "Bayonet": {
+    "svgPath": "/downloaded_images/tier_6/Bayonet_2.svg",
+    "tier": 6
+  },
+  "Bbq": {
+    "svgPath": "/downloaded_images/tier_12/Bbq_2.svg",
+    "tier": 12
+  },
+  "Beach": {
+    "svgPath": "/downloaded_images/tier_4/Beach_2.svg",
+    "tier": 4
+  },
+  "Beaver": {
+    "svgPath": "/downloaded_images/tier_8/Beaver_2.svg",
+    "tier": 8
+  },
+  "Bee": {
+    "svgPath": "/downloaded_images/tier_10/Bee_2.svg",
+    "tier": 10
+  },
+  "Beehive": {
+    "svgPath": "/downloaded_images/tier_11/Beehive_2.svg",
+    "tier": 11
+  },
+  "Beekeeper": {
+    "svgPath": "/downloaded_images/tier_11/Beekeeper_2.svg",
+    "tier": 11
+  },
+  "Beer": {
+    "svgPath": "/downloaded_images/tier_12/Beer_2.svg",
+    "tier": 12
+  },
+  "Bell": {
+    "svgPath": "/downloaded_images/tier_6/Bell_2.svg",
+    "tier": 6
+  },
+  "Bicycle": {
+    "svgPath": "/downloaded_images/tier_10/Bicycle_2.svg",
+    "tier": 10
+  },
+  "Big": {
+    "svgPath": "/downloaded_images/tier_10/Big_2.svg",
+    "tier": 10
+  },
+  "Binoculars": {
+    "svgPath": "/downloaded_images/tier_6/Binoculars_2.svg",
+    "tier": 6
+  },
+  "Bird": {
+    "svgPath": "/downloaded_images/tier_8/Bird_2.svg",
+    "tier": 8
+  },
+  "Birdcage": {
+    "svgPath": "/downloaded_images/tier_9/Birdcage_2.svg",
+    "tier": 9
+  },
+  "Birdhouse": {
+    "svgPath": "/downloaded_images/tier_9/Birdhouse_2.svg",
+    "tier": 9
+  },
+  "Black hole": {
+    "svgPath": "/downloaded_images/tier_5/Black_hole_2.svg",
+    "tier": 5
+  },
+  "Blade": {
+    "svgPath": "/downloaded_images/tier_4/Blade_2.svg",
+    "tier": 4
+  },
+  "Blender": {
+    "svgPath": "/downloaded_images/tier_5/Blender_2.svg",
+    "tier": 5
+  },
+  "Blizzard": {
+    "svgPath": "/downloaded_images/tier_8/Blizzard_2.svg",
+    "tier": 8
+  },
+  "Blood": {
+    "svgPath": "/downloaded_images/tier_8/Blood_2.svg",
+    "tier": 8
+  },
+  "Blood bag": {
+    "svgPath": "/downloaded_images/tier_11/Blood_bag_2.svg",
+    "tier": 11
+  },
+  "Boat": {
+    "svgPath": "/downloaded_images/tier_11/Boat_2.svg",
+    "tier": 11
+  },
+  "Boiler": {
+    "svgPath": "/downloaded_images/tier_4/Boiler_2.svg",
+    "tier": 4
+  },
+  "Bone": {
+    "svgPath": "/downloaded_images/tier_9/Bone_2.svg",
+    "tier": 9
+  },
+  "Bonsai tree": {
+    "svgPath": "/downloaded_images/tier_10/Bonsai_tree_2.svg",
+    "tier": 10
+  },
+  "Book": {
+    "svgPath": "/downloaded_images/tier_11/Book_2.svg",
+    "tier": 11
+  },
+  "Bottle": {
+    "svgPath": "/downloaded_images/tier_11/Bottle_2.svg",
+    "tier": 11
+  },
+  "Boulder": {
+    "svgPath": "/downloaded_images/tier_11/Boulder_2.svg",
+    "tier": 11
+  },
+  "Bow": {
+    "svgPath": "/downloaded_images/tier_11/Bow_2.svg",
+    "tier": 11
+  },
+  "Box": {
+    "svgPath": "/downloaded_images/tier_12/Box_2.svg",
+    "tier": 12
+  },
+  "Bread": {
+    "svgPath": "/downloaded_images/tier_13/Bread_2.svg",
+    "tier": 13
+  },
+  "Brick": {
+    "svgPath": "/downloaded_images/tier_2/Brick_2.svg",
+    "tier": 2
+  },
+  "Bridge": {
+    "svgPath": "/downloaded_images/tier_5/Bridge_2.svg",
+    "tier": 5
+  },
+  "Broom": {
+    "svgPath": "/downloaded_images/tier_11/Broom_2.svg",
+    "tier": 11
+  },
+  "Bucket": {
+    "svgPath": "/downloaded_images/tier_11/Bucket_2.svg",
+    "tier": 11
+  },
+  "Bullet": {
+    "svgPath": "/downloaded_images/tier_4/Bullet_2.svg",
+    "tier": 4
+  },
+  "Bulletproof vest": {
+    "svgPath": "/downloaded_images/tier_13/Bulletproof_vest_2.svg",
+    "tier": 13
+  },
+  "Bus": {
+    "svgPath": "/downloaded_images/tier_11/Bus_2.svg",
+    "tier": 11
+  },
+  "Butcher": {
+    "svgPath": "/downloaded_images/tier_9/Butcher_2.svg",
+    "tier": 9
+  },
+  "Butter": {
+    "svgPath": "/downloaded_images/tier_11/Butter_2.svg",
+    "tier": 11
+  },
+  "Butterfly": {
+    "svgPath": "/downloaded_images/tier_8/Butterfly_2.svg",
+    "tier": 8
+  },
+  "Butterfly net": {
+    "svgPath": "/downloaded_images/tier_11/Butterfly_net_2.svg",
+    "tier": 11
+  },
+  "Cable car": {
+    "svgPath": "/downloaded_images/tier_8/Cable_car_2.svg",
+    "tier": 8
+  },
+  "Cactus": {
+    "svgPath": "/downloaded_images/tier_9/Cactus_2.svg",
+    "tier": 9
+  },
+  "Cage": {
+    "svgPath": "/downloaded_images/tier_9/Cage_2.svg",
+    "tier": 9
+  },
+  "Cake": {
+    "svgPath": "/downloaded_images/tier_14/Cake_2.svg",
+    "tier": 14
+  },
+  "Camel": {
+    "svgPath": "/downloaded_images/tier_8/Camel_2.svg",
+    "tier": 8
+  },
+  "Campfire": {
+    "svgPath": "/downloaded_images/tier_11/Campfire_2.svg",
+    "tier": 11
+  },
+  "Candle": {
+    "svgPath": "/downloaded_images/tier_13/Candle_2.svg",
+    "tier": 13
+  },
+  "Candy cane": {
+    "svgPath": "/downloaded_images/tier_12/Candy_cane_2.svg",
+    "tier": 12
+  },
+  "Cannon": {
+    "svgPath": "/downloaded_images/tier_10/Cannon_2.svg",
+    "tier": 10
+  },
+  "Canvas": {
+    "svgPath": "/downloaded_images/tier_12/Canvas_2.svg",
+    "tier": 12
+  },
+  "Car": {
+    "svgPath": "/downloaded_images/tier_10/Car_2.svg",
+    "tier": 10
+  },
+  "Caramel": {
+    "svgPath": "/downloaded_images/tier_12/Caramel_2.svg",
+    "tier": 12
+  },
+  "Carbon dioxide": {
+    "svgPath": "/downloaded_images/tier_9/Carbon_dioxide_2.svg",
+    "tier": 9
+  },
+  "Carrot": {
+    "svgPath": "/downloaded_images/tier_9/Carrot_2.svg",
+    "tier": 9
+  },
+  "Cart": {
+    "svgPath": "/downloaded_images/tier_11/Cart_2.svg",
+    "tier": 11
+  },
+  "Cashmere": {
+    "svgPath": "/downloaded_images/tier_11/Cashmere_2.svg",
+    "tier": 11
+  },
+  "Castle": {
+    "svgPath": "/downloaded_images/tier_9/Castle_2.svg",
+    "tier": 9
+  },
+  "Cat": {
+    "svgPath": "/downloaded_images/tier_8/Cat_2.svg",
+    "tier": 8
+  },
+  "Catnip": {
+    "svgPath": "/downloaded_images/tier_9/Catnip_2.svg",
+    "tier": 9
+  },
+  "Cauldron": {
+    "svgPath": "/downloaded_images/tier_10/Cauldron_2.svg",
+    "tier": 10
+  },
+  "Cave": {
+    "svgPath": "/downloaded_images/tier_9/Cave_2.svg",
+    "tier": 9
+  },
+  "Caviar": {
+    "svgPath": "/downloaded_images/tier_10/Caviar_2.svg",
+    "tier": 10
+  },
+  "Centaur": {
+    "svgPath": "/downloaded_images/tier_9/Centaur_2.svg",
+    "tier": 9
+  },
+  "Cereal": {
+    "svgPath": "/downloaded_images/tier_11/Cereal_2.svg",
+    "tier": 11
+  },
+  "Chain": {
+    "svgPath": "/downloaded_images/tier_8/Chain_2.svg",
+    "tier": 8
+  },
+  "Chainsaw": {
+    "svgPath": "/downloaded_images/tier_11/Chainsaw_2.svg",
+    "tier": 11
+  },
+  "Chameleon": {
+    "svgPath": "/downloaded_images/tier_9/Chameleon_2.svg",
+    "tier": 9
+  },
+  "Charcoal": {
+    "svgPath": "/downloaded_images/tier_9/Charcoal_2.svg",
+    "tier": 9
+  },
+  "Cheese": {
+    "svgPath": "/downloaded_images/tier_11/Cheese_2.svg",
+    "tier": 11
+  },
+  "Cheeseburger": {
+    "svgPath": "/downloaded_images/tier_13/Cheeseburger_2.svg",
+    "tier": 13
+  },
+  "Chicken": {
+    "svgPath": "/downloaded_images/tier_9/Chicken_2.svg",
+    "tier": 9
+  },
+  "Chicken coop": {
+    "svgPath": "/downloaded_images/tier_10/Chicken_coop_2.svg",
+    "tier": 10
+  },
+  "Chicken soup": {
+    "svgPath": "/downloaded_images/tier_10/Chicken_soup_2.svg",
+    "tier": 10
+  },
+  "Chicken wing": {
+    "svgPath": "/downloaded_images/tier_10/Chicken_wing_2.svg",
+    "tier": 10
+  },
+  "Chill": {
+    "svgPath": "/downloaded_images/tier_9/Chill_2.svg",
+    "tier": 9
+  },
+  "Chimney": {
+    "svgPath": "/downloaded_images/tier_3/Chimney_2.svg",
+    "tier": 3
+  },
+  "Chocolate": {
+    "svgPath": "/downloaded_images/tier_12/Chocolate_2.svg",
+    "tier": 12
+  },
+  "Chocolate milk": {
+    "svgPath": "/downloaded_images/tier_13/Chocolate_milk_2.svg",
+    "tier": 13
+  },
+  "Christmas stocking": {
+    "svgPath": "/downloaded_images/tier_11/Christmas_stocking_2.svg",
+    "tier": 11
+  },
+  "Christmas tree": {
+    "svgPath": "/downloaded_images/tier_10/Christmas_tree_2.svg",
+    "tier": 10
+  },
+  "Cigarette": {
+    "svgPath": "/downloaded_images/tier_12/Cigarette_2.svg",
+    "tier": 12
+  },
+  "Circus": {
+    "svgPath": "/downloaded_images/tier_13/Circus_2.svg",
+    "tier": 13
+  },
+  "City": {
+    "svgPath": "/downloaded_images/tier_6/City_2.svg",
+    "tier": 6
+  },
+  "Clay": {
+    "svgPath": "/downloaded_images/tier_3/Clay_2.svg",
+    "tier": 3
+  },
+  "Clock": {
+    "svgPath": "/downloaded_images/tier_7/Clock_2.svg",
+    "tier": 7
+  },
+  "Closet": {
+    "svgPath": "/downloaded_images/tier_11/Closet_2.svg",
+    "tier": 11
+  },
+  "Cloud": {
+    "svgPath": "/downloaded_images/tier_5/Cloud_2.svg",
+    "tier": 5
+  },
+  "Coal": {
+    "svgPath": "/downloaded_images/tier_9/Coal_2.svg",
+    "tier": 9
+  },
+  "Coconut": {
+    "svgPath": "/downloaded_images/tier_10/Coconut_2.svg",
+    "tier": 10
+  },
+  "Coconut milk": {
+    "svgPath": "/downloaded_images/tier_11/Coconut_milk_2.svg",
+    "tier": 11
+  },
+  "Coffin": {
+    "svgPath": "/downloaded_images/tier_11/Coffin_2.svg",
+    "tier": 11
+  },
+  "Cold": {
+    "svgPath": "/downloaded_images/tier_8/Cold_2.svg",
+    "tier": 8
+  },
+  "Combustion engine": {
+    "svgPath": "/downloaded_images/tier_10/Combustion_engine_2.svg",
+    "tier": 10
+  },
+  "Computer": {
+    "svgPath": "/downloaded_images/tier_9/Computer_2.svg",
+    "tier": 9
+  },
+  "Computer mouse": {
+    "svgPath": "/downloaded_images/tier_10/Computer_mouse_2.svg",
+    "tier": 10
+  },
+  "Confetti": {
+    "svgPath": "/downloaded_images/tier_12/Confetti_2.svg",
+    "tier": 12
+  },
+  "Constellation": {
+    "svgPath": "/downloaded_images/tier_8/Constellation_2.svg",
+    "tier": 8
+  },
+  "Container": {
+    "svgPath": "/downloaded_images/tier_10/Container_2.svg",
+    "tier": 10
+  },
+  "Continent": {
+    "svgPath": "/downloaded_images/tier_2/Continent_2.svg",
+    "tier": 2
+  },
+  "Cook": {
+    "svgPath": "/downloaded_images/tier_10/Cook_2.svg",
+    "tier": 10
+  },
+  "Cookbook": {
+    "svgPath": "/downloaded_images/tier_12/Cookbook_2.svg",
+    "tier": 12
+  },
+  "Cookie": {
+    "svgPath": "/downloaded_images/tier_14/Cookie_2.svg",
+    "tier": 14
+  },
+  "Cookie cutter": {
+    "svgPath": "/downloaded_images/tier_13/Cookie_cutter_2.svg",
+    "tier": 13
+  },
+  "Cookie dough": {
+    "svgPath": "/downloaded_images/tier_13/Cookie_dough_2.svg",
+    "tier": 13
+  },
+  "Coral": {
+    "svgPath": "/downloaded_images/tier_10/Coral_2.svg",
+    "tier": 10
+  },
+  "Corpse": {
+    "svgPath": "/downloaded_images/tier_8/Corpse_2.svg",
+    "tier": 8
+  },
+  "Cotton": {
+    "svgPath": "/downloaded_images/tier_9/Cotton_2.svg",
+    "tier": 9
+  },
+  "Cotton candy": {
+    "svgPath": "/downloaded_images/tier_12/Cotton_candy_2.svg",
+    "tier": 12
+  },
+  "Cow": {
+    "svgPath": "/downloaded_images/tier_9/Cow_2.svg",
+    "tier": 9
+  },
+  "Crayon": {
+    "svgPath": "/downloaded_images/tier_12/Crayon_2.svg",
+    "tier": 12
+  },
+  "Crow": {
+    "svgPath": "/downloaded_images/tier_9/Crow_2.svg",
+    "tier": 9
+  },
+  "Crystal ball": {
+    "svgPath": "/downloaded_images/tier_8/Crystal_ball_2.svg",
+    "tier": 8
+  },
+  "Cuckoo": {
+    "svgPath": "/downloaded_images/tier_9/Cuckoo_2.svg",
+    "tier": 9
+  },
+  "Cup": {
+    "svgPath": "/downloaded_images/tier_12/Cup_2.svg",
+    "tier": 12
+  },
+  "Current": {
+    "svgPath": "/downloaded_images/tier_5/Current_2.svg",
+    "tier": 5
+  },
+  "Cutting board": {
+    "svgPath": "/downloaded_images/tier_11/Cutting_board_2.svg",
+    "tier": 11
+  },
+  "Cyborg": {
+    "svgPath": "/downloaded_images/tier_8/Cyborg_2.svg",
+    "tier": 8
+  },
+  "Cyclist": {
+    "svgPath": "/downloaded_images/tier_10/Cyclist_2.svg",
+    "tier": 10
+  },
+  "Dam": {
+    "svgPath": "/downloaded_images/tier_4/Dam_2.svg",
+    "tier": 4
+  },
+  "Darkness": {
+    "svgPath": "/downloaded_images/tier_7/Darkness_2.svg",
+    "tier": 7
+  },
+  "Dawn": {
+    "svgPath": "/downloaded_images/tier_7/Dawn_2.svg",
+    "tier": 7
+  },
+  "Day": {
+    "svgPath": "/downloaded_images/tier_6/Day_2.svg",
+    "tier": 6
+  },
+  "Death": {
+    "svgPath": "/downloaded_images/tier_7/Death_2.svg",
+    "tier": 7
+  },
+  "Desert": {
+    "svgPath": "/downloaded_images/tier_4/Desert_2.svg",
+    "tier": 4
+  },
+  "Dew": {
+    "svgPath": "/downloaded_images/tier_8/Dew_2.svg",
+    "tier": 8
+  },
+  "Diamond": {
+    "svgPath": "/downloaded_images/tier_10/Diamond_2.svg",
+    "tier": 10
+  },
+  "Dinosaur": {
+    "svgPath": "/downloaded_images/tier_9/Dinosaur_2.svg",
+    "tier": 9
+  },
+  "Diver": {
+    "svgPath": "/downloaded_images/tier_12/Diver_2.svg",
+    "tier": 12
+  },
+  "Doctor": {
+    "svgPath": "/downloaded_images/tier_10/Doctor_2.svg",
+    "tier": 10
+  },
+  "Dog": {
+    "svgPath": "/downloaded_images/tier_9/Dog_2.svg",
+    "tier": 9
+  },
+  "Doge": {
+    "svgPath": "/downloaded_images/tier_10/Doge_2.svg",
+    "tier": 10
+  },
+  "Doghouse": {
+    "svgPath": "/downloaded_images/tier_10/Doghouse_2.svg",
+    "tier": 10
+  },
+  "Domestication": {
+    "svgPath": "/downloaded_images/tier_8/Domestication_2.svg",
+    "tier": 8
+  },
+  "Don quixote": {
+    "svgPath": "/downloaded_images/tier_9/Don_quixote_2.svg",
+    "tier": 9
+  },
+  "Donut": {
+    "svgPath": "/downloaded_images/tier_13/Donut_2.svg",
+    "tier": 13
+  },
+  "Double rainbow!": {
+    "svgPath": "/downloaded_images/tier_6/Double_rainbow!_2.svg",
+    "tier": 6
+  },
+  "Dough": {
+    "svgPath": "/downloaded_images/tier_12/Dough_2.svg",
+    "tier": 12
+  },
+  "Dragon": {
+    "svgPath": "/downloaded_images/tier_9/Dragon_2.svg",
+    "tier": 9
+  },
+  "Drone": {
+    "svgPath": "/downloaded_images/tier_10/Drone_2.svg",
+    "tier": 10
+  },
+  "Drum": {
+    "svgPath": "/downloaded_images/tier_11/Drum_2.svg",
+    "tier": 11
+  },
+  "Drunk": {
+    "svgPath": "/downloaded_images/tier_12/Drunk_2.svg",
+    "tier": 12
+  },
+  "Dry ice": {
+    "svgPath": "/downloaded_images/tier_10/Dry_ice_2.svg",
+    "tier": 10
+  },
+  "Duck": {
+    "svgPath": "/downloaded_images/tier_9/Duck_2.svg",
+    "tier": 9
+  },
+  "Duckling": {
+    "svgPath": "/downloaded_images/tier_10/Duckling_2.svg",
+    "tier": 10
+  },
+  "Dune": {
+    "svgPath": "/downloaded_images/tier_4/Dune_2.svg",
+    "tier": 4
+  },
+  "Dust": {
+    "svgPath": "/downloaded_images/tier_1/Dust_2.svg",
+    "tier": 1
+  },
+  "Dynamite": {
+    "svgPath": "/downloaded_images/tier_8/Dynamite_2.svg",
+    "tier": 8
+  },
+  "Eagle": {
+    "svgPath": "/downloaded_images/tier_9/Eagle_2.svg",
+    "tier": 9
+  },
+  "Earth": {
+    "svgPath": "/downloaded_images/tier_0/Earth_2.svg",
+    "tier": 0
+  },
+  "Earthquake": {
+    "svgPath": "/downloaded_images/tier_2/Earthquake_2.svg",
+    "tier": 2
+  },
+  "Eclipse": {
+    "svgPath": "/downloaded_images/tier_5/Eclipse_2.svg",
+    "tier": 5
+  },
+  "Egg": {
+    "svgPath": "/downloaded_images/tier_8/Egg_2.svg",
+    "tier": 8
+  },
+  "Egg timer": {
+    "svgPath": "/downloaded_images/tier_9/Egg_timer_2.svg",
+    "tier": 9
+  },
+  "Electric car": {
+    "svgPath": "/downloaded_images/tier_11/Electric_car_2.svg",
+    "tier": 11
+  },
+  "Electric eel": {
+    "svgPath": "/downloaded_images/tier_9/Electric_eel_2.svg",
+    "tier": 9
+  },
+  "Electrician": {
+    "svgPath": "/downloaded_images/tier_8/Electrician_2.svg",
+    "tier": 8
+  },
+  "Electricity": {
+    "svgPath": "/downloaded_images/tier_6/Electricity_2.svg",
+    "tier": 6
+  },
+  "Email": {
+    "svgPath": "/downloaded_images/tier_13/Email_2.svg",
+    "tier": 13
+  },
+  "Energy": {
+    "svgPath": "/downloaded_images/tier_1/Energy_2.svg",
+    "tier": 1
+  },
+  "Engineer": {
+    "svgPath": "/downloaded_images/tier_10/Engineer_2.svg",
+    "tier": 10
+  },
+  "Eruption": {
+    "svgPath": "/downloaded_images/tier_2/Eruption_2.svg",
+    "tier": 2
+  },
+  "Excalibur": {
+    "svgPath": "/downloaded_images/tier_6/Excalibur_2.svg",
+    "tier": 6
+  },
+  "Excavator": {
+    "svgPath": "/downloaded_images/tier_12/Excavator_2.svg",
+    "tier": 12
+  },
+  "Explosion": {
+    "svgPath": "/downloaded_images/tier_3/Explosion_2.svg",
+    "tier": 3
+  },
+  "Fabric": {
+    "svgPath": "/downloaded_images/tier_11/Fabric_2.svg",
+    "tier": 11
+  },
+  "Factory": {
+    "svgPath": "/downloaded_images/tier_5/Factory_2.svg",
+    "tier": 5
+  },
+  "Fairy tale": {
+    "svgPath": "/downloaded_images/tier_10/Fairy_tale_2.svg",
+    "tier": 10
+  },
+  "Family": {
+    "svgPath": "/downloaded_images/tier_8/Family_2.svg",
+    "tier": 8
+  },
+  "Family tree": {
+    "svgPath": "/downloaded_images/tier_9/Family_tree_2.svg",
+    "tier": 9
+  },
+  "Farm": {
+    "svgPath": "/downloaded_images/tier_7/Farm_2.svg",
+    "tier": 7
+  },
+  "Farmer": {
+    "svgPath": "/downloaded_images/tier_8/Farmer_2.svg",
+    "tier": 8
+  },
+  "Faun": {
+    "svgPath": "/downloaded_images/tier_10/Faun_2.svg",
+    "tier": 10
+  },
+  "Fence": {
+    "svgPath": "/downloaded_images/tier_6/Fence_2.svg",
+    "tier": 6
+  },
+  "Field": {
+    "svgPath": "/downloaded_images/tier_5/Field_2.svg",
+    "tier": 5
+  },
+  "Fire": {
+    "svgPath": "/downloaded_images/tier_0/Fire_2.svg",
+    "tier": 0
+  },
+  "Fire extinguisher": {
+    "svgPath": "/downloaded_images/tier_10/Fire_extinguisher_2.svg",
+    "tier": 10
+  },
+  "Firefighter": {
+    "svgPath": "/downloaded_images/tier_8/Firefighter_2.svg",
+    "tier": 8
+  },
+  "Fireplace": {
+    "svgPath": "/downloaded_images/tier_11/Fireplace_2.svg",
+    "tier": 11
+  },
+  "Firestation": {
+    "svgPath": "/downloaded_images/tier_9/Firestation_2.svg",
+    "tier": 9
+  },
+  "Firetruck": {
+    "svgPath": "/downloaded_images/tier_11/Firetruck_2.svg",
+    "tier": 11
+  },
+  "Firewall": {
+    "svgPath": "/downloaded_images/tier_4/Firewall_2.svg",
+    "tier": 4
+  },
+  "Fireworks": {
+    "svgPath": "/downloaded_images/tier_5/Fireworks_2.svg",
+    "tier": 5
+  },
+  "Fish": {
+    "svgPath": "/downloaded_images/tier_8/Fish_2.svg",
+    "tier": 8
+  },
+  "Fishing rod": {
+    "svgPath": "/downloaded_images/tier_9/Fishing_rod_2.svg",
+    "tier": 9
+  },
+  "Flamethrower": {
+    "svgPath": "/downloaded_images/tier_6/Flamethrower_2.svg",
+    "tier": 6
+  },
+  "Flashlight": {
+    "svgPath": "/downloaded_images/tier_9/Flashlight_2.svg",
+    "tier": 9
+  },
+  "Flood": {
+    "svgPath": "/downloaded_images/tier_5/Flood_2.svg",
+    "tier": 5
+  },
+  "Flour": {
+    "svgPath": "/downloaded_images/tier_11/Flour_2.svg",
+    "tier": 11
+  },
+  "Flower": {
+    "svgPath": "/downloaded_images/tier_9/Flower_2.svg",
+    "tier": 9
+  },
+  "Flute": {
+    "svgPath": "/downloaded_images/tier_11/Flute_2.svg",
+    "tier": 11
+  },
+  "Flying fish": {
+    "svgPath": "/downloaded_images/tier_9/Flying_fish_2.svg",
+    "tier": 9
+  },
+  "Flying squirrel": {
+    "svgPath": "/downloaded_images/tier_12/Flying_squirrel_2.svg",
+    "tier": 12
+  },
+  "Fog": {
+    "svgPath": "/downloaded_images/tier_6/Fog_2.svg",
+    "tier": 6
+  },
+  "Force knight": {
+    "svgPath": "/downloaded_images/tier_8/Force_knight_2.svg",
+    "tier": 8
+  },
+  "Forest": {
+    "svgPath": "/downloaded_images/tier_10/Forest_2.svg",
+    "tier": 10
+  },
+  "Fork": {
+    "svgPath": "/downloaded_images/tier_12/Fork_2.svg",
+    "tier": 12
+  },
+  "Fortune cookie": {
+    "svgPath": "/downloaded_images/tier_14/Fortune_cookie_2.svg",
+    "tier": 14
+  },
+  "Fossil": {
+    "svgPath": "/downloaded_images/tier_9/Fossil_2.svg",
+    "tier": 9
+  },
+  "Fountain": {
+    "svgPath": "/downloaded_images/tier_11/Fountain_2.svg",
+    "tier": 11
+  },
+  "Fox": {
+    "svgPath": "/downloaded_images/tier_10/Fox_2.svg",
+    "tier": 10
+  },
+  "Frankenstein's monster": {
+    "svgPath": "/downloaded_images/tier_9/Frankenstein's_monster_2.svg",
+    "tier": 9
+  },
+  "French fries": {
+    "svgPath": "/downloaded_images/tier_11/French_fries_2.svg",
+    "tier": 11
+  },
+  "Fridge": {
+    "svgPath": "/downloaded_images/tier_9/Fridge_2.svg",
+    "tier": 9
+  },
+  "Frog": {
+    "svgPath": "/downloaded_images/tier_8/Frog_2.svg",
+    "tier": 8
+  },
+  "Frozen yogurt": {
+    "svgPath": "/downloaded_images/tier_12/Frozen_yogurt_2.svg",
+    "tier": 12
+  },
+  "Fruit": {
+    "svgPath": "/downloaded_images/tier_10/Fruit_2.svg",
+    "tier": 10
+  },
+  "Fruit tree": {
+    "svgPath": "/downloaded_images/tier_11/Fruit_tree_2.svg",
+    "tier": 11
+  },
+  "Galaxy": {
+    "svgPath": "/downloaded_images/tier_5/Galaxy_2.svg",
+    "tier": 5
+  },
+  "Galaxy cluster": {
+    "svgPath": "/downloaded_images/tier_6/Galaxy_cluster_2.svg",
+    "tier": 6
+  },
+  "Garage": {
+    "svgPath": "/downloaded_images/tier_11/Garage_2.svg",
+    "tier": 11
+  },
+  "Garden": {
+    "svgPath": "/downloaded_images/tier_9/Garden_2.svg",
+    "tier": 9
+  },
+  "Gardener": {
+    "svgPath": "/downloaded_images/tier_10/Gardener_2.svg",
+    "tier": 10
+  },
+  "Gas": {
+    "svgPath": "/downloaded_images/tier_9/Gas_2.svg",
+    "tier": 9
+  },
+  "Geyser": {
+    "svgPath": "/downloaded_images/tier_2/Geyser_2.svg",
+    "tier": 2
+  },
+  "Ghost": {
+    "svgPath": "/downloaded_images/tier_9/Ghost_2.svg",
+    "tier": 9
+  },
+  "Gift": {
+    "svgPath": "/downloaded_images/tier_12/Gift_2.svg",
+    "tier": 12
+  },
+  "Gingerbread house": {
+    "svgPath": "/downloaded_images/tier_13/Gingerbread_house_2.svg",
+    "tier": 13
+  },
+  "Gingerbread man": {
+    "svgPath": "/downloaded_images/tier_13/Gingerbread_man_2.svg",
+    "tier": 13
+  },
+  "Glacier": {
+    "svgPath": "/downloaded_images/tier_8/Glacier_2.svg",
+    "tier": 8
+  },
+  "Glass": {
+    "svgPath": "/downloaded_images/tier_4/Glass_2.svg",
+    "tier": 4
+  },
+  "Glasses": {
+    "svgPath": "/downloaded_images/tier_5/Glasses_2.svg",
+    "tier": 5
+  },
+  "Gnome": {
+    "svgPath": "/downloaded_images/tier_10/Gnome_2.svg",
+    "tier": 10
+  },
+  "Goat": {
+    "svgPath": "/downloaded_images/tier_9/Goat_2.svg",
+    "tier": 9
+  },
+  "Gold": {
+    "svgPath": "/downloaded_images/tier_4/Gold_2.svg",
+    "tier": 4
+  },
+  "Golem": {
+    "svgPath": "/downloaded_images/tier_10/Golem_2.svg",
+    "tier": 10
+  },
+  "Granite": {
+    "svgPath": "/downloaded_images/tier_2/Granite_2.svg",
+    "tier": 2
+  },
+  "Grass": {
+    "svgPath": "/downloaded_images/tier_9/Grass_2.svg",
+    "tier": 9
+  },
+  "Grave": {
+    "svgPath": "/downloaded_images/tier_9/Grave_2.svg",
+    "tier": 9
+  },
+  "Gravestone": {
+    "svgPath": "/downloaded_images/tier_8/Gravestone_2.svg",
+    "tier": 8
+  },
+  "Graveyard": {
+    "svgPath": "/downloaded_images/tier_9/Graveyard_2.svg",
+    "tier": 9
+  },
+  "Greenhouse": {
+    "svgPath": "/downloaded_images/tier_9/Greenhouse_2.svg",
+    "tier": 9
+  },
+  "Grenade": {
+    "svgPath": "/downloaded_images/tier_4/Grenade_2.svg",
+    "tier": 4
+  },
+  "Grilled cheese": {
+    "svgPath": "/downloaded_images/tier_15/Grilled_cheese_2.svg",
+    "tier": 15
+  },
+  "Grim reaper": {
+    "svgPath": "/downloaded_images/tier_11/Grim_reaper_2.svg",
+    "tier": 11
+  },
+  "Gun": {
+    "svgPath": "/downloaded_images/tier_5/Gun_2.svg",
+    "tier": 5
+  },
+  "Gunpowder": {
+    "svgPath": "/downloaded_images/tier_2/Gunpowder_2.svg",
+    "tier": 2
+  },
+  "Gust": {
+    "svgPath": "/downloaded_images/tier_11/Gust_2.svg",
+    "tier": 11
+  },
+  "Hacker": {
+    "svgPath": "/downloaded_images/tier_8/Hacker_2.svg",
+    "tier": 8
+  },
+  "Hail": {
+    "svgPath": "/downloaded_images/tier_10/Hail_2.svg",
+    "tier": 10
+  },
+  "Ham": {
+    "svgPath": "/downloaded_images/tier_9/Ham_2.svg",
+    "tier": 9
+  },
+  "Hamburger": {
+    "svgPath": "/downloaded_images/tier_12/Hamburger_2.svg",
+    "tier": 12
+  },
+  "Hammer": {
+    "svgPath": "/downloaded_images/tier_9/Hammer_2.svg",
+    "tier": 9
+  },
+  "Hamster": {
+    "svgPath": "/downloaded_images/tier_12/Hamster_2.svg",
+    "tier": 12
+  },
+  "Hangar": {
+    "svgPath": "/downloaded_images/tier_6/Hangar_2.svg",
+    "tier": 6
+  },
+  "Harp": {
+    "svgPath": "/downloaded_images/tier_10/Harp_2.svg",
+    "tier": 10
+  },
+  "Hay": {
+    "svgPath": "/downloaded_images/tier_10/Hay_2.svg",
+    "tier": 10
+  },
+  "Hay bale": {
+    "svgPath": "/downloaded_images/tier_11/Hay_bale_2.svg",
+    "tier": 11
+  },
+  "Heat": {
+    "svgPath": "/downloaded_images/tier_2/Heat_2.svg",
+    "tier": 2
+  },
+  "Hedge": {
+    "svgPath": "/downloaded_images/tier_9/Hedge_2.svg",
+    "tier": 9
+  },
+  "Hedgehog": {
+    "svgPath": "/downloaded_images/tier_12/Hedgehog_2.svg",
+    "tier": 12
+  },
+  "Helicopter": {
+    "svgPath": "/downloaded_images/tier_10/Helicopter_2.svg",
+    "tier": 10
+  },
+  "Hero": {
+    "svgPath": "/downloaded_images/tier_8/Hero_2.svg",
+    "tier": 8
+  },
+  "Hill": {
+    "svgPath": "/downloaded_images/tier_11/Hill_2.svg",
+    "tier": 11
+  },
+  "Hippo": {
+    "svgPath": "/downloaded_images/tier_9/Hippo_2.svg",
+    "tier": 9
+  },
+  "Honey": {
+    "svgPath": "/downloaded_images/tier_11/Honey_2.svg",
+    "tier": 11
+  },
+  "Horizon": {
+    "svgPath": "/downloaded_images/tier_6/Horizon_2.svg",
+    "tier": 6
+  },
+  "Horse": {
+    "svgPath": "/downloaded_images/tier_8/Horse_2.svg",
+    "tier": 8
+  },
+  "Horseshoe": {
+    "svgPath": "/downloaded_images/tier_9/Horseshoe_2.svg",
+    "tier": 9
+  },
+  "Hospital": {
+    "svgPath": "/downloaded_images/tier_9/Hospital_2.svg",
+    "tier": 9
+  },
+  "Hot chocolate": {
+    "svgPath": "/downloaded_images/tier_13/Hot_chocolate_2.svg",
+    "tier": 13
+  },
+  "Hourglass": {
+    "svgPath": "/downloaded_images/tier_5/Hourglass_2.svg",
+    "tier": 5
+  },
+  "House": {
+    "svgPath": "/downloaded_images/tier_4/House_2.svg",
+    "tier": 4
+  },
+  "Human": {
+    "svgPath": "/downloaded_images/tier_7/Human_2.svg",
+    "tier": 7
+  },
+  "Hummingbird": {
+    "svgPath": "/downloaded_images/tier_9/Hummingbird_2.svg",
+    "tier": 9
+  },
+  "Hurricane": {
+    "svgPath": "/downloaded_images/tier_5/Hurricane_2.svg",
+    "tier": 5
+  },
+  "Husky": {
+    "svgPath": "/downloaded_images/tier_10/Husky_2.svg",
+    "tier": 10
+  },
+  "Ice": {
+    "svgPath": "/downloaded_images/tier_9/Ice_2.svg",
+    "tier": 9
+  },
+  "Ice cream": {
+    "svgPath": "/downloaded_images/tier_11/Ice_cream_2.svg",
+    "tier": 11
+  },
+  "Ice cream truck": {
+    "svgPath": "/downloaded_images/tier_12/Ice_cream_truck_2.svg",
+    "tier": 12
+  },
+  "Ice sculpture": {
+    "svgPath": "/downloaded_images/tier_11/Ice_sculpture_2.svg",
+    "tier": 11
+  },
+  "Iceberg": {
+    "svgPath": "/downloaded_images/tier_9/Iceberg_2.svg",
+    "tier": 9
+  },
+  "Iced tea": {
+    "svgPath": "/downloaded_images/tier_12/Iced_tea_2.svg",
+    "tier": 12
+  },
+  "Idea": {
+    "svgPath": "/downloaded_images/tier_8/Idea_2.svg",
+    "tier": 8
+  },
+  "Igloo": {
+    "svgPath": "/downloaded_images/tier_8/Igloo_2.svg",
+    "tier": 8
+  },
+  "Internet": {
+    "svgPath": "/downloaded_images/tier_10/Internet_2.svg",
+    "tier": 10
+  },
+  "Island": {
+    "svgPath": "/downloaded_images/tier_5/Island_2.svg",
+    "tier": 5
+  },
+  "Ivy": {
+    "svgPath": "/downloaded_images/tier_9/Ivy_2.svg",
+    "tier": 9
+  },
+  "Jack-o'-lantern": {
+    "svgPath": "/downloaded_images/tier_10/Jack-o'-lantern_2.svg",
+    "tier": 10
+  },
+  "Jam": {
+    "svgPath": "/downloaded_images/tier_11/Jam_2.svg",
+    "tier": 11
+  },
+  "Jar": {
+    "svgPath": "/downloaded_images/tier_12/Jar_2.svg",
+    "tier": 12
+  },
+  "Jerky": {
+    "svgPath": "/downloaded_images/tier_9/Jerky_2.svg",
+    "tier": 9
+  },
+  "Juice": {
+    "svgPath": "/downloaded_images/tier_10/Juice_2.svg",
+    "tier": 10
+  },
+  "Jupiter": {
+    "svgPath": "/downloaded_images/tier_6/Jupiter_2.svg",
+    "tier": 6
+  },
+  "Kaiju": {
+    "svgPath": "/downloaded_images/tier_10/Kaiju_2.svg",
+    "tier": 10
+  },
+  "Katana": {
+    "svgPath": "/downloaded_images/tier_5/Katana_2.svg",
+    "tier": 5
+  },
+  "Kite": {
+    "svgPath": "/downloaded_images/tier_12/Kite_2.svg",
+    "tier": 12
+  },
+  "Knife": {
+    "svgPath": "/downloaded_images/tier_11/Knife_2.svg",
+    "tier": 11
+  },
+  "Knight": {
+    "svgPath": "/downloaded_images/tier_9/Knight_2.svg",
+    "tier": 9
+  },
+  "Lake": {
+    "svgPath": "/downloaded_images/tier_3/Lake_2.svg",
+    "tier": 3
+  },
+  "Lamp": {
+    "svgPath": "/downloaded_images/tier_8/Lamp_2.svg",
+    "tier": 8
+  },
+  "Land": {
+    "svgPath": "/downloaded_images/tier_1/Land_2.svg",
+    "tier": 1
+  },
+  "Laptop": {
+    "svgPath": "/downloaded_images/tier_11/Laptop_2.svg",
+    "tier": 11
+  },
+  "Lasso": {
+    "svgPath": "/downloaded_images/tier_10/Lasso_2.svg",
+    "tier": 10
+  },
+  "Lava": {
+    "svgPath": "/downloaded_images/tier_1/Lava_2.svg",
+    "tier": 1
+  },
+  "Lava lamp": {
+    "svgPath": "/downloaded_images/tier_9/Lava_lamp_2.svg",
+    "tier": 9
+  },
+  "Lawn": {
+    "svgPath": "/downloaded_images/tier_10/Lawn_2.svg",
+    "tier": 10
+  },
+  "Lawn mower": {
+    "svgPath": "/downloaded_images/tier_10/Lawn_mower_2.svg",
+    "tier": 10
+  },
+  "Leaf": {
+    "svgPath": "/downloaded_images/tier_10/Leaf_2.svg",
+    "tier": 10
+  },
+  "Leather": {
+    "svgPath": "/downloaded_images/tier_9/Leather_2.svg",
+    "tier": 9
+  },
+  "Legend": {
+    "svgPath": "/downloaded_images/tier_10/Legend_2.svg",
+    "tier": 10
+  },
+  "Lens": {
+    "svgPath": "/downloaded_images/tier_9/Lens_2.svg",
+    "tier": 9
+  },
+  "Letter": {
+    "svgPath": "/downloaded_images/tier_12/Letter_2.svg",
+    "tier": 12
+  },
+  "Librarian": {
+    "svgPath": "/downloaded_images/tier_13/Librarian_2.svg",
+    "tier": 13
+  },
+  "Library": {
+    "svgPath": "/downloaded_images/tier_12/Library_2.svg",
+    "tier": 12
+  },
+  "Life": {
+    "svgPath": "/downloaded_images/tier_6/Life_2.svg",
+    "tier": 6
+  },
+  "Light": {
+    "svgPath": "/downloaded_images/tier_8/Light_2.svg",
+    "tier": 8
+  },
+  "Light bulb": {
+    "svgPath": "/downloaded_images/tier_7/Light_bulb_2.svg",
+    "tier": 7
+  },
+  "Light sword": {
+    "svgPath": "/downloaded_images/tier_6/Light_sword_2.svg",
+    "tier": 6
+  },
+  "Lighthouse": {
+    "svgPath": "/downloaded_images/tier_9/Lighthouse_2.svg",
+    "tier": 9
+  },
+  "Lightning": {
+    "svgPath": "/downloaded_images/tier_6/Lightning_2.svg",
+    "tier": 6
+  },
+  "Lion": {
+    "svgPath": "/downloaded_images/tier_9/Lion_2.svg",
+    "tier": 9
+  },
+  "Liquid": {
+    "svgPath": "/downloaded_images/tier_9/Liquid_2.svg",
+    "tier": 9
+  },
+  "Little alchemy (element)": {
+    "svgPath": "/downloaded_images/tier_11/Little_alchemy_(element)_2.svg",
+    "tier": 11
+  },
+  "Livestock": {
+    "svgPath": "/downloaded_images/tier_8/Livestock_2.svg",
+    "tier": 8
+  },
+  "Lizard": {
+    "svgPath": "/downloaded_images/tier_8/Lizard_2.svg",
+    "tier": 8
+  },
+  "Log cabin": {
+    "svgPath": "/downloaded_images/tier_11/Log_cabin_2.svg",
+    "tier": 11
+  },
+  "Love": {
+    "svgPath": "/downloaded_images/tier_8/Love_2.svg",
+    "tier": 8
+  },
+  "Lumberjack": {
+    "svgPath": "/downloaded_images/tier_10/Lumberjack_2.svg",
+    "tier": 10
+  },
+  "Mac and cheese": {
+    "svgPath": "/downloaded_images/tier_13/Mac_and_cheese_2.svg",
+    "tier": 13
+  },
+  "Machine": {
+    "svgPath": "/downloaded_images/tier_9/Machine_2.svg",
+    "tier": 9
+  },
+  "Magic": {
+    "svgPath": "/downloaded_images/tier_7/Magic_2.svg",
+    "tier": 7
+  },
+  "Magma": {
+    "svgPath": "/downloaded_images/tier_9/Magma_2.svg",
+    "tier": 9
+  },
+  "Mail truck": {
+    "svgPath": "/downloaded_images/tier_13/Mail_truck_2.svg",
+    "tier": 13
+  },
+  "Mailbox": {
+    "svgPath": "/downloaded_images/tier_13/Mailbox_2.svg",
+    "tier": 13
+  },
+  "Mailman": {
+    "svgPath": "/downloaded_images/tier_13/Mailman_2.svg",
+    "tier": 13
+  },
+  "Manatee": {
+    "svgPath": "/downloaded_images/tier_10/Manatee_2.svg",
+    "tier": 10
+  },
+  "Map": {
+    "svgPath": "/downloaded_images/tier_12/Map_2.svg",
+    "tier": 12
+  },
+  "Maple syrup": {
+    "svgPath": "/downloaded_images/tier_11/Maple_syrup_2.svg",
+    "tier": 11
+  },
+  "Mars": {
+    "svgPath": "/downloaded_images/tier_5/Mars_2.svg",
+    "tier": 5
+  },
+  "Marshmallows": {
+    "svgPath": "/downloaded_images/tier_12/Marshmallows_2.svg",
+    "tier": 12
+  },
+  "Mayonnaise": {
+    "svgPath": "/downloaded_images/tier_11/Mayonnaise_2.svg",
+    "tier": 11
+  },
+  "Meat": {
+    "svgPath": "/downloaded_images/tier_8/Meat_2.svg",
+    "tier": 8
+  },
+  "Medusa": {
+    "svgPath": "/downloaded_images/tier_9/Medusa_2.svg",
+    "tier": 9
+  },
+  "Mercury": {
+    "svgPath": "/downloaded_images/tier_4/Mercury_2.svg",
+    "tier": 4
+  },
+  "Mermaid": {
+    "svgPath": "/downloaded_images/tier_9/Mermaid_2.svg",
+    "tier": 9
+  },
+  "Metal": {
+    "svgPath": "/downloaded_images/tier_3/Metal_2.svg",
+    "tier": 3
+  },
+  "Meteor": {
+    "svgPath": "/downloaded_images/tier_6/Meteor_2.svg",
+    "tier": 6
+  },
+  "Meteoroid": {
+    "svgPath": "/downloaded_images/tier_5/Meteoroid_2.svg",
+    "tier": 5
+  },
+  "Microscope": {
+    "svgPath": "/downloaded_images/tier_8/Microscope_2.svg",
+    "tier": 8
+  },
+  "Milk": {
+    "svgPath": "/downloaded_images/tier_10/Milk_2.svg",
+    "tier": 10
+  },
+  "Milk shake": {
+    "svgPath": "/downloaded_images/tier_12/Milk_shake_2.svg",
+    "tier": 12
+  },
+  "Mineral": {
+    "svgPath": "/downloaded_images/tier_9/Mineral_2.svg",
+    "tier": 9
+  },
+  "Minotaur": {
+    "svgPath": "/downloaded_images/tier_10/Minotaur_2.svg",
+    "tier": 10
+  },
+  "Mirror": {
+    "svgPath": "/downloaded_images/tier_5/Mirror_2.svg",
+    "tier": 5
+  },
+  "Mist": {
+    "svgPath": "/downloaded_images/tier_1/Mist_2.svg",
+    "tier": 1
+  },
+  "Mold": {
+    "svgPath": "/downloaded_images/tier_10/Mold_2.svg",
+    "tier": 10
+  },
+  "Monarch": {
+    "svgPath": "/downloaded_images/tier_8/Monarch_2.svg",
+    "tier": 8
+  },
+  "Money": {
+    "svgPath": "/downloaded_images/tier_12/Money_2.svg",
+    "tier": 12
+  },
+  "Monkey": {
+    "svgPath": "/downloaded_images/tier_10/Monkey_2.svg",
+    "tier": 10
+  },
+  "Moon": {
+    "svgPath": "/downloaded_images/tier_4/Moon_2.svg",
+    "tier": 4
+  },
+  "Moon rover": {
+    "svgPath": "/downloaded_images/tier_11/Moon_rover_2.svg",
+    "tier": 11
+  },
+  "Moss": {
+    "svgPath": "/downloaded_images/tier_9/Moss_2.svg",
+    "tier": 9
+  },
+  "Moth": {
+    "svgPath": "/downloaded_images/tier_9/Moth_2.svg",
+    "tier": 9
+  },
+  "Motion": {
+    "svgPath": "/downloaded_images/tier_9/Motion_2.svg",
+    "tier": 9
+  },
+  "Motorcycle": {
+    "svgPath": "/downloaded_images/tier_11/Motorcycle_2.svg",
+    "tier": 11
+  },
+  "Mountain": {
+    "svgPath": "/downloaded_images/tier_3/Mountain_2.svg",
+    "tier": 3
+  },
+  "Mountain goat": {
+    "svgPath": "/downloaded_images/tier_10/Mountain_goat_2.svg",
+    "tier": 10
+  },
+  "Mountain range": {
+    "svgPath": "/downloaded_images/tier_4/Mountain_range_2.svg",
+    "tier": 4
+  },
+  "Mouse": {
+    "svgPath": "/downloaded_images/tier_12/Mouse_2.svg",
+    "tier": 12
+  },
+  "Mousetrap": {
+    "svgPath": "/downloaded_images/tier_12/Mousetrap_2.svg",
+    "tier": 12
+  },
+  "Mud": {
+    "svgPath": "/downloaded_images/tier_1/Mud_2.svg",
+    "tier": 1
+  },
+  "Mummy": {
+    "svgPath": "/downloaded_images/tier_8/Mummy_2.svg",
+    "tier": 8
+  },
+  "Music": {
+    "svgPath": "/downloaded_images/tier_13/Music_2.svg",
+    "tier": 13
+  },
+  "Musician": {
+    "svgPath": "/downloaded_images/tier_12/Musician_2.svg",
+    "tier": 12
+  },
+  "Narwhal": {
+    "svgPath": "/downloaded_images/tier_10/Narwhal_2.svg",
+    "tier": 10
+  },
+  "Needle": {
+    "svgPath": "/downloaded_images/tier_11/Needle_2.svg",
+    "tier": 11
+  },
+  "Nessie": {
+    "svgPath": "/downloaded_images/tier_10/Nessie_2.svg",
+    "tier": 10
+  },
+  "Nest": {
+    "svgPath": "/downloaded_images/tier_9/Nest_2.svg",
+    "tier": 9
+  },
+  "Net": {
+    "svgPath": "/downloaded_images/tier_10/Net_2.svg",
+    "tier": 10
+  },
+  "Newspaper": {
+    "svgPath": "/downloaded_images/tier_12/Newspaper_2.svg",
+    "tier": 12
+  },
+  "Night": {
+    "svgPath": "/downloaded_images/tier_6/Night_2.svg",
+    "tier": 6
+  },
+  "Ninja": {
+    "svgPath": "/downloaded_images/tier_9/Ninja_2.svg",
+    "tier": 9
+  },
+  "Ninja turtle": {
+    "svgPath": "/downloaded_images/tier_9/Ninja_turtle_2.svg",
+    "tier": 9
+  },
+  "Nuts": {
+    "svgPath": "/downloaded_images/tier_10/Nuts_2.svg",
+    "tier": 10
+  },
+  "Oasis": {
+    "svgPath": "/downloaded_images/tier_5/Oasis_2.svg",
+    "tier": 5
+  },
+  "Obsidian": {
+    "svgPath": "/downloaded_images/tier_2/Obsidian_2.svg",
+    "tier": 2
+  },
+  "Ocean": {
+    "svgPath": "/downloaded_images/tier_5/Ocean_2.svg",
+    "tier": 5
+  },
+  "Oil": {
+    "svgPath": "/downloaded_images/tier_10/Oil_2.svg",
+    "tier": 10
+  },
+  "Omelette": {
+    "svgPath": "/downloaded_images/tier_9/Omelette_2.svg",
+    "tier": 9
+  },
+  "Optical fiber": {
+    "svgPath": "/downloaded_images/tier_9/Optical_fiber_2.svg",
+    "tier": 9
+  },
+  "Orchard": {
+    "svgPath": "/downloaded_images/tier_12/Orchard_2.svg",
+    "tier": 12
+  },
+  "Ore": {
+    "svgPath": "/downloaded_images/tier_10/Ore_2.svg",
+    "tier": 10
+  },
+  "Organic matter": {
+    "svgPath": "/downloaded_images/tier_8/Organic_matter_2.svg",
+    "tier": 8
+  },
+  "Origami": {
+    "svgPath": "/downloaded_images/tier_12/Origami_2.svg",
+    "tier": 12
+  },
+  "Ostrich": {
+    "svgPath": "/downloaded_images/tier_9/Ostrich_2.svg",
+    "tier": 9
+  },
+  "Owl": {
+    "svgPath": "/downloaded_images/tier_9/Owl_2.svg",
+    "tier": 9
+  },
+  "Oxygen": {
+    "svgPath": "/downloaded_images/tier_9/Oxygen_2.svg",
+    "tier": 9
+  },
+  "Ozone": {
+    "svgPath": "/downloaded_images/tier_7/Ozone_2.svg",
+    "tier": 7
+  },
+  "Paint": {
+    "svgPath": "/downloaded_images/tier_6/Paint_2.svg",
+    "tier": 6
+  },
+  "Painter": {
+    "svgPath": "/downloaded_images/tier_8/Painter_2.svg",
+    "tier": 8
+  },
+  "Painting": {
+    "svgPath": "/downloaded_images/tier_13/Painting_2.svg",
+    "tier": 13
+  },
+  "Paleontologist": {
+    "svgPath": "/downloaded_images/tier_10/Paleontologist_2.svg",
+    "tier": 10
+  },
+  "Palm": {
+    "svgPath": "/downloaded_images/tier_10/Palm_2.svg",
+    "tier": 10
+  },
+  "Pan flute": {
+    "svgPath": "/downloaded_images/tier_12/Pan_flute_2.svg",
+    "tier": 12
+  },
+  "Paper": {
+    "svgPath": "/downloaded_images/tier_11/Paper_2.svg",
+    "tier": 11
+  },
+  "Paper airplane": {
+    "svgPath": "/downloaded_images/tier_12/Paper_airplane_2.svg",
+    "tier": 12
+  },
+  "Paper cup": {
+    "svgPath": "/downloaded_images/tier_13/Paper_cup_2.svg",
+    "tier": 13
+  },
+  "Parachute": {
+    "svgPath": "/downloaded_images/tier_10/Parachute_2.svg",
+    "tier": 10
+  },
+  "Paraglider": {
+    "svgPath": "/downloaded_images/tier_13/Paraglider_2.svg",
+    "tier": 13
+  },
+  "Park": {
+    "svgPath": "/downloaded_images/tier_6/Park_2.svg",
+    "tier": 6
+  },
+  "Parrot": {
+    "svgPath": "/downloaded_images/tier_10/Parrot_2.svg",
+    "tier": 10
+  },
+  "Pasta": {
+    "svgPath": "/downloaded_images/tier_12/Pasta_2.svg",
+    "tier": 12
+  },
+  "Peacock": {
+    "svgPath": "/downloaded_images/tier_9/Peacock_2.svg",
+    "tier": 9
+  },
+  "Peanut butter": {
+    "svgPath": "/downloaded_images/tier_11/Peanut_butter_2.svg",
+    "tier": 11
+  },
+  "Peat": {
+    "svgPath": "/downloaded_images/tier_10/Peat_2.svg",
+    "tier": 10
+  },
+  "Pebble": {
+    "svgPath": "/downloaded_images/tier_11/Pebble_2.svg",
+    "tier": 11
+  },
+  "Pegasus": {
+    "svgPath": "/downloaded_images/tier_9/Pegasus_2.svg",
+    "tier": 9
+  },
+  "Pencil": {
+    "svgPath": "/downloaded_images/tier_11/Pencil_2.svg",
+    "tier": 11
+  },
+  "Pencil sharpener": {
+    "svgPath": "/downloaded_images/tier_12/Pencil_sharpener_2.svg",
+    "tier": 12
+  },
+  "Penguin": {
+    "svgPath": "/downloaded_images/tier_9/Penguin_2.svg",
+    "tier": 9
+  },
+  "Penicillin": {
+    "svgPath": "/downloaded_images/tier_11/Penicillin_2.svg",
+    "tier": 11
+  },
+  "Perfume": {
+    "svgPath": "/downloaded_images/tier_10/Perfume_2.svg",
+    "tier": 10
+  },
+  "Petroleum": {
+    "svgPath": "/downloaded_images/tier_10/Petroleum_2.svg",
+    "tier": 10
+  },
+  "Philosophy": {
+    "svgPath": "/downloaded_images/tier_9/Philosophy_2.svg",
+    "tier": 9
+  },
+  "Phoenix": {
+    "svgPath": "/downloaded_images/tier_7/Phoenix_2.svg",
+    "tier": 7
+  },
+  "Picnic": {
+    "svgPath": "/downloaded_images/tier_15/Picnic_2.svg",
+    "tier": 15
+  },
+  "Pie": {
+    "svgPath": "/downloaded_images/tier_13/Pie_2.svg",
+    "tier": 13
+  },
+  "Pig": {
+    "svgPath": "/downloaded_images/tier_8/Pig_2.svg",
+    "tier": 8
+  },
+  "Pigeon": {
+    "svgPath": "/downloaded_images/tier_9/Pigeon_2.svg",
+    "tier": 9
+  },
+  "Piggy bank": {
+    "svgPath": "/downloaded_images/tier_9/Piggy_bank_2.svg",
+    "tier": 9
+  },
+  "Pilot": {
+    "svgPath": "/downloaded_images/tier_10/Pilot_2.svg",
+    "tier": 10
+  },
+  "Pinocchio": {
+    "svgPath": "/downloaded_images/tier_11/Pinocchio_2.svg",
+    "tier": 11
+  },
+  "Pipe": {
+    "svgPath": "/downloaded_images/tier_10/Pipe_2.svg",
+    "tier": 10
+  },
+  "Piranha": {
+    "svgPath": "/downloaded_images/tier_9/Piranha_2.svg",
+    "tier": 9
+  },
+  "Pirate": {
+    "svgPath": "/downloaded_images/tier_9/Pirate_2.svg",
+    "tier": 9
+  },
+  "Pirate ship": {
+    "svgPath": "/downloaded_images/tier_10/Pirate_ship_2.svg",
+    "tier": 10
+  },
+  "Pitchfork": {
+    "svgPath": "/downloaded_images/tier_11/Pitchfork_2.svg",
+    "tier": 11
+  },
+  "Pizza": {
+    "svgPath": "/downloaded_images/tier_12/Pizza_2.svg",
+    "tier": 12
+  },
+  "Planet": {
+    "svgPath": "/downloaded_images/tier_3/Planet_2.svg",
+    "tier": 3
+  },
+  "Plankton": {
+    "svgPath": "/downloaded_images/tier_7/Plankton_2.svg",
+    "tier": 7
+  },
+  "Plant": {
+    "svgPath": "/downloaded_images/tier_8/Plant_2.svg",
+    "tier": 8
+  },
+  "Plasma": {
+    "svgPath": "/downloaded_images/tier_3/Plasma_2.svg",
+    "tier": 3
+  },
+  "Platypus": {
+    "svgPath": "/downloaded_images/tier_9/Platypus_2.svg",
+    "tier": 9
+  },
+  "Plow": {
+    "svgPath": "/downloaded_images/tier_4/Plow_2.svg",
+    "tier": 4
+  },
+  "Polar bear": {
+    "svgPath": "/downloaded_images/tier_10/Polar_bear_2.svg",
+    "tier": 10
+  },
+  "Pollen": {
+    "svgPath": "/downloaded_images/tier_9/Pollen_2.svg",
+    "tier": 9
+  },
+  "Pond": {
+    "svgPath": "/downloaded_images/tier_2/Pond_2.svg",
+    "tier": 2
+  },
+  "Popsicle": {
+    "svgPath": "/downloaded_images/tier_11/Popsicle_2.svg",
+    "tier": 11
+  },
+  "Post office": {
+    "svgPath": "/downloaded_images/tier_13/Post_office_2.svg",
+    "tier": 13
+  },
+  "Potato": {
+    "svgPath": "/downloaded_images/tier_10/Potato_2.svg",
+    "tier": 10
+  },
+  "Potter": {
+    "svgPath": "/downloaded_images/tier_8/Potter_2.svg",
+    "tier": 8
+  },
+  "Pottery": {
+    "svgPath": "/downloaded_images/tier_9/Pottery_2.svg",
+    "tier": 9
+  },
+  "Pressure": {
+    "svgPath": "/downloaded_images/tier_1/Pressure_2.svg",
+    "tier": 1
+  },
+  "Primordial soup": {
+    "svgPath": "/downloaded_images/tier_5/Primordial_soup_2.svg",
+    "tier": 5
+  },
+  "Printer": {
+    "svgPath": "/downloaded_images/tier_12/Printer_2.svg",
+    "tier": 12
+  },
+  "Prism": {
+    "svgPath": "/downloaded_images/tier_6/Prism_2.svg",
+    "tier": 6
+  },
+  "Pterodactyl": {
+    "svgPath": "/downloaded_images/tier_10/Pterodactyl_2.svg",
+    "tier": 10
+  },
+  "Puddle": {
+    "svgPath": "/downloaded_images/tier_1/Puddle_2.svg",
+    "tier": 1
+  },
+  "Pumpkin": {
+    "svgPath": "/downloaded_images/tier_10/Pumpkin_2.svg",
+    "tier": 10
+  },
+  "Pyramid": {
+    "svgPath": "/downloaded_images/tier_5/Pyramid_2.svg",
+    "tier": 5
+  },
+  "Quicksand": {
+    "svgPath": "/downloaded_images/tier_11/Quicksand_2.svg",
+    "tier": 11
+  },
+  "Quicksilver": {
+    "svgPath": "/downloaded_images/tier_10/Quicksilver_2.svg",
+    "tier": 10
+  },
+  "Rabbit": {
+    "svgPath": "/downloaded_images/tier_10/Rabbit_2.svg",
+    "tier": 10
+  },
+  "Rain": {
+    "svgPath": "/downloaded_images/tier_6/Rain_2.svg",
+    "tier": 6
+  },
+  "Rainbow": {
+    "svgPath": "/downloaded_images/tier_5/Rainbow_2.svg",
+    "tier": 5
+  },
+  "Rainforest": {
+    "svgPath": "/downloaded_images/tier_11/Rainforest_2.svg",
+    "tier": 11
+  },
+  "Rat": {
+    "svgPath": "/downloaded_images/tier_11/Rat_2.svg",
+    "tier": 11
+  },
+  "Recipe": {
+    "svgPath": "/downloaded_images/tier_12/Recipe_2.svg",
+    "tier": 12
+  },
+  "Reed": {
+    "svgPath": "/downloaded_images/tier_9/Reed_2.svg",
+    "tier": 9
+  },
+  "Reindeer": {
+    "svgPath": "/downloaded_images/tier_11/Reindeer_2.svg",
+    "tier": 11
+  },
+  "Restaurant": {
+    "svgPath": "/downloaded_images/tier_11/Restaurant_2.svg",
+    "tier": 11
+  },
+  "Ring": {
+    "svgPath": "/downloaded_images/tier_9/Ring_2.svg",
+    "tier": 9
+  },
+  "River": {
+    "svgPath": "/downloaded_images/tier_4/River_2.svg",
+    "tier": 4
+  },
+  "Rivulet": {
+    "svgPath": "/downloaded_images/tier_10/Rivulet_2.svg",
+    "tier": 10
+  },
+  "Robot": {
+    "svgPath": "/downloaded_images/tier_7/Robot_2.svg",
+    "tier": 7
+  },
+  "Robot vacuum": {
+    "svgPath": "/downloaded_images/tier_12/Robot_vacuum_2.svg",
+    "tier": 12
+  },
+  "Rock": {
+    "svgPath": "/downloaded_images/tier_12/Rock_2.svg",
+    "tier": 12
+  },
+  "Rocket": {
+    "svgPath": "/downloaded_images/tier_5/Rocket_2.svg",
+    "tier": 5
+  },
+  "Roe": {
+    "svgPath": "/downloaded_images/tier_9/Roe_2.svg",
+    "tier": 9
+  },
+  "Roller coaster": {
+    "svgPath": "/downloaded_images/tier_11/Roller_coaster_2.svg",
+    "tier": 11
+  },
+  "Rope": {
+    "svgPath": "/downloaded_images/tier_9/Rope_2.svg",
+    "tier": 9
+  },
+  "Rose": {
+    "svgPath": "/downloaded_images/tier_9/Rose_2.svg",
+    "tier": 9
+  },
+  "Ruins": {
+    "svgPath": "/downloaded_images/tier_6/Ruins_2.svg",
+    "tier": 6
+  },
+  "Ruler": {
+    "svgPath": "/downloaded_images/tier_12/Ruler_2.svg",
+    "tier": 12
+  },
+  "Rust": {
+    "svgPath": "/downloaded_images/tier_4/Rust_2.svg",
+    "tier": 4
+  },
+  "Rv": {
+    "svgPath": "/downloaded_images/tier_11/Rv_2.svg",
+    "tier": 11
+  },
+  "Sack": {
+    "svgPath": "/downloaded_images/tier_11/Sack_2.svg",
+    "tier": 11
+  },
+  "Saddle": {
+    "svgPath": "/downloaded_images/tier_9/Saddle_2.svg",
+    "tier": 9
+  },
+  "Safe": {
+    "svgPath": "/downloaded_images/tier_5/Safe_2.svg",
+    "tier": 5
+  },
+  "Safety glasses": {
+    "svgPath": "/downloaded_images/tier_6/Safety_glasses_2.svg",
+    "tier": 6
+  },
+  "Sailboat": {
+    "svgPath": "/downloaded_images/tier_12/Sailboat_2.svg",
+    "tier": 12
+  },
+  "Sailor": {
+    "svgPath": "/downloaded_images/tier_8/Sailor_2.svg",
+    "tier": 8
+  },
+  "Salt": {
+    "svgPath": "/downloaded_images/tier_5/Salt_2.svg",
+    "tier": 5
+  },
+  "Samurai": {
+    "svgPath": "/downloaded_images/tier_8/Samurai_2.svg",
+    "tier": 8
+  },
+  "Sand": {
+    "svgPath": "/downloaded_images/tier_3/Sand_2.svg",
+    "tier": 3
+  },
+  "Sand castle": {
+    "svgPath": "/downloaded_images/tier_10/Sand_castle_2.svg",
+    "tier": 10
+  },
+  "Sandpaper": {
+    "svgPath": "/downloaded_images/tier_12/Sandpaper_2.svg",
+    "tier": 12
+  },
+  "Sandstone": {
+    "svgPath": "/downloaded_images/tier_4/Sandstone_2.svg",
+    "tier": 4
+  },
+  "Sandstorm": {
+    "svgPath": "/downloaded_images/tier_4/Sandstorm_2.svg",
+    "tier": 4
+  },
+  "Sandwich": {
+    "svgPath": "/downloaded_images/tier_14/Sandwich_2.svg",
+    "tier": 14
+  },
+  "Santa": {
+    "svgPath": "/downloaded_images/tier_11/Santa_2.svg",
+    "tier": 11
+  },
+  "Sap": {
+    "svgPath": "/downloaded_images/tier_10/Sap_2.svg",
+    "tier": 10
+  },
+  "Saturn": {
+    "svgPath": "/downloaded_images/tier_10/Saturn_2.svg",
+    "tier": 10
+  },
+  "Scalpel": {
+    "svgPath": "/downloaded_images/tier_10/Scalpel_2.svg",
+    "tier": 10
+  },
+  "Scarecrow": {
+    "svgPath": "/downloaded_images/tier_11/Scarecrow_2.svg",
+    "tier": 11
+  },
+  "Science": {
+    "svgPath": "/downloaded_images/tier_8/Science_2.svg",
+    "tier": 8
+  },
+  "Scissors": {
+    "svgPath": "/downloaded_images/tier_5/Scissors_2.svg",
+    "tier": 5
+  },
+  "Scorpion": {
+    "svgPath": "/downloaded_images/tier_8/Scorpion_2.svg",
+    "tier": 8
+  },
+  "Scuba tank": {
+    "svgPath": "/downloaded_images/tier_11/Scuba_tank_2.svg",
+    "tier": 11
+  },
+  "Scythe": {
+    "svgPath": "/downloaded_images/tier_10/Scythe_2.svg",
+    "tier": 10
+  },
+  "Sea": {
+    "svgPath": "/downloaded_images/tier_4/Sea_2.svg",
+    "tier": 4
+  },
+  "Seagull": {
+    "svgPath": "/downloaded_images/tier_9/Seagull_2.svg",
+    "tier": 9
+  },
+  "Seahorse": {
+    "svgPath": "/downloaded_images/tier_9/Seahorse_2.svg",
+    "tier": 9
+  },
+  "Seal": {
+    "svgPath": "/downloaded_images/tier_10/Seal_2.svg",
+    "tier": 10
+  },
+  "Seaplane": {
+    "svgPath": "/downloaded_images/tier_10/Seaplane_2.svg",
+    "tier": 10
+  },
+  "Seasickness": {
+    "svgPath": "/downloaded_images/tier_9/Seasickness_2.svg",
+    "tier": 9
+  },
+  "Seaweed": {
+    "svgPath": "/downloaded_images/tier_9/Seaweed_2.svg",
+    "tier": 9
+  },
+  "Seed": {
+    "svgPath": "/downloaded_images/tier_10/Seed_2.svg",
+    "tier": 10
+  },
+  "Sewing machine": {
+    "svgPath": "/downloaded_images/tier_11/Sewing_machine_2.svg",
+    "tier": 11
+  },
+  "Shark": {
+    "svgPath": "/downloaded_images/tier_9/Shark_2.svg",
+    "tier": 9
+  },
+  "Sheep": {
+    "svgPath": "/downloaded_images/tier_9/Sheep_2.svg",
+    "tier": 9
+  },
+  "Sheet music": {
+    "svgPath": "/downloaded_images/tier_14/Sheet_music_2.svg",
+    "tier": 14
+  },
+  "Shovel": {
+    "svgPath": "/downloaded_images/tier_11/Shovel_2.svg",
+    "tier": 11
+  },
+  "Shuriken": {
+    "svgPath": "/downloaded_images/tier_8/Shuriken_2.svg",
+    "tier": 8
+  },
+  "Sickness": {
+    "svgPath": "/downloaded_images/tier_8/Sickness_2.svg",
+    "tier": 8
+  },
+  "Silo": {
+    "svgPath": "/downloaded_images/tier_11/Silo_2.svg",
+    "tier": 11
+  },
+  "Skateboard": {
+    "svgPath": "/downloaded_images/tier_10/Skateboard_2.svg",
+    "tier": 10
+  },
+  "Skeleton": {
+    "svgPath": "/downloaded_images/tier_9/Skeleton_2.svg",
+    "tier": 9
+  },
+  "Ski goggles": {
+    "svgPath": "/downloaded_images/tier_8/Ski_goggles_2.svg",
+    "tier": 8
+  },
+  "Skier": {
+    "svgPath": "/downloaded_images/tier_8/Skier_2.svg",
+    "tier": 8
+  },
+  "Sky": {
+    "svgPath": "/downloaded_images/tier_5/Sky_2.svg",
+    "tier": 5
+  },
+  "Skyscraper": {
+    "svgPath": "/downloaded_images/tier_6/Skyscraper_2.svg",
+    "tier": 6
+  },
+  "Sleigh": {
+    "svgPath": "/downloaded_images/tier_12/Sleigh_2.svg",
+    "tier": 12
+  },
+  "Sloth": {
+    "svgPath": "/downloaded_images/tier_8/Sloth_2.svg",
+    "tier": 8
+  },
+  "Small": {
+    "svgPath": "/downloaded_images/tier_10/Small_2.svg",
+    "tier": 10
+  },
+  "Smartphone": {
+    "svgPath": "/downloaded_images/tier_13/Smartphone_2.svg",
+    "tier": 13
+  },
+  "Smog": {
+    "svgPath": "/downloaded_images/tier_7/Smog_2.svg",
+    "tier": 7
+  },
+  "Smoke": {
+    "svgPath": "/downloaded_images/tier_1/Smoke_2.svg",
+    "tier": 1
+  },
+  "Smoke signal": {
+    "svgPath": "/downloaded_images/tier_12/Smoke_signal_2.svg",
+    "tier": 12
+  },
+  "Smoothie": {
+    "svgPath": "/downloaded_images/tier_11/Smoothie_2.svg",
+    "tier": 11
+  },
+  "Snake": {
+    "svgPath": "/downloaded_images/tier_8/Snake_2.svg",
+    "tier": 8
+  },
+  "Snow": {
+    "svgPath": "/downloaded_images/tier_7/Snow_2.svg",
+    "tier": 7
+  },
+  "Snow globe": {
+    "svgPath": "/downloaded_images/tier_8/Snow_globe_2.svg",
+    "tier": 8
+  },
+  "Snowball": {
+    "svgPath": "/downloaded_images/tier_8/Snowball_2.svg",
+    "tier": 8
+  },
+  "Snowboard": {
+    "svgPath": "/downloaded_images/tier_9/Snowboard_2.svg",
+    "tier": 9
+  },
+  "Snowboarder": {
+    "svgPath": "/downloaded_images/tier_10/Snowboarder_2.svg",
+    "tier": 10
+  },
+  "Snowman": {
+    "svgPath": "/downloaded_images/tier_8/Snowman_2.svg",
+    "tier": 8
+  },
+  "Snowmobile": {
+    "svgPath": "/downloaded_images/tier_11/Snowmobile_2.svg",
+    "tier": 11
+  },
+  "Soap": {
+    "svgPath": "/downloaded_images/tier_11/Soap_2.svg",
+    "tier": 11
+  },
+  "Soda": {
+    "svgPath": "/downloaded_images/tier_10/Soda_2.svg",
+    "tier": 10
+  },
+  "Soil": {
+    "svgPath": "/downloaded_images/tier_7/Soil_2.svg",
+    "tier": 7
+  },
+  "Solar cell": {
+    "svgPath": "/downloaded_images/tier_5/Solar_cell_2.svg",
+    "tier": 5
+  },
+  "Solar system": {
+    "svgPath": "/downloaded_images/tier_4/Solar_system_2.svg",
+    "tier": 4
+  },
+  "Solid": {
+    "svgPath": "/downloaded_images/tier_9/Solid_2.svg",
+    "tier": 9
+  },
+  "Sound": {
+    "svgPath": "/downloaded_images/tier_5/Sound_2.svg",
+    "tier": 5
+  },
+  "Space": {
+    "svgPath": "/downloaded_images/tier_6/Space_2.svg",
+    "tier": 6
+  },
+  "Space station": {
+    "svgPath": "/downloaded_images/tier_5/Space_station_2.svg",
+    "tier": 5
+  },
+  "Spaceship": {
+    "svgPath": "/downloaded_images/tier_7/Spaceship_2.svg",
+    "tier": 7
+  },
+  "Spaghetti": {
+    "svgPath": "/downloaded_images/tier_13/Spaghetti_2.svg",
+    "tier": 13
+  },
+  "Sphinx": {
+    "svgPath": "/downloaded_images/tier_10/Sphinx_2.svg",
+    "tier": 10
+  },
+  "Spider": {
+    "svgPath": "/downloaded_images/tier_11/Spider_2.svg",
+    "tier": 11
+  },
+  "Spoon": {
+    "svgPath": "/downloaded_images/tier_12/Spoon_2.svg",
+    "tier": 12
+  },
+  "Spotlight": {
+    "svgPath": "/downloaded_images/tier_9/Spotlight_2.svg",
+    "tier": 9
+  },
+  "Sprinkles": {
+    "svgPath": "/downloaded_images/tier_12/Sprinkles_2.svg",
+    "tier": 12
+  },
+  "Squirrel": {
+    "svgPath": "/downloaded_images/tier_11/Squirrel_2.svg",
+    "tier": 11
+  },
+  "Star": {
+    "svgPath": "/downloaded_images/tier_7/Star_2.svg",
+    "tier": 7
+  },
+  "Starfish": {
+    "svgPath": "/downloaded_images/tier_8/Starfish_2.svg",
+    "tier": 8
+  },
+  "Statue": {
+    "svgPath": "/downloaded_images/tier_10/Statue_2.svg",
+    "tier": 10
+  },
+  "Steak": {
+    "svgPath": "/downloaded_images/tier_9/Steak_2.svg",
+    "tier": 9
+  },
+  "Steam": {
+    "svgPath": "/downloaded_images/tier_1/Steam_2.svg",
+    "tier": 1
+  },
+  "Steam engine": {
+    "svgPath": "/downloaded_images/tier_10/Steam_engine_2.svg",
+    "tier": 10
+  },
+  "Steamboat": {
+    "svgPath": "/downloaded_images/tier_11/Steamboat_2.svg",
+    "tier": 11
+  },
+  "Steel": {
+    "svgPath": "/downloaded_images/tier_10/Steel_2.svg",
+    "tier": 10
+  },
+  "Steel wool": {
+    "svgPath": "/downloaded_images/tier_11/Steel_wool_2.svg",
+    "tier": 11
+  },
+  "Stethoscope": {
+    "svgPath": "/downloaded_images/tier_9/Stethoscope_2.svg",
+    "tier": 9
+  },
+  "Stone": {
+    "svgPath": "/downloaded_images/tier_2/Stone_2.svg",
+    "tier": 2
+  },
+  "Storm": {
+    "svgPath": "/downloaded_images/tier_6/Storm_2.svg",
+    "tier": 6
+  },
+  "Story": {
+    "svgPath": "/downloaded_images/tier_9/Story_2.svg",
+    "tier": 9
+  },
+  "Stream": {
+    "svgPath": "/downloaded_images/tier_10/Stream_2.svg",
+    "tier": 10
+  },
+  "String phone": {
+    "svgPath": "/downloaded_images/tier_13/String_phone_2.svg",
+    "tier": 13
+  },
+  "Stun gun": {
+    "svgPath": "/downloaded_images/tier_6/Stun_gun_2.svg",
+    "tier": 6
+  },
+  "Sugar": {
+    "svgPath": "/downloaded_images/tier_11/Sugar_2.svg",
+    "tier": 11
+  },
+  "Sun": {
+    "svgPath": "/downloaded_images/tier_4/Sun_2.svg",
+    "tier": 4
+  },
+  "Sundial": {
+    "svgPath": "/downloaded_images/tier_8/Sundial_2.svg",
+    "tier": 8
+  },
+  "Sunflower": {
+    "svgPath": "/downloaded_images/tier_9/Sunflower_2.svg",
+    "tier": 9
+  },
+  "Sunglasses": {
+    "svgPath": "/downloaded_images/tier_6/Sunglasses_2.svg",
+    "tier": 6
+  },
+  "Supernova": {
+    "svgPath": "/downloaded_images/tier_5/Supernova_2.svg",
+    "tier": 5
+  },
+  "Surfer": {
+    "svgPath": "/downloaded_images/tier_8/Surfer_2.svg",
+    "tier": 8
+  },
+  "Sushi": {
+    "svgPath": "/downloaded_images/tier_10/Sushi_2.svg",
+    "tier": 10
+  },
+  "Swamp": {
+    "svgPath": "/downloaded_images/tier_10/Swamp_2.svg",
+    "tier": 10
+  },
+  "Sweater": {
+    "svgPath": "/downloaded_images/tier_11/Sweater_2.svg",
+    "tier": 11
+  },
+  "Swim goggles": {
+    "svgPath": "/downloaded_images/tier_6/Swim_goggles_2.svg",
+    "tier": 6
+  },
+  "Swimmer": {
+    "svgPath": "/downloaded_images/tier_8/Swimmer_2.svg",
+    "tier": 8
+  },
+  "Swimming pool": {
+    "svgPath": "/downloaded_images/tier_5/Swimming_pool_2.svg",
+    "tier": 5
+  },
+  "Sword": {
+    "svgPath": "/downloaded_images/tier_5/Sword_2.svg",
+    "tier": 5
+  },
+  "Swordfish": {
+    "svgPath": "/downloaded_images/tier_9/Swordfish_2.svg",
+    "tier": 9
+  },
+  "Syringe": {
+    "svgPath": "/downloaded_images/tier_12/Syringe_2.svg",
+    "tier": 12
+  },
+  "Tablet": {
+    "svgPath": "/downloaded_images/tier_12/Tablet_2.svg",
+    "tier": 12
+  },
+  "Tailor": {
+    "svgPath": "/downloaded_images/tier_11/Tailor_2.svg",
+    "tier": 11
+  },
+  "Tank": {
+    "svgPath": "/downloaded_images/tier_11/Tank_2.svg",
+    "tier": 11
+  },
+  "Tea": {
+    "svgPath": "/downloaded_images/tier_11/Tea_2.svg",
+    "tier": 11
+  },
+  "Telescope": {
+    "svgPath": "/downloaded_images/tier_5/Telescope_2.svg",
+    "tier": 5
+  },
+  "Tent": {
+    "svgPath": "/downloaded_images/tier_12/Tent_2.svg",
+    "tier": 12
+  },
+  "The one ring": {
+    "svgPath": "/downloaded_images/tier_10/The_one_ring_2.svg",
+    "tier": 10
+  },
+  "Thermometer": {
+    "svgPath": "/downloaded_images/tier_11/Thermometer_2.svg",
+    "tier": 11
+  },
+  "Thread": {
+    "svgPath": "/downloaded_images/tier_10/Thread_2.svg",
+    "tier": 10
+  },
+  "Tide": {
+    "svgPath": "/downloaded_images/tier_5/Tide_2.svg",
+    "tier": 5
+  },
+  "Titanic": {
+    "svgPath": "/downloaded_images/tier_11/Titanic_2.svg",
+    "tier": 11
+  },
+  "Toast": {
+    "svgPath": "/downloaded_images/tier_14/Toast_2.svg",
+    "tier": 14
+  },
+  "Tobacco": {
+    "svgPath": "/downloaded_images/tier_9/Tobacco_2.svg",
+    "tier": 9
+  },
+  "Tool": {
+    "svgPath": "/downloaded_images/tier_8/Tool_2.svg",
+    "tier": 8
+  },
+  "Toolbox": {
+    "svgPath": "/downloaded_images/tier_9/Toolbox_2.svg",
+    "tier": 9
+  },
+  "Tornado": {
+    "svgPath": "/downloaded_images/tier_3/Tornado_2.svg",
+    "tier": 3
+  },
+  "Toucan": {
+    "svgPath": "/downloaded_images/tier_9/Toucan_2.svg",
+    "tier": 9
+  },
+  "Tractor": {
+    "svgPath": "/downloaded_images/tier_11/Tractor_2.svg",
+    "tier": 11
+  },
+  "Train": {
+    "svgPath": "/downloaded_images/tier_11/Train_2.svg",
+    "tier": 11
+  },
+  "Trainyard": {
+    "svgPath": "/downloaded_images/tier_12/Trainyard_2.svg",
+    "tier": 12
+  },
+  "Treasure": {
+    "svgPath": "/downloaded_images/tier_14/Treasure_2.svg",
+    "tier": 14
+  },
+  "Treasure map": {
+    "svgPath": "/downloaded_images/tier_13/Treasure_map_2.svg",
+    "tier": 13
+  },
+  "Tree": {
+    "svgPath": "/downloaded_images/tier_9/Tree_2.svg",
+    "tier": 9
+  },
+  "Treehouse": {
+    "svgPath": "/downloaded_images/tier_10/Treehouse_2.svg",
+    "tier": 10
+  },
+  "Trojan horse": {
+    "svgPath": "/downloaded_images/tier_10/Trojan_horse_2.svg",
+    "tier": 10
+  },
+  "Tsunami": {
+    "svgPath": "/downloaded_images/tier_5/Tsunami_2.svg",
+    "tier": 5
+  },
+  "Tunnel": {
+    "svgPath": "/downloaded_images/tier_10/Tunnel_2.svg",
+    "tier": 10
+  },
+  "Turtle": {
+    "svgPath": "/downloaded_images/tier_8/Turtle_2.svg",
+    "tier": 8
+  },
+  "Twilight": {
+    "svgPath": "/downloaded_images/tier_7/Twilight_2.svg",
+    "tier": 7
+  },
+  "Tyrannosaurus rex": {
+    "svgPath": "/downloaded_images/tier_10/Tyrannosaurus_rex_2.svg",
+    "tier": 10
+  },
+  "Ufo": {
+    "svgPath": "/downloaded_images/tier_8/Ufo_2.svg",
+    "tier": 8
+  },
+  "Umbrella": {
+    "svgPath": "/downloaded_images/tier_9/Umbrella_2.svg",
+    "tier": 9
+  },
+  "Unicorn": {
+    "svgPath": "/downloaded_images/tier_9/Unicorn_2.svg",
+    "tier": 9
+  },
+  "Universe": {
+    "svgPath": "/downloaded_images/tier_7/Universe_2.svg",
+    "tier": 7
+  },
+  "Vacuum cleaner": {
+    "svgPath": "/downloaded_images/tier_12/Vacuum_cleaner_2.svg",
+    "tier": 12
+  },
+  "Vampire": {
+    "svgPath": "/downloaded_images/tier_9/Vampire_2.svg",
+    "tier": 9
+  },
+  "Vase": {
+    "svgPath": "/downloaded_images/tier_10/Vase_2.svg",
+    "tier": 10
+  },
+  "Vault": {
+    "svgPath": "/downloaded_images/tier_11/Vault_2.svg",
+    "tier": 11
+  },
+  "Vegetable": {
+    "svgPath": "/downloaded_images/tier_9/Vegetable_2.svg",
+    "tier": 9
+  },
+  "Venus": {
+    "svgPath": "/downloaded_images/tier_4/Venus_2.svg",
+    "tier": 4
+  },
+  "Village": {
+    "svgPath": "/downloaded_images/tier_5/Village_2.svg",
+    "tier": 5
+  },
+  "Vine": {
+    "svgPath": "/downloaded_images/tier_12/Vine_2.svg",
+    "tier": 12
+  },
+  "Vinegar": {
+    "svgPath": "/downloaded_images/tier_13/Vinegar_2.svg",
+    "tier": 13
+  },
+  "Volcano": {
+    "svgPath": "/downloaded_images/tier_2/Volcano_2.svg",
+    "tier": 2
+  },
+  "Vulture": {
+    "svgPath": "/downloaded_images/tier_9/Vulture_2.svg",
+    "tier": 9
+  },
+  "Wagon": {
+    "svgPath": "/downloaded_images/tier_12/Wagon_2.svg",
+    "tier": 12
+  },
+  "Wall": {
+    "svgPath": "/downloaded_images/tier_3/Wall_2.svg",
+    "tier": 3
+  },
+  "Wand": {
+    "svgPath": "/downloaded_images/tier_9/Wand_2.svg",
+    "tier": 9
+  },
+  "Warmth": {
+    "svgPath": "/downloaded_images/tier_3/Warmth_2.svg",
+    "tier": 3
+  },
+  "Warrior": {
+    "svgPath": "/downloaded_images/tier_8/Warrior_2.svg",
+    "tier": 8
+  },
+  "Watch": {
+    "svgPath": "/downloaded_images/tier_8/Watch_2.svg",
+    "tier": 8
+  },
+  "Water": {
+    "svgPath": "/downloaded_images/tier_0/Water_2.svg",
+    "tier": 0
+  },
+  "Water gun": {
+    "svgPath": "/downloaded_images/tier_6/Water_gun_2.svg",
+    "tier": 6
+  },
+  "Water lily": {
+    "svgPath": "/downloaded_images/tier_10/Water_lily_2.svg",
+    "tier": 10
+  },
+  "Water pipe": {
+    "svgPath": "/downloaded_images/tier_11/Water_pipe_2.svg",
+    "tier": 11
+  },
+  "Waterfall": {
+    "svgPath": "/downloaded_images/tier_4/Waterfall_2.svg",
+    "tier": 4
+  },
+  "Wave": {
+    "svgPath": "/downloaded_images/tier_4/Wave_2.svg",
+    "tier": 4
+  },
+  "Wax": {
+    "svgPath": "/downloaded_images/tier_12/Wax_2.svg",
+    "tier": 12
+  },
+  "Web": {
+    "svgPath": "/downloaded_images/tier_12/Web_2.svg",
+    "tier": 12
+  },
+  "Werewolf": {
+    "svgPath": "/downloaded_images/tier_9/Werewolf_2.svg",
+    "tier": 9
+  },
+  "Wheat": {
+    "svgPath": "/downloaded_images/tier_10/Wheat_2.svg",
+    "tier": 10
+  },
+  "Wheel": {
+    "svgPath": "/downloaded_images/tier_9/Wheel_2.svg",
+    "tier": 9
+  },
+  "Wild boar": {
+    "svgPath": "/downloaded_images/tier_9/Wild_boar_2.svg",
+    "tier": 9
+  },
+  "Wind": {
+    "svgPath": "/downloaded_images/tier_2/Wind_2.svg",
+    "tier": 2
+  },
+  "Wind turbine": {
+    "svgPath": "/downloaded_images/tier_7/Wind_turbine_2.svg",
+    "tier": 7
+  },
+  "Windmill": {
+    "svgPath": "/downloaded_images/tier_5/Windmill_2.svg",
+    "tier": 5
+  },
+  "Windsurfer": {
+    "svgPath": "/downloaded_images/tier_9/Windsurfer_2.svg",
+    "tier": 9
+  },
+  "Wine": {
+    "svgPath": "/downloaded_images/tier_12/Wine_2.svg",
+    "tier": 12
+  },
+  "Wire": {
+    "svgPath": "/downloaded_images/tier_7/Wire_2.svg",
+    "tier": 7
+  },
+  "Witch": {
+    "svgPath": "/downloaded_images/tier_11/Witch_2.svg",
+    "tier": 11
+  },
+  "Wizard": {
+    "svgPath": "/downloaded_images/tier_8/Wizard_2.svg",
+    "tier": 8
+  },
+  "Wolf": {
+    "svgPath": "/downloaded_images/tier_8/Wolf_2.svg",
+    "tier": 8
+  },
+  "Wood": {
+    "svgPath": "/downloaded_images/tier_10/Wood_2.svg",
+    "tier": 10
+  },
+  "Woodpecker": {
+    "svgPath": "/downloaded_images/tier_10/Woodpecker_2.svg",
+    "tier": 10
+  },
+  "Wool": {
+    "svgPath": "/downloaded_images/tier_10/Wool_2.svg",
+    "tier": 10
+  },
+  "Wrapping paper": {
+    "svgPath": "/downloaded_images/tier_12/Wrapping_paper_2.svg",
+    "tier": 12
+  },
+  "Writer": {
+    "svgPath": "/downloaded_images/tier_12/Writer_2.svg",
+    "tier": 12
+  },
+  "Yeti": {
+    "svgPath": "/downloaded_images/tier_10/Yeti_2.svg",
+    "tier": 10
+  },
+  "Yogurt": {
+    "svgPath": "/downloaded_images/tier_11/Yogurt_2.svg",
+    "tier": 11
+  },
+  "Zombie": {
+    "svgPath": "/downloaded_images/tier_9/Zombie_2.svg",
+    "tier": 9
+  },
+  "Zoo": {
+    "svgPath": "/downloaded_images/tier_10/Zoo_2.svg",
+    "tier": 10
+  }
+}

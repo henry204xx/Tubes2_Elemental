@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Alchemy 2 Reverse Recipe Tree</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        #header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #element-search {
+            padding: 10px;
+            width: 300px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        #tree-container {
+            width: 100%;
+            height: 70vh;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .node circle {
+            fill: #fff;
+            stroke-width: 2px;
+        }
+        .node text {
+            font: 14px 'Segoe UI', sans-serif;
+            font-weight: 500;
+        }
+        .link {
+            fill: none;
+            stroke-width: 2px;
+        }
+        .node--root circle {
+            stroke: #FF5722;
+            stroke-width: 3px;
+        }
+        .node--tier1 circle {
+            stroke: #2196F3;
+        }
+        .node--tier2 circle {
+            stroke: #4CAF50;
+        }
+        .node--tier3 circle {
+            stroke: #FFC107;
+        }
+        .node--tier4 circle {
+            stroke: #9C27B0;
+        }
+        .link--tier1 {
+            stroke: #2196F3;
+            opacity: 0.6;
+        }
+        .link--tier2 {
+            stroke: #4CAF50;
+            opacity: 0.6;
+        }
+        .link--tier3 {
+            stroke: #FFC107;
+            opacity: 0.6;
+        }
+        .tooltip {
+            position: absolute;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            border-radius: 5px;
+            pointer-events: none;
+            font-size: 14px;
+            max-width: 300px;
+        }
+        #legend {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .legend-color {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Little Alchemy 2 Reverse Recipe Tree</h1>
+        <p>Visualize how elements are built from their components</p>
+    </div>
+
+    <div id="search-container">
+        <input type="text" id="element-search" placeholder="Search for an element...">
+    </div>
+
+    <div id="controls">
+        <button id="toggle-view">Toggle View (Top-Down/Bottom-Up)</button>
+        <button id="reset-zoom">Reset Zoom</button>
+        <button id="expand-all">Expand All</button>
+        <button id="collapse-all">Collapse All</button>
+    </div>
+
+    <div id="tree-container"></div>
+
+    <div id="legend">
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #FF5722; border-color: #FF5722;"></div>
+            <span>Target Element</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #2196F3; border-color: #2196F3;"></div>
+            <span>Tier 1 Elements</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #4CAF50; border-color: #4CAF50;"></div>
+            <span>Tier 2 Elements</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #FFC107; border-color: #FFC107;"></div>
+            <span>Tier 3 Elements</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #9C27B0; border-color: #9C27B0;"></div>
+            <span>Tier 4+ Elements</span>
+        </div>
+    </div>
+
+    <div class="tooltip"></div>
+
+    <script>
+        // Enhanced Little Alchemy 2 data with tiers and more elements
+        const elementsDatabase = {
+            "Human": {
+                tier: 4,
+                components: ["Clay", "Life"]
+            },
+            "Clay": {
+                tier: 2,
+                components: ["Water", "Mud"]
+            },
+            "Mud": {
+                tier: 1,
+                components: ["Water", "Earth"]
+            },
+            "Life": {
+                tier: 3,
+                components: ["Energy", "Primordial Soup"]
+            },
+            "Primordial Soup": {
+                tier: 2,
+                components: ["Water", "Earth", "Energy"]
+            },
+            "Energy": {
+                tier: 1,
+                components: []
+            },
+            "Water": {
+                tier: 0,
+                components: []
+            },
+            "Earth": {
+                tier: 0,
+                components: []
+            },
+            "Fire": {
+                tier: 0,
+                components: []
+            },
+            "Air": {
+                tier: 0,
+                components: []
+            }
+        };
+
+        // Current visualization data
+        let currentData = {
+            name: "Human",
+            tier: 4,
+            children: [
+                {
+                    name: "Clay",
+                    tier: 2,
+                    children: [
+                        { 
+                            name: "Water",
+                            tier: 0
+                        },
+                        { 
+                            name: "Mud",
+                            tier: 1,
+                            children: [
+                                { name: "Water", tier: 0 },
+                                { name: "Earth", tier: 0 }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "Life",
+                    tier: 3,
+                    children: [
+                        { name: "Energy", tier: 1 },
+                        { 
+                            name: "Primordial Soup",
+                            tier: 2,
+                            children: [
+                                { name: "Water", tier: 0 },
+                                { name: "Earth", tier: 0 },
+                                { name: "Energy", tier: 1 }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        };
+
+        // Dimensions and margins
+        const margin = { top: 40, right: 120, bottom: 50, left: 120 };
+        const width = document.getElementById('tree-container').clientWidth - margin.left - margin.right;
+        const height = document.getElementById('tree-container').clientHeight - margin.top - margin.bottom;
+
+        // Create SVG container
+        const svg = d3.select("#tree-container")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        // Tooltip
+        const tooltip = d3.select(".tooltip");
+
+        // Zoom functionality
+        const zoom = d3.zoom()
+            .scaleExtent([0.1, 3])
+            .on("zoom", (event) => {
+                svg.attr("transform", event.transform);
+            });
+
+        d3.select("#tree-container svg").call(zoom);
+
+        // View state
+        let isBottomUp = true;
+        let collapsedNodes = new Set();
+
+        // Function to build the tree data structure from an element name
+        function buildTreeData(elementName) {
+            const element = elementsDatabase[elementName];
+            if (!element) return null;
+
+            const node = {
+                name: elementName,
+                tier: element.tier,
+                children: []
+            };
+
+            if (element.components && element.components.length > 0 && !collapsedNodes.has(elementName)) {
+                element.components.forEach(comp => {
+                    const child = buildTreeData(comp);
+                    if (child) {
+                        node.children.push(child);
+                    }
+                });
+            }
+
+            return node;
+        }
+
+        // Function to update the tree visualization
+        function updateTree() {
+            // Clear previous tree
+            svg.selectAll("*").remove();
+
+            // Create hierarchy from data
+            const root = d3.hierarchy(currentData);
+            
+            // Create tree layout
+            const treeLayout = d3.tree()
+                .size(isBottomUp ? [height, width] : [width, height]);
+
+            // Assign data to tree layout
+            const treeData = treeLayout(root);
+
+            // For bottom-up view, reverse the y-coordinates
+            if (isBottomUp) {
+                treeData.descendants().forEach(d => {
+                    d.y = height - d.y;
+                });
+            }
+
+            // Draw links between nodes
+            svg.selectAll(".link")
+                .data(treeData.links())
+                .enter()
+                .append("path")
+                .attr("class", d => {
+                    const sourceTier = d.source.data.tier;
+                    if (sourceTier === 0) return "link link--tier1";
+                    if (sourceTier === 1) return "link link--tier1";
+                    if (sourceTier === 2) return "link link--tier2";
+                    if (sourceTier === 3) return "link link--tier3";
+                    return "link";
+                })
+                .attr("d", d3.linkHorizontal()
+                    .x(d => d.x)
+                    .y(d => d.y)
+                );
+
+            // Create node groups
+            const nodes = svg.selectAll(".node")
+                .data(treeData.descendants())
+                .enter()
+                .append("g")
+                .attr("class", d => {
+                    let classes = "node";
+                    if (d.children) classes += " node--internal";
+                    if (d.data.tier === 4) classes += " node--root";
+                    if (d.data.tier === 1) classes += " node--tier1";
+                    if (d.data.tier === 2) classes += " node--tier2";
+                    if (d.data.tier === 3) classes += " node--tier3";
+                    if (d.data.tier === 4) classes += " node--tier4";
+                    return classes;
+                })
+                .attr("transform", d => `translate(${d.x},${d.y})`)
+                .on("click", function(event, d) {
+                    // Toggle children on click
+                    if (d.children) {
+                        collapsedNodes.add(d.data.name);
+                    } else {
+                        collapsedNodes.delete(d.data.name);
+                    }
+                    currentData = buildTreeData(currentData.name);
+                    updateTree();
+                })
+                .on("mouseover", function(event, d) {
+                    // Show tooltip with tier information
+                    tooltip.transition()
+                        .duration(200)
+                        .style("opacity", .9);
+                    tooltip.html(`<strong>${d.data.name}</strong><br/>Tier: ${d.data.tier}`)
+                        .style("left", (event.pageX + 10) + "px")
+                        .style("top", (event.pageY - 28) + "px");
+                })
+                .on("mouseout", function() {
+                    tooltip.transition()
+                        .duration(500)
+                        .style("opacity", 0);
+                });
+
+            // Add circles to nodes
+            nodes.append("circle")
+                .attr("r", 12);
+
+            // Add text labels
+            nodes.append("text")
+                .attr("dy", ".35em")
+                .attr("y", d => d.children ? -20 : 20)
+                .style("text-anchor", "middle")
+                .text(d => d.data.name);
+
+            // Reset zoom to fit the tree
+            setTimeout(() => {
+                const bounds = svg.node().getBBox();
+                const fullWidth = width + margin.left + margin.right;
+                const fullHeight = height + margin.top + margin.bottom;
+                const scale = Math.min(0.9, 
+                    Math.min(fullWidth / bounds.width, fullHeight / bounds.height));
+                
+                const transform = d3.zoomIdentity
+                    .translate(fullWidth / 2 - scale * (bounds.x + bounds.width / 2), 
+                                fullHeight / 2 - scale * (bounds.y + bounds.height / 2))
+                    .scale(scale);
+                
+                svg.transition()
+                    .duration(750)
+                    .call(zoom.transform, transform);
+            }, 100);
+        }
+
+        // Toggle view button
+        d3.select("#toggle-view").on("click", () => {
+            isBottomUp = !isBottomUp;
+            updateTree();
+        });
+
+        // Reset zoom button
+        d3.select("#reset-zoom").on("click", () => {
+            svg.transition()
+                .duration(750)
+                .call(zoom.transform, d3.zoomIdentity);
+        });
+
+        // Expand all button
+        d3.select("#expand-all").on("click", () => {
+            collapsedNodes.clear();
+            currentData = buildTreeData(currentData.name);
+            updateTree();
+        });
+
+        // Collapse all button
+        d3.select("#collapse-all").on("click", () => {
+            // Collapse all except the root
+            collapsedNodes = new Set();
+            function collectNodes(node) {
+                if (node.children && node.children.length > 0) {
+                    if (node.name !== currentData.name) {
+                        collapsedNodes.add(node.name);
+                    }
+                    node.children.forEach(collectNodes);
+                }
+            }
+            collectNodes(currentData);
+            currentData = buildTreeData(currentData.name);
+            updateTree();
+        });
+
+        // Search functionality
+        d3.select("#element-search").on("input", function() {
+            const searchTerm = this.value.toLowerCase();
+            if (searchTerm.length < 2) return;
+            
+            const matchingElement = Object.keys(elementsDatabase).find(name => 
+                name.toLowerCase().includes(searchTerm));
+            
+            if (matchingElement) {
+                currentData = buildTreeData(matchingElement);
+                updateTree();
+            }
+        });
+
+        // Initial render
+        updateTree();
+
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            const newWidth = document.getElementById('tree-container').clientWidth - margin.left - margin.right;
+            const newHeight = document.getElementById('tree-container').clientHeight - margin.top - margin.bottom;
+            
+            d3.select("#tree-container svg")
+                .attr("width", newWidth + margin.left + margin.right)
+                .attr("height", newHeight + margin.top + margin.bottom);
+            
+            updateTree();
+        });
+    </script>
+</body>
+</html>
