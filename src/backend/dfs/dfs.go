@@ -28,7 +28,6 @@ func PrintTree(node *TreeNode, prefix string, f *os.File) {
         return
     }
 
-
     // Print children
     for i, child := range node.Components {
         isLast := i == len(node.Components)-1
@@ -209,16 +208,11 @@ func DFS(root string, maxSolution int) {
 	stacks = append(stacks, Node{stack: stack})
 
 	for len(stacks) > 0 {
-		// currentNode := stacks[0] // 
-		// stacks = stacks[1:]
 		currentNode := stacks[len(stacks)-1]
 		stacks = stacks[:len(stacks)-1]
 		current := currentNode.stack
 
 		if len(current.Elements) == 0 {
-			// if hasCycle(current.Path) {
-			// 	continue
-			// }
 
 			if ContainsElementInPath(current.Path, "Time") {
 				afterTimeCount := UniqueElementsAfterTime(current.Path)
@@ -242,8 +236,6 @@ func DFS(root string, maxSolution int) {
 
 		elem := current.Elements[len(current.Elements)-1]
 		current.Elements = current.Elements[:len(current.Elements)-1]
-		// fmt.Printf("Processing element: %s\n", elem)
-		// time.Sleep(10 * time.Millisecond) // Simulate processing time
 
 		if current.Visited[elem] {
 			stacks = append(stacks, Node{stack: current})
@@ -257,24 +249,17 @@ func DFS(root string, maxSolution int) {
 			continue
 		}
 
-		// if depth >= maxDepth {
-		// 	continue
-		// }
-
 		recipes, exists := scraper.ReverseMapping[elem]
 		if !exists {
 			continue
 		}
 
-		// firstPushed := false
 		for _, recipe := range recipes {
 			parts := strings.Split(recipe, " + ")
 			if len(parts) != 2 {
 				continue
 			}
 			a, b := parts[0], parts[1]
-			// time.Sleep(time.Millisecond * 10) // Simulate processing time
-			// fmt.Printf("Processing combination: %s + %s for element: %s\n", a, b, elem)
 
 			tierA, tierB, tierElem := scraper.ElemTier[a], scraper.ElemTier[b], scraper.ElemTier[elem]
 			if tierA >= tierElem || tierB >= tierElem {
@@ -290,19 +275,11 @@ func DFS(root string, maxSolution int) {
 				Components: []string{a, b},
 			})
 		
-
-			// if hasCycle(newStack.Path) {
-			// 	// fmt.Printf("Cycle detected for element: %s\n", elem)
-			// 	continue // Skip this stack as it introduces a cycle
-			// }
 			newStack.Visited[elem] = true
 
-			// if !firstPushed {
-				stacks = append(stacks, Node{stack: newStack})
-				// firstPushed = true
-			// } else {
-			// 	stacks = append(stacks, Node{stack: newStack, depth: depth + 1})s
-			// }
+			
+			stacks = append(stacks, Node{stack: newStack})
+			
 		}
 	}
 

@@ -64,8 +64,8 @@ func BFS(root string, maxSolution int) {
 	queues = append(queues, Node{queue: queue})
 
 	for len(queues) > 0 {
-		currentNode := queues[len(queues)-1]
-		queues = queues[:len(queues)-1]
+		currentNode := queues[0]
+		queues = queues[1:]
 		current := currentNode.queue
 
 		if len(current.Elements) == 0 {
