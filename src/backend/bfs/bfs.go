@@ -37,18 +37,18 @@ func copyQueue(q Queue) Queue {
 	}
 }
 
-func BFS(root string, maxSolution int) ([]*dfs.TreeNode, int) {
+func BFS(root string, maxSolution int) ([]*dfs.TreeNode, int, int) {
 	var allPaths []*dfs.TreeNode
 	count := 0
 
 	if err := scraper.LoadReverseMapping(); err != nil {
 		fmt.Println("Error loading reverse mapping:", err)
-		return nil, 0
+		return nil, 0, 0
 	}
 
 	if err := scraper.LoadTierElem(); err != nil {
 		fmt.Println("Error loading tiers:", err)
-		return nil, 0
+		return nil, 0, 0
 	}
 
 	queue := Queue{
@@ -142,7 +142,7 @@ func BFS(root string, maxSolution int) ([]*dfs.TreeNode, int) {
 	f, err := os.Create("paths.txt")
 	if err != nil {
 		fmt.Println("Error creating file:", err)
-		return nil, 0
+		return nil, 0, 0
 	}
 	defer f.Close()
 
@@ -156,7 +156,7 @@ func BFS(root string, maxSolution int) ([]*dfs.TreeNode, int) {
 	jsonFile, err := os.Create("paths.json")
     if err != nil {
         fmt.Println("Error creating JSON file:", err)
-        return nil, 0
+        return nil, 0, 0
     }
     defer jsonFile.Close()
 
@@ -164,10 +164,10 @@ func BFS(root string, maxSolution int) ([]*dfs.TreeNode, int) {
 	encoder.SetIndent("", "  ") // Pretty print
 	if err := encoder.Encode(allPaths); err != nil {
 		fmt.Println("Error encoding to JSON:", err)
-		return nil, 0
+		return nil, 0, 0
 	}
 
-	return allPaths, count
+	return allPaths, count, dfs.GlobalVisitedCount
 }
 
 func PrintQueue(q Queue) {

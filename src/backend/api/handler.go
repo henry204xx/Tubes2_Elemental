@@ -1,4 +1,5 @@
 // backend/api/handler.go
+
 package api
 
 import (
@@ -16,9 +17,10 @@ type QueryRequest struct {
 }
 
 type QueryResponse struct {
-	Trees       []*dfs.TreeNode `json:"trees"`
-	NodeCount   int             `json:"nodeCount"`
-	ElapsedTime string          `json:"elapsedTime"`
+	Trees         []*dfs.TreeNode `json:"trees"`
+	NumSolutions  int             `json:"numSolutions"`
+	NodeCount     int             `json:"nodeCount"`
+	ElapsedTime   string          `json:"elapsedTime"`
 }
 
 func QueryHandler(w http.ResponseWriter, r *http.Request) {
@@ -31,11 +33,13 @@ func QueryHandler(w http.ResponseWriter, r *http.Request) {
 	start := time.Now()
 
 	var trees []*dfs.TreeNode
+	var numSolutions, visitedNodes int
+
 	switch req.Method {
 	case "dfs":
-		trees, _ = dfs.DFS(req.Target, req.MaxSolutions) // returns trees and visited count
+		trees, numSolutions, visitedNodes = dfs.DFS(req.Target, req.MaxSolutions)
 	case "bfs":
-		trees, _ = bfs.BFS(req.Target, req.MaxSolutions)
+		trees, numSolutions, visitedNodes = bfs.BFS(req.Target, req.MaxSolutions)
 	default:
 		http.Error(w, "Unknown method", http.StatusBadRequest)
 		return
@@ -43,7 +47,8 @@ func QueryHandler(w http.ResponseWriter, r *http.Request) {
 
 	res := QueryResponse{
 		Trees:       trees,
-		NodeCount:   dfs.GlobalVisitedCount,
+		NumSolutions: numSolutions,  // Number of solutions found
+		NodeCount:   visitedNodes,   // Number of visited nodes
 		ElapsedTime: time.Since(start).String(),
 	}
 
