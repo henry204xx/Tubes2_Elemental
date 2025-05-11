@@ -1,11 +1,12 @@
 package bfs
 
 import (
+	"backend/dfs"
+	"backend/scraper"
+	"encoding/json"
 	"fmt"
 	"os"
 	"strings"
-	"backend/scraper"
-	"backend/dfs"
 )
 
 
@@ -150,6 +151,20 @@ func BFS(root string, maxSolution int) {
 		fmt.Fprintf(f, "%s", root + "\n")
 		dfs.PrintTree(tree, "", f)
 		fmt.Fprintln(f)
+	}
+
+	jsonFile, err := os.Create("paths.json")
+    if err != nil {
+        fmt.Println("Error creating JSON file:", err)
+        return
+    }
+    defer jsonFile.Close()
+
+	encoder := json.NewEncoder(jsonFile)
+	encoder.SetIndent("", "  ") // Pretty print
+	if err := encoder.Encode(allPaths); err != nil {
+		fmt.Println("Error encoding to JSON:", err)
+		return
 	}
 }
 

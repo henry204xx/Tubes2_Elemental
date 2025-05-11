@@ -2,11 +2,11 @@ package dfs
 
 import (
 	// "encoding/json"
+	"backend/scraper"
+	"encoding/json"
 	"fmt"
 	"os"
 	"strings"
-	"backend/scraper"
-	
 )
 
 var GlobalVisitedCount int
@@ -180,11 +180,11 @@ func BuildTree(path []Step, target string) *TreeNode {
 }
 
 
-
 func DFS(root string, maxSolution int) {
 	var allPaths []*TreeNode
 	Count := 0
 
+	// Load data as needed
 	if err := scraper.LoadReverseMapping(); err != nil {
 		fmt.Println("Error loading reverse mapping:", err)
 		return
@@ -220,7 +220,7 @@ func DFS(root string, maxSolution int) {
 					continue // invalid path: not enough elements created after Time
 				}
 			}
-			
+
 			fmt.Println(Count+1, "Found complete path:")
 			printStack(current)
 
@@ -268,24 +268,19 @@ func DFS(root string, maxSolution int) {
 			newStack := copyStack(current)
 			newStack.Ancestry = append(append([]string{}, current.Ancestry...), elem)
 			newStack.Elements = append(newStack.Elements, b, a)
-			
-			
+
 			newStack.Path = append(newStack.Path, Step{
 				Result:     elem,
 				Components: []string{a, b},
 			})
-		
+
 			newStack.Visited[elem] = true
 
-			
 			stacks = append(stacks, Node{stack: newStack})
-			
 		}
 	}
 
-	fmt.Printf("Total paths found: %d\n", Count)
-	fmt.Printf("Total nodes visited: %d\n", GlobalVisitedCount)
-
+	// Write merged paths to files
 	f, err := os.Create("paths.txt")
 	if err != nil {
 		fmt.Println("Error creating file:", err)
@@ -298,6 +293,20 @@ func DFS(root string, maxSolution int) {
 		fmt.Fprintf(f, "%s", root + "\n")
 		PrintTree(tree, "", f)
 		fmt.Fprintln(f)
+	}
+
+	jsonFile, err := os.Create("paths.json")
+    if err != nil {
+        fmt.Println("Error creating JSON file:", err)
+        return
+    }
+    defer jsonFile.Close()
+
+	encoder := json.NewEncoder(jsonFile)
+	encoder.SetIndent("", "  ") // Pretty print
+	if err := encoder.Encode(allPaths); err != nil {
+		fmt.Println("Error encoding to JSON:", err)
+		return
 	}
 }
 
