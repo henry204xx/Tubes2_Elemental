@@ -1,0 +1,600 @@
+Path 1:
+Alpaca
+├── Sheep
+|   |
+|   ├── Livestock
+|   |   |
+|   |   ├── Animal
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Lava
+|   |   |   |   |   |   |
+|   |   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   └── Fire
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Puddle
+|   |   |   |   |       |   └── Water
+|   |   |   |   |       └── Lake
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Land
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
+|   |       |   |
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Air
+|   |       |       |   |   |
+|   |       |       |   └── Lava
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
+
+Path 2:
+Alpaca
+├── Sheep
+|   |
+|   ├── Livestock
+|   |   |
+|   |   ├── Animal
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Lava
+|   |   |   |   |   |   |
+|   |   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   └── Fire
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Water
+|   |   |   |   |       |   └── Water
+|   |   |   |   |       └── Lake
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Land
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
+|   |       |   |
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Air
+|   |       |       |   |   |
+|   |       |       |   └── Lava
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
+
+Path 3:
+Alpaca
+├── Sheep
+|   |
+|   ├── Livestock
+|   |   |
+|   |   ├── Animal
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Lava
+|   |   |   |   |   |   |
+|   |   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   └── Fire
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Puddle
+|   |   |   |   |       |   └── Pond
+|   |   |   |   |       └── Lake
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Land
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
+|   |       |   |
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Air
+|   |       |       |   |   |
+|   |       |       |   └── Lava
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
+
+Path 4:
+Alpaca
+├── Sheep
+|   |
+|   ├── Livestock
+|   |   |
+|   |   ├── Animal
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Lava
+|   |   |   |   |   |   |
+|   |   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   └── Fire
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Water
+|   |   |   |   |       |   └── Pond
+|   |   |   |   |       └── Lake
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Land
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
+|   |       |   |
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Air
+|   |       |       |   |   |
+|   |       |       |   └── Lava
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
+
+Path 5:
+Alpaca
+├── Sheep
+|   |
+|   ├── Livestock
+|   |   |
+|   |   ├── Animal
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Lava
+|   |   |   |   |   |   |
+|   |   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   └── Fire
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Puddle
+|   |   |   |   |       |   └── Water
+|   |   |   |   |       └── Water
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Land
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
+|   |       |   |
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Air
+|   |       |       |   |   |
+|   |       |       |   └── Lava
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
+
+Path 6:
+Alpaca
+├── Sheep
+|   |
+|   ├── Livestock
+|   |   |
+|   |   ├── Animal
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Lava
+|   |   |   |   |   |   |
+|   |   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   └── Fire
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Water
+|   |   |   |   |       |   └── Water
+|   |   |   |   |       └── Water
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Land
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
+|   |       |   |
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Air
+|   |       |       |   |   |
+|   |       |       |   └── Lava
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
+
+Path 7:
+Alpaca
+├── Sheep
+|   |
+|   ├── Livestock
+|   |   |
+|   |   ├── Animal
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Lava
+|   |   |   |   |   |   |
+|   |   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   └── Fire
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Puddle
+|   |   |   |   |       |   └── Pond
+|   |   |   |   |       └── Water
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Land
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
+|   |       |   |
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Air
+|   |       |       |   |   |
+|   |       |       |   └── Lava
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
+
+Path 8:
+Alpaca
+├── Sheep
+|   |
+|   ├── Livestock
+|   |   |
+|   |   ├── Animal
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Lava
+|   |   |   |   |   |   |
+|   |   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   └── Fire
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Water
+|   |   |   |   |       |   └── Pond
+|   |   |   |   |       └── Water
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Land
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
+|   |       |   |
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Air
+|   |       |       |   |   |
+|   |       |       |   └── Lava
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
+
+Path 9:
+Alpaca
+├── Sheep
+|   |
+|   ├── Livestock
+|   |   |
+|   |   ├── Animal
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Puddle
+|   |   |   |   |       |   └── Water
+|   |   |   |   |       └── Lake
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Land
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
+|   |       |   |
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Earth
+|   |       |       |   |   |
+|   |       |       |   └── Pressure
+|   |       |       |       ├── Air
+|   |       |       |       |   |
+|   |       |       |       └── Air
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
+
+Path 10:
+Alpaca
+├── Sheep
+|   |
+|   ├── Livestock
+|   |   |
+|   |   ├── Animal
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Water
+|   |   |   |   |       |   └── Water
+|   |   |   |   |       └── Lake
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Land
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
+|   |       |   |
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Earth
+|   |       |       |   |   |
+|   |       |       |   └── Pressure
+|   |       |       |       ├── Air
+|   |       |       |       |   |
+|   |       |       |       └── Air
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
+
