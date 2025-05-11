@@ -180,19 +180,19 @@ func BuildTree(path []Step, target string) *TreeNode {
 }
 
 
-func DFS(root string, maxSolution int) {
+func DFS(root string, maxSolution int) ([]*TreeNode, int) {
 	var allPaths []*TreeNode
 	Count := 0
 
 	// Load data as needed
 	if err := scraper.LoadReverseMapping(); err != nil {
 		fmt.Println("Error loading reverse mapping:", err)
-		return
+		return nil, 0
 	}
 
 	if err := scraper.LoadTierElem(); err != nil {
 		fmt.Println("Error loading tiers:", err)
-		return
+		return nil, 0
 	}
 
 	stack := Stack{
@@ -284,7 +284,7 @@ func DFS(root string, maxSolution int) {
 	f, err := os.Create("paths.txt")
 	if err != nil {
 		fmt.Println("Error creating file:", err)
-		return
+		return nil, 0
 	}
 	defer f.Close()
 
@@ -298,7 +298,7 @@ func DFS(root string, maxSolution int) {
 	jsonFile, err := os.Create("paths.json")
     if err != nil {
         fmt.Println("Error creating JSON file:", err)
-        return
+        return nil, 0
     }
     defer jsonFile.Close()
 
@@ -306,8 +306,10 @@ func DFS(root string, maxSolution int) {
 	encoder.SetIndent("", "  ") // Pretty print
 	if err := encoder.Encode(allPaths); err != nil {
 		fmt.Println("Error encoding to JSON:", err)
-		return
+		return nil, 0
 	}
+
+	return allPaths, Count
 }
 
 func printStack(s Stack) {
