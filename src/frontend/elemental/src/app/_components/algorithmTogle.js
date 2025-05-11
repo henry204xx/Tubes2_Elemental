@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 export default function AlgorithmToggle({ onAlgorithmChange }) {
-  const [algorithm, setAlgorithm] = useState('BFS'); // 'BFS' atau 'DFS'
+  const [algorithm, setAlgorithm] = useState('BFS'); 
 
   const handleToggle = (selectedAlgorithm) => {
     setAlgorithm(selectedAlgorithm);
