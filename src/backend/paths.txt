@@ -1,24 +1,30 @@
 Path 1:
-Acid rain
-├── Cloud
+Star
+├── Sky
 |   |
-|   ├── Atmosphere
+|   ├── Sun
 |   |   |
-|   |   ├── Air
+|   |   ├── Planet
+|   |   |   |
+|   |   |   ├── Continent
+|   |   |   |   |
+|   |   |   |   ├── Land
+|   |   |   |   |   |
+|   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |
+|   |   |   |   |   └── Earth
+|   |   |   |   └── Land
+|   |   |   └── Continent
+|   |   └── Fire
+|   └── Atmosphere
+|       ├── Air
+|       |   |
+|       └── Planet
+├── Space
+|   ├── Solar system
+|   |   |
+|   |   ├── Planet
 |   |   |   |
 |   |   └── Planet
-|   |       ├── Continent
-|   |       |   |
-|   |       |   ├── Land
-|   |       |   |   |
-|   |       |   |   ├── Earth
-|   |       |   |   |   |
-|   |       |   |   └── Earth
-|   |       |   └── Earth
-|   |       └── Continent
-|   └── Water
-├── Smoke
-|   ├── Fire
-|   |   |
-|   └── Air
+|   └── Sky
 

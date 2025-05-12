@@ -1,16 +1,13 @@
 [
   {
-    "result": "Acid rain",
+    "result": "Star",
     "components": [
       {
-        "result": "Cloud",
+        "result": "Sky",
         "components": [
           {
-            "result": "Atmosphere",
+            "result": "Sun",
             "components": [
-              {
-                "result": "Air"
-              },
               {
                 "result": "Planet",
                 "components": [
@@ -29,7 +26,7 @@
                         ]
                       },
                       {
-                        "result": "Earth"
+                        "result": "Land"
                       }
                     ]
                   },
@@ -37,22 +34,41 @@
                     "result": "Continent"
                   }
                 ]
+              },
+              {
+                "result": "Fire"
               }
             ]
           },
           {
-            "result": "Water"
+            "result": "Atmosphere",
+            "components": [
+              {
+                "result": "Air"
+              },
+              {
+                "result": "Planet"
+              }
+            ]
           }
         ]
       },
       {
-        "result": "Smoke",
+        "result": "Space",
         "components": [
           {
-            "result": "Fire"
+            "result": "Solar system",
+            "components": [
+              {
+                "result": "Planet"
+              },
+              {
+                "result": "Planet"
+              }
+            ]
           },
           {
-            "result": "Air"
+            "result": "Sky"
           }
         ]
       }

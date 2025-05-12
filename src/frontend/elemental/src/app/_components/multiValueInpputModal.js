@@ -3,7 +3,6 @@
 export default function MultiValueInputModal({
   isOpen,
   onClose,
-  inputValue,
   setInputValue,
   onSubmit,
   inputError,
@@ -19,8 +18,7 @@ export default function MultiValueInputModal({
         <h2 className="text-xl font-bold mb-4">Masukkan Nilai</h2>
         <input
           type="number"
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
+          onChange={(e) => setInputValue(parseInt(e.target.value))}
           className="border p-2 w-full mb-4"
           placeholder="Masukkan nilai lebih dari 0"
         />

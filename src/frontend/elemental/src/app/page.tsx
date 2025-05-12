@@ -62,26 +62,32 @@ export default function Home() {
     setSolutionCount(0);
     setTimeCount(0);
     setIsMultiValue(false); 
+    setShowTreeModal(false);
   };
 
 
+
+
     const handleReceiptClick = async (elementName: string, maxSolution: number, method: string) => {
-    try {
-      console.log("MASUK PROSES");
-      console.log("INI DIBAWAHNYA NAMANYA");
-      console.log(elementName);
-      const response = await fetch('http://localhost:8080/api/query', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json',
-      },
-      body: JSON.stringify({
-        target: elementName,
-        maxSolutions: maxSolution,
-        method: method
-      }),
-    });
+      try {
+        console.log("MASUK PROSES");
+        console.log("INI DIBAWAHNYA NAMANYA");
+        console.log(elementName);
+        console.log("INI DIBAWAHNYA METHODNYA");
+        console.log(method);
+        console.log("INI TYPE MAX SOLUTION "+typeof(maxSolution));
+        const response = await fetch('http://localhost:8080/api/query', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify({
+          target: elementName,
+          maxSolutions: maxSolution,
+          method: method
+        }),
+      });
 
 
       if (!response.ok) throw new Error('Failed to fetch tree data');
@@ -129,7 +135,6 @@ export default function Home() {
       <MultiValueInputModal 
         isOpen={showInputModal} 
         onClose={handleCancel} 
-        inputValue={inputValue} 
         setInputValue={setInputValue} 
         onSubmit={handleSubmitValue} 
         inputError={inputError} 
@@ -137,7 +142,7 @@ export default function Home() {
 
       <TreeModal
         isOpen={showTreeModal}
-        onClose={() => setShowTreeModal(false)}
+        onClose={()=>setShowTreeModal(false)}
         target={currTarget} 
         treeRaw={treeData}    
         countNode={nodeCount}

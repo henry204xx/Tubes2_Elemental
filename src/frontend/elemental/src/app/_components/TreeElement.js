@@ -18,17 +18,30 @@ function countNodes(node) {
 }
 
 function getScalingWidth(node) {
-  const num = countNodes(node) / 100;
-  return 1.2 + (num - 5) * 0.2;
+  const num = Math.floor(countNodes(node)/5);
+  return 1.2 + (num) * 0.08  ;
+
+  // if(num < 50){
+  //   return 1;
+  // }
+  // else if(num < 100){
+  //   return 4;
+  // }
+  // else if(num < 400){
+  //   return 8;
+  // }
+  // return 1.2 + (num - 5) * 0.2;
 }
 
 
 function getScalingValue(name) {
   const num = getTier(name);
-  if (num < 5 || num > 15) {
-    throw new Error('Input harus antara 5 dan 15');
+  if (!(num < 5 || num > 15)) {
+    return 1.2 + (num - 5) * 0.2;
   }
-  return 1.2 + (num - 5) * 0.2;
+  else{
+    return 1.2;
+  }
 }
 
 function extractRuleFromJson(forest) {
@@ -143,7 +156,7 @@ function TreeElement({treeRawData, rootName, nodeCount, solutionCount, time}) {
     console.log(rootName);
 
     const root = d3.hierarchy(treeDummy);
-    const treeLayout = d3.tree().size([(width - 100)*8, height * getScalingValue(rootName)]).separation(() => 5);
+    const treeLayout = d3.tree().size([(width - 100)*getScalingWidth(treeDummy), height * getScalingValue(rootName)]).separation(() => 5);
     treeLayout(root);
 
     const nodes = root.descendants();

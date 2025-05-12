@@ -41,7 +41,8 @@ func QueryHandler(w http.ResponseWriter, r *http.Request) {
 
 	var req QueryRequest
 	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-		fmt.Print("masuk eror decoder")
+		fmt.Println("masuk eror decoder:", err.Error())
+		fmt.Println(r.Body)
 		http.Error(w, "Invalid request", http.StatusBadRequest)
 		return
 	}
