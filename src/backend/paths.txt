@@ -1,0 +1,53 @@
+Path 1:
+Alcohol
+├── Fruit
+|   |
+|   ├── Flower
+|   |   |
+|   |   ├── Plant
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Puddle
+|   |   |   |   |       |   └── Water
+|   |   |   |   |       └── Lake
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Soil
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Life
+|   |   └── Rainbow
+|   |       ├── Water
+|   |       |   |
+|   |       └── Sun
+|   |           ├── Planet
+|   |           |   |
+|   |           |   ├── Continent
+|   |           |   |   |
+|   |           |   |   ├── Land
+|   |           |   |   |   |
+|   |           |   |   |   ├── Earth
+|   |           |   |   |   |   |
+|   |           |   |   |   └── Earth
+|   |           |   |   └── Earth
+|   |           |   └── Continent
+|   |           └── Fire
+|   └── Water
+├── Sun
