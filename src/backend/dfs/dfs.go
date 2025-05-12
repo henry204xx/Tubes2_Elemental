@@ -280,6 +280,9 @@ func DFS(root string, maxSolution int) ([]*TreeNode, int, int) {
 		}
 	}
 
+	fmt.Printf("Total paths found: %d\n", Count)
+	fmt.Printf("Total nodes visited: %d\n", GlobalVisitedCount)
+
 	// Write merged paths to files
 	f, err := os.Create("paths.txt")
 	if err != nil {
