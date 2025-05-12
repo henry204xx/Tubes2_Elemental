@@ -101,7 +101,7 @@ func (p *WorkerPool) worker() {
 				p.Stop()
 				return
 			}
-			time.Sleep(1 * time.Millisecond) // Consider reducing or removing
+			// time.Sleep(1 * time.Millisecond) // Consider reducing or removing
 		}
 	}
 }
@@ -308,19 +308,19 @@ func (p *WorkerPool) isQueueEmpty() bool {
 	return len(p.jobs) == 0
 }
 
-func BFS(root string, maxSolution int) {
+func BFS(root string, maxSolution int) ([]*dfs.TreeNode, int, int) {
 
 	dfs.GlobalVisitedCount = 0
 	
 	// Load necessary data
 	if err := scraper.LoadReverseMapping(); err != nil {
 		fmt.Println("Error loading reverse mapping:", err)
-		return
+		return nil, 0, 0
 	}
 	
 	if err := scraper.LoadTierElem(); err != nil {
 		fmt.Println("Error loading tiers:", err)
-		return
+		return nil, 0, 0
 	}
 	
 	
@@ -396,7 +396,7 @@ func BFS(root string, maxSolution int) {
 	f, err := os.Create("paths.txt")
 	if err != nil {
 		fmt.Println("Error creating file:", err)
-		return
+		return nil, 0, 0
 	}
 	defer f.Close()
 	
@@ -406,6 +406,8 @@ func BFS(root string, maxSolution int) {
 		dfs.PrintTree(tree, "", f)
 		fmt.Fprintln(f)
 	}
+
+	return results, int(pool.Count), int(dfs.GlobalVisitedCount)
 }
 
 func PrintQueue(q Queue) {
