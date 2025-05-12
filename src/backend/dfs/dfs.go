@@ -28,7 +28,6 @@ type Stack struct {
 	Elements  []string
 	Path      []Step
 	Visited   map[string]bool
-	Ancestry  []string
 }
 
 
@@ -222,7 +221,6 @@ func (p *WorkerPool) processNode(node Node) {
 		}
 		
 		newStack := copyStack(current)
-		newStack.Ancestry = append(append([]string{}, current.Ancestry...), elem)
 		newStack.Elements = append(newStack.Elements, b, a)
 		
 		newStack.Path = append(newStack.Path, Step{
@@ -392,7 +390,6 @@ func copyStack(s Stack) Stack {
 		Elements:  newElements,
 		Path:      newPath,
 		Visited:   newVisited,
-		Ancestry:  append([]string{}, s.Ancestry...),
 	}
 }
 

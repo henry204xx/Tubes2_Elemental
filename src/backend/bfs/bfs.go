@@ -12,19 +12,16 @@ import (
 	"time"
 )
 
-
 const (
 	MaxWorkers    = 8 
-	QueueCapacity = 200 
+	QueueCapacity = 1000
 )
 
 type Queue struct {
 	Elements []string
 	Path     []dfs.Step
 	Visited  map[string]bool
-	Ancestry []string
 }
-
 
 type WorkerPool struct {
 	jobs          chan Node
@@ -75,42 +72,36 @@ func (p *WorkerPool) worker() {
 			}
 
 			atomic.AddInt32(&p.activeJobs, 1)
-			
-		
+
+			p.depthTracker.StartProcessingAtDepth(job.depth)
+			for job.depth > p.depthTracker.GetCurrentDepth() {
+			select {
+			case <-p.done:
+				p.depthTracker.FinishProcessingAtDepth(job.depth)
+				return
+			default:
+				time.Sleep(1 * time.Millisecond)
+			}
+		}
+
+			// Process the job
 			p.processNode(job)
-			
-		
+
 			atomic.AddInt32(&p.activeJobs, -1)
 
-			// Check if reached the max solutions
-			if atomic.LoadInt32(&p.Count) >= int32(p.maxSolutions) {
-				p.Stop() 
-				return
-			}
-			
-			// Check if done (no active jobs and no pending jobs)
-			if atomic.LoadInt32(&p.activeJobs) == 0 && p.isQueueEmpty() && 
-			   atomic.LoadInt32(&p.jobsSubmitted) > 0 {
-				fmt.Println("All paths explored. Found", p.Count, "solutions.")
+			// Check if reached max solutions or all work is done
+			if atomic.LoadInt32(&p.Count) >= int32(p.maxSolutions) || 
+				(atomic.LoadInt32(&p.activeJobs) == 0 && p.isQueueEmpty() && atomic.LoadInt32(&p.jobsSubmitted) > 0) {
 				p.Stop()
 				return
 			}
 		default:
-	
-			if atomic.LoadInt32(&p.Count) >= int32(p.maxSolutions) {
+			if atomic.LoadInt32(&p.Count) >= int32(p.maxSolutions) || 
+				(atomic.LoadInt32(&p.activeJobs) == 0 && p.isQueueEmpty() && atomic.LoadInt32(&p.jobsSubmitted) > 0) {
 				p.Stop()
 				return
 			}
-			
-			// Check if all work is complete
-			if atomic.LoadInt32(&p.activeJobs) == 0 && p.isQueueEmpty() && 
-			   atomic.LoadInt32(&p.jobsSubmitted) > 0 {
-				fmt.Println("All paths explored. Found", p.Count, "solutions.")
-				p.Stop()
-				return
-			}
-		
-			time.Sleep(1 * time.Millisecond)
+			time.Sleep(1 * time.Millisecond) // Consider reducing or removing
 		}
 	}
 }
@@ -122,7 +113,11 @@ func (p *WorkerPool) processNode(node Node) {
 		return
 	default:
 	}
+
 	current := node.queue
+
+	
+
 	
 	// Check for path completion
 	if len(current.Elements) == 0 {
@@ -182,7 +177,6 @@ func (p *WorkerPool) processNode(node Node) {
 		}
 
 		newQueue := copyQueue(current)
-		newQueue.Ancestry = append(newQueue.Ancestry, elem)
 		newQueue.Elements = append(newQueue.Elements, a, b)
 		newQueue.Path = append(newQueue.Path, dfs.Step{Result: elem, Components: []string{a, b}})
 		newQueue.Visited[elem] = true
@@ -194,7 +188,6 @@ func (p *WorkerPool) processNode(node Node) {
 	}
 
 	if !branchesSubmitted && len(current.Elements) == 0 {
-		// leads to a dead end
 		return
 	}
 }
@@ -202,21 +195,17 @@ func (p *WorkerPool) processNode(node Node) {
 func (p *WorkerPool) Submit(node Node) {
 	select {
 	case <-p.done:
-		// BFS is finished; do not send anything
 		return
 	default:
 	}
 
-	
 	atomic.AddInt32(&p.jobsSubmitted, 1)
 
 	select {
 	case <-p.done:
 		return
 	case p.jobs <- node:
-	
 	default:
-		
 		go func() {
 			select {
 			case <-p.done:
@@ -264,7 +253,6 @@ func copyQueue(q Queue) Queue {
 		Elements: newElements,
 		Path:     newPath,
 		Visited:  newVisited,
-		Ancestry: append([]string{}, q.Ancestry...),
 	}
 }
 
@@ -273,6 +261,13 @@ type DepthTracker struct {
 	nodesAtDepth    map[int]int32
 	processingDepth map[int]int32
 	lock            sync.Mutex
+}
+
+// GetCurrentDepth returns the current BFS depth being processed.
+func (dt *DepthTracker) GetCurrentDepth() int {
+	dt.lock.Lock()
+	defer dt.lock.Unlock()
+	return dt.currentDepth
 }
 
 func NewDepthTracker() *DepthTracker {
@@ -357,7 +352,7 @@ func BFS(root string, maxSolution int) {
 	
 	// Use a separate goroutine to periodically check if all work is done
 	go func() {
-		ticker := time.NewTicker(500 * time.Millisecond)
+		ticker := time.NewTicker(10 * time.Millisecond)
 		defer ticker.Stop()
 		
 		for {
