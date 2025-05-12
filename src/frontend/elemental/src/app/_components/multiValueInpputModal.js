@@ -15,11 +15,11 @@ export default function MultiValueInputModal({
       style={{ backgroundColor: 'rgba(209, 213, 219, 0.7)' }} 
     >
       <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
-        <h2 className="text-xl font-bold mb-4">Masukkan Nilai</h2>
+        <h2 className="text-xl font-bold text-black mb-4">Masukkan Nilai</h2>
         <input
           type="number"
           onChange={(e) => setInputValue(parseInt(e.target.value))}
-          className="border p-2 w-full mb-4"
+          className="border p-2 w-full text-black mb-4"
           placeholder="Masukkan nilai lebih dari 0"
         />
         {inputError && <p className="text-red-500 text-sm mb-4">{inputError}</p>}

@@ -248,7 +248,7 @@ function TreeElement({treeRawData, rootName, nodeCount, solutionCount, time}) {
         <div style={{
           position: 'absolute', top: '10px', left: '10px',
           background: 'rgba(255,255,255,0.7)', padding: '5px',
-          borderRadius: '5px', fontSize: '12px', maxWidth: '200px', opacity: 0.8
+          borderRadius: '5px', fontSize: '12px', maxWidth: '200px', opacity: 0.8, color: '#000000',
         }}>
           Gunakan pinch untuk zoom in/out, dan seret untuk bergerak
         </div>
@@ -262,14 +262,15 @@ function TreeElement({treeRawData, rootName, nodeCount, solutionCount, time}) {
         fontFamily: 'Arial, sans-serif'
       }}>
         <h3 style={{ marginTop: 0, color: '#4b0082' }}>Informasi Program</h3>
-        <div style={{ display: 'flex', gap: '20px' }}>
+        <div style={{ display: 'flex', gap: '20px', color: '#000000' }}>
           <div>
             <strong>Waktu Eksekusi:</strong> 
             <div style={{ 
               background: '#e9ecef', 
               padding: '5px 10px', 
               borderRadius: '4px',
-              marginTop: '5px'
+              marginTop: '5px',
+              color: '#000000'
             }}>
               {time}
             </div>
