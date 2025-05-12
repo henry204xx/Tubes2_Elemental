@@ -1,49 +1,36 @@
 [
   {
-    "result": "Alcohol",
+    "result": "Algae",
     "components": [
       {
-        "result": "Fruit",
+        "result": "Water"
+      },
+      {
+        "result": "Plant",
         "components": [
           {
-            "result": "Flower",
+            "result": "Life",
             "components": [
               {
-                "result": "Plant",
+                "result": "Primordial soup",
                 "components": [
                   {
-                    "result": "Life",
+                    "result": "Earth"
+                  },
+                  {
+                    "result": "Sea",
                     "components": [
                       {
-                        "result": "Primordial soup",
+                        "result": "Lake",
                         "components": [
                           {
-                            "result": "Earth"
-                          },
-                          {
-                            "result": "Sea",
+                            "result": "Pond",
                             "components": [
                               {
-                                "result": "Lake",
+                                "result": "Puddle",
                                 "components": [
                                   {
-                                    "result": "Pond",
-                                    "components": [
-                                      {
-                                        "result": "Puddle",
-                                        "components": [
-                                          {
-                                            "result": "Water"
-                                          },
-                                          {
-                                            "result": "Water"
-                                          }
-                                        ]
-                                      },
-                                      {
-                                        "result": "Puddle"
-                                      }
-                                    ]
+                                    "result": "Water"
                                   },
                                   {
                                     "result": "Water"
@@ -51,90 +38,47 @@
                                 ]
                               },
                               {
-                                "result": "Lake"
+                                "result": "Puddle"
                               }
                             ]
-                          }
-                        ]
-                      },
-                      {
-                        "result": "Energy",
-                        "components": [
-                          {
-                            "result": "Fire"
                           },
                           {
-                            "result": "Fire"
+                            "result": "Water"
                           }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "result": "Soil",
-                    "components": [
-                      {
-                        "result": "Earth"
                       },
                       {
-                        "result": "Life"
+                        "result": "Lake"
                       }
                     ]
                   }
                 ]
               },
               {
-                "result": "Rainbow",
+                "result": "Energy",
                 "components": [
                   {
-                    "result": "Water"
+                    "result": "Fire"
                   },
                   {
-                    "result": "Sun",
-                    "components": [
-                      {
-                        "result": "Planet",
-                        "components": [
-                          {
-                            "result": "Continent",
-                            "components": [
-                              {
-                                "result": "Land",
-                                "components": [
-                                  {
-                                    "result": "Earth"
-                                  },
-                                  {
-                                    "result": "Earth"
-                                  }
-                                ]
-                              },
-                              {
-                                "result": "Earth"
-                              }
-                            ]
-                          },
-                          {
-                            "result": "Continent"
-                          }
-                        ]
-                      },
-                      {
-                        "result": "Fire"
-                      }
-                    ]
+                    "result": "Fire"
                   }
                 ]
               }
             ]
           },
           {
-            "result": "Water"
+            "result": "Soil",
+            "components": [
+              {
+                "result": "Earth"
+              },
+              {
+                "result": "Life"
+              }
+            ]
           }
         ]
-      },
-      {
-        "result": "Sun"
       }
     ]
   }
