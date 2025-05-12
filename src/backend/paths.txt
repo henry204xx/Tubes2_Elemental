@@ -32,23 +32,89 @@ Alcohol
 |   |   |   └── Soil
 |   |   |       ├── Earth
 |   |   |       |   |
-|   |   |       └── Life
-|   |   └── Rainbow
-|   |       ├── Water
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
 |   |       |   |
-|   |       └── Sun
-|   |           ├── Planet
-|   |           |   |
-|   |           |   ├── Continent
-|   |           |   |   |
-|   |           |   |   ├── Land
-|   |           |   |   |   |
-|   |           |   |   |   ├── Earth
-|   |           |   |   |   |   |
-|   |           |   |   |   └── Earth
-|   |           |   |   └── Earth
-|   |           |   └── Continent
-|   |           └── Fire
-|   └── Water
-├── Sun
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Earth
+|   |       |       |   |   |
+|   |       |       |   └── Pressure
+|   |       |       |       ├── Air
+|   |       |       |       |   |
+|   |       |       |       └── Air
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
+
+Path 10:
+Alpaca
+├── Sheep
+|   |
+|   ├── Livestock
+|   |   |
+|   |   ├── Animal
+|   |   |   |
+|   |   |   ├── Life
+|   |   |   |   |
+|   |   |   |   ├── Primordial soup
+|   |   |   |   |   |
+|   |   |   |   |   ├── Earth
+|   |   |   |   |   |   |
+|   |   |   |   |   └── Sea
+|   |   |   |   |       ├── Lake
+|   |   |   |   |       |   |
+|   |   |   |   |       |   ├── Pond
+|   |   |   |   |       |   |   |
+|   |   |   |   |       |   |   ├── Puddle
+|   |   |   |   |       |   |   |   |
+|   |   |   |   |       |   |   |   ├── Water
+|   |   |   |   |       |   |   |   |   |
+|   |   |   |   |       |   |   |   └── Water
+|   |   |   |   |       |   |   └── Water
+|   |   |   |   |       |   └── Water
+|   |   |   |   |       └── Lake
+|   |   |   |   └── Energy
+|   |   |   |       ├── Fire
+|   |   |   |       |   |
+|   |   |   |       └── Fire
+|   |   |   └── Land
+|   |   |       ├── Earth
+|   |   |       |   |
+|   |   |       └── Earth
+|   |   └── Field
+|   |       ├── Plow
+|   |       |   |
+|   |       |   ├── Earth
+|   |       |   |   |
+|   |       |   └── Metal
+|   |       |       ├── Stone
+|   |       |       |   |
+|   |       |       |   ├── Earth
+|   |       |       |   |   |
+|   |       |       |   └── Pressure
+|   |       |       |       ├── Air
+|   |       |       |       |   |
+|   |       |       |       └── Air
+|   |       |       └── Fire
+|   |       └── Earth
+|   └── Land
+├── Mountain
+|   ├── Earth
+|   |   |
+|   └── Earthquake
+|       ├── Earth
+|       |   |
+|       └── Energy
 

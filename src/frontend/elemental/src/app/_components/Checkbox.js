@@ -1,20 +1,17 @@
 "use client";
-import { useState } from "react";
 
-export default function MultiValueToggle({ onChange }) {
-  const [isMultivalue, setIsMultivalue] = useState(false);
+export default function MultiValueToggle({ onChange, checked }){
 
   const handleChange = () => {
-    const newValue = !isMultivalue;
-    setIsMultivalue(newValue);
-    onChange(newValue); // Kirim ke parent
+    const newValue = !checked;
+    onChange(newValue); 
   };
 
   return (
     <label className="flex items-center gap-2 cursor-pointer">
       <input
         type="checkbox"
-        checked={isMultivalue}
+        checked={checked}
         onChange={handleChange}
         className="accent-blue-500"
       />
