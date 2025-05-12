@@ -24,9 +24,12 @@ export default function Home() {
   const [nodeCount, setNodeCount] = useState(0);
   const [manySolution, setSolutionCount] = useState(0);
   const [timeCount, setTimeCount] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
+  const [abortController, setAbortController] = useState<AbortController | null>(null);
 
   useEffect(() => {
     if (treeData) {
+      setIsLoading(false);
       setShowTreeModal(true);  
     } else {
       setShowTreeModal(false); 
@@ -63,12 +66,17 @@ export default function Home() {
     setTimeCount(0);
     setIsMultiValue(false); 
     setShowTreeModal(false);
+    setShowInputModal(false);
   };
 
 
 
 
     const handleReceiptClick = async (elementName: string, maxSolution: number, method: string) => {
+      const controller = new AbortController();
+      setAbortController(controller);
+      setIsLoading(true);
+
       try {
         console.log("MASUK PROSES");
         console.log("INI DIBAWAHNYA NAMANYA");
@@ -142,13 +150,32 @@ export default function Home() {
 
       <TreeModal
         isOpen={showTreeModal}
-        onClose={()=>setShowTreeModal(false)}
+        onClose={handleCancel}
         target={currTarget} 
         treeRaw={treeData}    
         countNode={nodeCount}
         countSolution={manySolution}
         programTime={timeCount}
       />
+
+      {/*loading modal*/}
+      {isLoading && (
+      <div className="fixed inset-0 flex items-center justify-center z-50"
+      style={{ backgroundColor: 'rgba(209, 213, 219, 0.7)' }}>
+        <div className="bg-white p-6 rounded-xl shadow-lg text-center">
+          <p className="text-lg font-semibold mb-4">Memproses Query...</p>
+          <button
+            onClick={() => {
+            if (abortController) abortController.abort();
+              setIsLoading(false);
+              handleCancel();
+            }}
+            className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+            >
+            Batalkan
+          </button>
+          </div>
+      </div>)}
 
     </div>
   );
