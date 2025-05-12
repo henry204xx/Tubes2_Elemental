@@ -8,6 +8,59 @@ function getSvgPath(name) {
   return elementLibrary[name]?.svgPath || "";
 }
 
+function getTier(Name) {
+  return elementLibrary[Name]?.tier || "";; 
+}
+
+function countNodes(node) {
+  if (!node || !node.children) return 1;
+  return 1 + node.children.reduce((sum, child) => sum + countNodes(child), 0);
+}
+
+function getScalingWidth(node) {
+  const num = countNodes(node) / 100;
+  return 1.2 + (num - 5) * 0.2;
+}
+
+
+function getScalingValue(name) {
+  const num = getTier(name);
+  if (num < 5 || num > 15) {
+    throw new Error('Input harus antara 5 dan 15');
+  }
+  return 1.2 + (num - 5) * 0.2;
+}
+
+function extractRuleFromJson(forest) {
+  const ruleSet = new Set();
+  if(!forest){
+    console.log("INI KOSONG WOY")
+  }
+  function traverse(node) {
+    if (!node || !node.components) return;
+    const childResults = [];
+
+    for (const child of node.components) {
+      traverse(child);
+      if (child.result) {
+        childResults.push(child.result);
+      }
+    }
+
+    if (childResults.length > 0 && node.result) {
+      const sortedInput = [...childResults].sort();
+      const rule = JSON.stringify({ input: sortedInput, output: node.result });
+      ruleSet.add(rule);
+    }
+  }
+
+  for (const rootNode of forest) {
+    traverse(rootNode);
+  }
+  return Array.from(ruleSet).map(rule => JSON.parse(rule));
+}
+
+
 function buildOutputMap(rules) {
   const map = {};
   for (const rule of rules) {
@@ -30,36 +83,31 @@ function splitText(text, maxChars = 9) {
   return text.length <= maxChars ? [text] : [text.substring(0, maxChars)];
 }
 
-const dataRule = [
+// const dataRule = [
 
-{ "input": ["Air", "Planet"], "output": "Atmosphere" },
-{ "input": ["Continent", "Continent"], "output": "Planet" },
-{ "input": ["Land", "Land"], "output": "Continent" },
-{ "input": ["Land", "Earth"], "output": "Continent" },
-{ "input": ["Earth", "Earth"], "output": "Land" },
+// { "input": ["Air", "Planet"], "output": "Atmosphere" },
+// { "input": ["Continent", "Continent"], "output": "Planet" },
+// { "input": ["Land", "Land"], "output": "Continent" },
+// { "input": ["Land", "Earth"], "output": "Continent" },
+// { "input": ["Earth", "Earth"], "output": "Land" },
 
 
-];
+// ];
 
-const outputMap = buildOutputMap(dataRule);
-const treeDummy = buildTree("Atmosphere", outputMap);
-console.log(treeDummy);
+// const outputMap = buildOutputMap(dataRule);
+// const treeDummy = buildTree("Atmosphere", outputMap);
+// console.log(treeDummy);
 
-function TreeElement() {
+function TreeElement({treeRawData, rootName, nodeCount, solutionCount, time}) {
   const svgRef = useRef();
   const containerRef = useRef();
   const [tree, setTree] = useState(null);
   const [zoom, setZoom] = useState(1);
-
-  // useEffect(() => {
-  //   fetch("/api/tree-data")
-  //     .then(res => res.json())
-  //     .then(dataRule => {
-  //       const outputMap = buildOutputMap(dataRule);
-  //       const treeData = buildTree("Atmosphere", outputMap);
-  //       setTree(treeData);
-  //     });
-  // }, []);
+  const rule = extractRuleFromJson(treeRawData);
+  const outputMap = buildOutputMap(rule);
+  const treeDummy = buildTree(rootName, outputMap);
+  const countNodeTreeDumm = countNodes(treeDummy);
+  console.log(countNodeTreeDumm);
 
   useEffect(() => { //ganti tree dummy dengan data hasil fetch nantinya
     if (!treeDummy) return;
@@ -90,9 +138,12 @@ function TreeElement() {
         d3.zoomIdentity
       );
     });
+    
+    console.log("INI NAMA ROOTNYA");
+    console.log(rootName);
 
     const root = d3.hierarchy(treeDummy);
-    const treeLayout = d3.tree().size([width - 100, height * 1.2]).separation(() => 1.5);
+    const treeLayout = d3.tree().size([(width - 100)*8, height * getScalingValue(rootName)]).separation(() => 5);
     treeLayout(root);
 
     const nodes = root.descendants();
@@ -207,7 +258,18 @@ function TreeElement() {
               borderRadius: '4px',
               marginTop: '5px'
             }}>
-              {0}
+              {time}
+            </div>
+          </div>
+          <div>
+            <strong>Jumlah Solusi:</strong> 
+            <div style={{ 
+              background: '#e9ecef', 
+              padding: '5px 10px', 
+              borderRadius: '4px',
+              marginTop: '5px'
+            }}>
+              {solutionCount}
             </div>
           </div>
           <div>
@@ -218,7 +280,7 @@ function TreeElement() {
               borderRadius: '4px',
               marginTop: '5px'
             }}>
-              {0}
+              {nodeCount}
             </div>
           </div>
         </div>
@@ -228,7 +290,5 @@ function TreeElement() {
 }
 
 export default TreeElement;
-
-
 
 

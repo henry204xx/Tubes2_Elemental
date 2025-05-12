@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Searchbar from "./_components/searchbar";
 import MultiValueToggle from "./_components/Checkbox";
 import AlgorithmToggle from "./_components/algorithmTogle";
@@ -9,16 +9,29 @@ import elementLibrary from "../_dataImage/elementLibrary.json";
 import MultiValueInputModal from "./_components/multiValueInpputModal.js";
 import TreeModal from "./_components/TreeModal.js";
 
+
 export default function Home() {
   const [elemToDisplay, setElemToDisplay] = useState(elementLibrary);
   const [isSearching, setIsSearching] = useState(false);
   const [isMultivalue, setIsMultiValue] = useState(false);
-  const [graphAlgorithm, setAlgorithm] = useState("BFS");
+  const [graphAlgorithm, setAlgorithm] = useState("bfs");
   const [showTreeModal, setShowTreeModal] = useState(false);
   const [showInputModal, setShowInputModal] = useState(false); 
   const [inputValue, setInputValue] = useState(1); 
   const [inputError, setInputError] = useState("");
+  const [treeData, setTreeData] = useState(null);
+  const [currTarget, setTarget] = useState("");
+  const [nodeCount, setNodeCount] = useState(0);
+  const [manySolution, setSolutionCount] = useState(0);
+  const [timeCount, setTimeCount] = useState(0);
 
+  useEffect(() => {
+    if (treeData) {
+      setShowTreeModal(true);  
+    } else {
+      setShowTreeModal(false); 
+    }
+  }, [treeData]);
 
   const handleMultivalueChange = (val : boolean) => {
     if (val) {
@@ -41,15 +54,50 @@ export default function Home() {
 
 
   const handleCancel = () => {
-    setShowInputModal(false); 
+    setTreeData(null);
     setInputValue(1); 
+    setTarget("");
     setInputError(""); 
+    setNodeCount(0);
+    setSolutionCount(0);
+    setTimeCount(0);
     setIsMultiValue(false); 
   };
 
 
-  const handleReceiptClick = (val: boolean) => {
-      setShowTreeModal(true);
+    const handleReceiptClick = async (elementName: string, maxSolution: number, method: string) => {
+    try {
+      console.log("MASUK PROSES");
+      console.log("INI DIBAWAHNYA NAMANYA");
+      console.log(elementName);
+      const response = await fetch('http://localhost:8080/api/query', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+      },
+      body: JSON.stringify({
+        target: elementName,
+        maxSolutions: maxSolution,
+        method: method
+      }),
+    });
+
+
+      if (!response.ok) throw new Error('Failed to fetch tree data');
+      
+      const data = await response.json();
+      setTreeData(data.trees);
+      setTarget(elementName);
+      setNodeCount(data.nodeCount);
+      setSolutionCount(data.numSolutions);
+      setTimeCount(data.elapsedTime)
+      
+
+      console.log("Berhasil");
+    } catch (error) {
+      console.error("Error fetching tree data:", error);
+    } 
   };
 
   return (
@@ -58,7 +106,7 @@ export default function Home() {
         <span className="text-xl font-bold text-left">ELEMENTAL</span>
         <Searchbar onResults={setElemToDisplay} elementsData={elementLibrary} searchState={setIsSearching} />
         <MultiValueToggle onChange={handleMultivalueChange} checked={isMultivalue} />
-        <AlgorithmToggle onAlgorithmChange={setAlgorithm} />
+        <AlgorithmToggle onToggle={setAlgorithm} algorithm={graphAlgorithm} />
       </div>
       <div className="flex flex-wrap gap-6 justify-center ">
         {isSearching && Object.keys(elemToDisplay).length === 0 ? (
@@ -72,7 +120,7 @@ export default function Home() {
               title={name} 
               image={svgPath ? `../${svgPath}` : ''} 
               tier={tier} 
-              onClickedButt={handleReceiptClick}
+              onClickedButt={() => handleReceiptClick(name, inputValue, graphAlgorithm)}
             />
           ))
         )}
@@ -89,9 +137,12 @@ export default function Home() {
 
       <TreeModal
         isOpen={showTreeModal}
-        onClose={() => {
-          setShowTreeModal(false);
-        }}
+        onClose={() => setShowTreeModal(false)}
+        target={currTarget} 
+        treeRaw={treeData}    
+        countNode={nodeCount}
+        countSolution={manySolution}
+        programTime={timeCount}
       />
 
     </div>

@@ -3,8 +3,15 @@
 import React from "react";
 import TreeElement from "./TreeElement.js";
 
-const TreeModal = ({ isOpen, onClose }) => {
+const TreeModal = ({ isOpen, onClose,  target, treeRaw, countNode, countSolution, programTime}) => {
   if (!isOpen) return null;
+  if(!target){
+    console.log("INI DI MODAL KOSONG DIE");
+  }
+  else{
+    console.log("INI DI MODAL DIE");
+    console.log(target);
+  }
 
   return (
     <div 
@@ -20,7 +27,8 @@ const TreeModal = ({ isOpen, onClose }) => {
           ✕
         </button>
         
-        <TreeElement />
+        <TreeElement treeRawData={treeRaw} rootName={target} nodeCount={countNode} 
+        solutionCount={countSolution} time={programTime}/>
       </div>
     </div>
   );
