@@ -159,6 +159,7 @@ func (p *WorkerPool) processNode(node Node) {
 		tree := BuildTree(current.Path, current.Path[0].Result)
 		select {
 		case p.results <- tree:
+			
 
 		case <- p.done:
 			
@@ -187,6 +188,7 @@ func (p *WorkerPool) processNode(node Node) {
 	}
 	
 	atomic.AddInt64(&GlobalVisitedCount, 1)
+
 	
 	if IsBasicElement(elem) || elem == "Time" {
 		p.Submit(Node{stack: current})
@@ -260,7 +262,7 @@ func (p *WorkerPool) Submit(node Node) {
 		}
 		
 
-		atomic.AddInt32(&p.jobsSubmitted, 1)
+		atomic.AddInt32(&p.jobsSubmitted, 1)	
 		
 		select {
 		case p.jobs <- node:
@@ -268,9 +270,6 @@ func (p *WorkerPool) Submit(node Node) {
 		case <-p.done:
 			return
 		default:
-			atomic.AddInt32(&p.activeJobs, 1)
-			p.processNode(node)
-			atomic.AddInt32(&p.activeJobs, -1)
 		}
 	}
 }
@@ -472,6 +471,7 @@ func DFS(root string, maxSolution int) ([]*TreeNode, int, int) {
 	// Submit the initial node
 	pool.Submit(Node{stack: stack})
 	
+	
 	// Use a separate goroutine to periodically check if all work is done
 	go func() {
 		ticker := time.NewTicker(500 * time.Millisecond)
@@ -490,6 +490,7 @@ func DFS(root string, maxSolution int) ([]*TreeNode, int, int) {
 				if atomic.LoadInt32(&pool.activeJobs) == 0 && pool.isQueueEmpty() && atomic.LoadInt32(&pool.jobsSubmitted) > 0 {
 					fmt.Println("All paths explored. Found", pool.Count, "solutions.")
 					pool.Stop()
+					fmt.Println("Stopping worker pool...")
 					return
 				}
 			case <-pool.done:
@@ -499,10 +500,11 @@ func DFS(root string, maxSolution int) ([]*TreeNode, int, int) {
 		}
 	}()
 	
-	// Wait for all workers to finish
+
 	pool.Wait()
 	
 	// Get results and save to JSON
+	
 	results := pool.GetResults()
 	err := SaveResultsToJSON(results, "paths.json")
 	if err != nil {
@@ -513,6 +515,10 @@ func DFS(root string, maxSolution int) ([]*TreeNode, int, int) {
 	
 	fmt.Printf("Total paths found: %d\n", pool.Count)
 	fmt.Printf("Total nodes visited: %d\n", GlobalVisitedCount)
+
+	pool.Stop()
+
+	
 	
 	// Write results to file
 	f, err := os.Create("paths.txt")
@@ -529,7 +535,7 @@ func DFS(root string, maxSolution int) ([]*TreeNode, int, int) {
 		fmt.Fprintln(f)
 	}
 
-	return results, int(GlobalVisitedCount), int(pool.Count)
+	return results, int(pool.Count), int(GlobalVisitedCount)
 }
 
 
