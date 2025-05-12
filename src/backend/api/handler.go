@@ -61,14 +61,27 @@ func QueryHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Unknown method", http.StatusBadRequest)
 		return
 	}
-
+	fmt.Println("MASUK NI ABIS FUNGSINYA")
 	res := QueryResponse{
 		Trees:        trees,
 		NumSolutions: numSolutions, // Number of solutions found
 		NodeCount:    visitedNodes, // Number of visited nodes
 		ElapsedTime:  time.Since(start).String(),
 	}
-
+	fmt.Println("Berhasil res:=")
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(res)
+	fmt.Println("Berhasil w.header")
+	err := json.NewEncoder(w).Encode(res)
+	if err != nil {
+		fmt.Println("GAGAL ENCODE JSON:", err)
+		http.Error(w, "Internal Server Error", http.StatusInternalServerError)
+		return
+	}
+	fmt.Printf("Header written? %v\n", w.Header())
+	data, err := json.MarshalIndent(res, "", "  ")
+	if err != nil {
+		fmt.Println("GAGAL MARSHAL:", err)
+	} else {
+		fmt.Println("HASIL JSON:\n", string(data))
+	}
 }
