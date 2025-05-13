@@ -1,0 +1,8 @@
+{
+  "builds": [
+    {
+      "src": "src/frontend/elemental/package.json",
+      "use": "@vercel/next"
+    }
+  ]
+}
