@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: ./src/frontend/elemental
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src/frontend/elemental:/app
+      - /app/node_modules
+    stdin_open: true
+    tty: true
+    networks:
+      - app-network  
+
+  backend:
+    build:
+      context: ./src/backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./src/backend:/app  
+    stdin_open: true
+    tty: true
+    restart: always
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

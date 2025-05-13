@@ -1,13 +1,45 @@
 [
   {
-    "result": "Algae",
+    "result": "Angel",
     "components": [
       {
-        "result": "Water"
-      },
-      {
-        "result": "Plant",
+        "result": "Human",
         "components": [
+          {
+            "result": "Clay",
+            "components": [
+              {
+                "result": "Mud",
+                "components": [
+                  {
+                    "result": "Water"
+                  },
+                  {
+                    "result": "Earth"
+                  }
+                ]
+              },
+              {
+                "result": "Stone",
+                "components": [
+                  {
+                    "result": "Air"
+                  },
+                  {
+                    "result": "Lava",
+                    "components": [
+                      {
+                        "result": "Earth"
+                      },
+                      {
+                        "result": "Fire"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "result": "Life",
             "components": [
@@ -15,7 +47,7 @@
                 "result": "Primordial soup",
                 "components": [
                   {
-                    "result": "Earth"
+                    "result": "Lava"
                   },
                   {
                     "result": "Sea",
@@ -55,28 +87,44 @@
                 ]
               },
               {
-                "result": "Energy",
+                "result": "Volcano",
                 "components": [
                   {
-                    "result": "Fire"
+                    "result": "Lava"
                   },
                   {
-                    "result": "Fire"
+                    "result": "Earth"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "result": "Bird",
+        "components": [
+          {
+            "result": "Animal",
+            "components": [
+              {
+                "result": "Life"
+              },
+              {
+                "result": "Land",
+                "components": [
+                  {
+                    "result": "Earth"
+                  },
+                  {
+                    "result": "Earth"
                   }
                 ]
               }
             ]
           },
           {
-            "result": "Soil",
-            "components": [
-              {
-                "result": "Earth"
-              },
-              {
-                "result": "Life"
-              }
-            ]
+            "result": "Air"
           }
         ]
       }

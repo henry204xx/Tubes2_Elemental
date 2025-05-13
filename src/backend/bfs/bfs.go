@@ -13,9 +13,15 @@ import (
 )
 
 const (
-	MaxWorkers    = 8 
+	MaxWorkers    = 4
 	QueueCapacity = 1000
 )
+
+type Pathfinder struct {
+	results   []*dfs.TreeNode
+	resultsMu sync.Mutex
+}
+
 
 type Queue struct {
 	Elements []string
@@ -79,7 +85,7 @@ func (p *WorkerPool) worker() {
 			case <-p.done:
 				p.depthTracker.FinishProcessingAtDepth(job.depth)
 				return
-			default:
+			default:	
 				time.Sleep(1 * time.Millisecond)
 			}
 		}
@@ -221,21 +227,21 @@ func (p *WorkerPool) Wait() {
 	close(p.results)
 }
 
+var once sync.Once
+
 func (p *WorkerPool) Stop() {
-	select {
-	case <-p.done:
-	default:
-		close(p.done)
-	}
+    once.Do(func() {
+        close(p.done)
+    })
 }
 
-func (p *WorkerPool) GetResults() []*dfs.TreeNode {
-	var results []*dfs.TreeNode
-	for result := range p.results {
-		results = append(results, result)
-	}
-	return results
+
+func (p *Pathfinder) GetResults() []*dfs.TreeNode {
+	p.resultsMu.Lock()
+	defer p.resultsMu.Unlock()
+	return p.results
 }
+
 
 func copyQueue(q Queue) Queue {
 	newElements := make([]string, len(q.Elements))
@@ -379,19 +385,23 @@ func BFS(root string, maxSolution int) ([]*dfs.TreeNode, int, int) {
 	
 	// Wait for all workers to finish
 	pool.Wait()
-	
-	// Get results and save to JSON
-	results := pool.GetResults()
+
+	// Collect results from the results channel
+	var results []*dfs.TreeNode
+	for res := range pool.results {
+		results = append(results, res)
+	}
+
 	err := SaveResultsToJSON(results, "paths.json")
 	if err != nil {
 		fmt.Println("Error saving results to JSON:", err)
 	} else {
 		fmt.Println("Results successfully saved to paths.json")
 	}
-	
+
 	fmt.Printf("Total paths found: %d\n", pool.Count)
 	fmt.Printf("Total nodes visited: %d\n", dfs.GlobalVisitedCount)
-	
+
 	// Write results to file
 	f, err := os.Create("paths.txt")
 	if err != nil {
@@ -399,7 +409,7 @@ func BFS(root string, maxSolution int) ([]*dfs.TreeNode, int, int) {
 		return nil, 0, 0
 	}
 	defer f.Close()
-	
+
 	for i, tree := range results {
 		fmt.Fprintf(f, "Path %d:\n", i+1)
 		fmt.Fprintf(f, "%s\n", root)

@@ -15,7 +15,7 @@ var GlobalVisitedCount int64
 
 // Thread pool configuration
 const (
-	MaxWorkers    = 8 
+	MaxWorkers    = 4
 	QueueCapacity = 100 
 )
 
