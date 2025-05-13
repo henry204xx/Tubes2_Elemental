@@ -62,7 +62,7 @@ BFS utilizes a queue to explore all possible paths level by level, ensuring the 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- GETTING STARTED -->
+<!-- GETTING STARTED --> 
 ## Getting Started 
 
 ### Prerequisites
