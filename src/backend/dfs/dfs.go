@@ -535,6 +535,9 @@ func DFS(root string, maxSolution int) ([]*TreeNode, int, int) {
 		fmt.Fprintln(f)
 	}
 
+	if (results == nil) {
+		return results, -1, int(GlobalVisitedCount)
+	}
 	return results, int(pool.Count), int(GlobalVisitedCount)
 }
 

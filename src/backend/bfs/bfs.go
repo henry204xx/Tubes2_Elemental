@@ -417,6 +417,9 @@ func BFS(root string, maxSolution int) ([]*dfs.TreeNode, int, int) {
 		fmt.Fprintln(f)
 	}
 
+	if (results == nil ) {
+		return results, -1, int(dfs.GlobalVisitedCount)
+	}
 	return results, int(pool.Count), int(dfs.GlobalVisitedCount)
 }
 
