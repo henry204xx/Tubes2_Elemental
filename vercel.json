@@ -2,24 +2,13 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/frontend/elemental/package.json", 
-      "use": "@vercel/next", 
-      "config": {
-        "framework": "nextjs"
-      }
-    },
-    {
-      "src": "src/backend/api/handler.go", 
-      "use": "@vercel/go"
+      "src": "src/frontend/elemental/package.json",
+      "use": "@vercel/next"
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)", 
-      "dest": "/src/backend/api/$1"
-    },
-    {
-      "src": "/(.*)", 
+      "src": "/(.*)",
       "dest": "/src/frontend/elemental/$1"
     }
   ]
