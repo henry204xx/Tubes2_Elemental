@@ -3,7 +3,10 @@
   "builds": [
     {
       "src": "src/frontend/elemental/package.json",
-      "use": "@vercel/next"
+      "use": "@vercel/next",
+      "config": {
+        "framework": "nextjs"
+      }
     }
   ],
   "routes": [
