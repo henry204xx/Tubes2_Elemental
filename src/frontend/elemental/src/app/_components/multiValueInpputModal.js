@@ -6,6 +6,7 @@ export default function MultiValueInputModal({
   setInputValue,
   onSubmit,
   inputError,
+  onInputEror
 }) {
   if (!isOpen) return null;
 
@@ -17,8 +18,16 @@ export default function MultiValueInputModal({
       <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
         <h2 className="text-xl font-bold text-black mb-4">Masukkan Nilai</h2>
         <input
-          type="number"
-          onChange={(e) => setInputValue(parseInt(e.target.value))}
+          type="text"
+          onChange={(e) => {
+            if (e.target.value === "e") {
+              console.log("INI TYPE E BABI",typeof (e.target.value), "INI HURUFNYA", e.target.value)
+              onInputEror("Nilai harus lebih dari 0 atau pastikan masukan adalah angka bulat");
+            }
+            else{
+              setInputValue(parseInt(e.target.value));
+            }
+          }}
           className="border p-2 w-full text-black mb-4"
           placeholder="Masukkan nilai lebih dari 0"
         />

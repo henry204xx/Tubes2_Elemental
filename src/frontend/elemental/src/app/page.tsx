@@ -26,6 +26,7 @@ export default function Home() {
   const [timeCount, setTimeCount] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [abortController, setAbortController] = useState<AbortController | null>(null);
+  const [showNoSolutionModal, setShowNoSolutionModal] = useState(false);
 
   useEffect(() => {
     if (treeData) {
@@ -35,6 +36,15 @@ export default function Home() {
       setShowTreeModal(false); 
     }
   }, [treeData]);
+
+  useEffect(() => {
+    if (manySolution == -1) {
+      setIsLoading(false);
+      console.log("BRO MASUK MIN 1")
+      resetVal
+      setShowNoSolutionModal(true);
+    } 
+  }, [manySolution]);
 
   const handleMultivalueChange = (val : boolean) => {
     if (val) {
@@ -47,26 +57,36 @@ export default function Home() {
 
 
   const handleSubmitValue = () => {
-    if (inputValue >= 1) {
+    if (typeof inputValue === "number" && inputValue >= 1) {
       setIsMultiValue(true); 
       setShowInputModal(false);
+      setInputError("")
     } else {
-      setInputError("Nilai harus lebih dari 0");
+      setInputError("Nilai harus lebih dari 0 atau pastikan masukan adalah angka bulat");
     }
   };
 
-
-  const handleCancel = () => {
+  const resetVal = ()=>{
     setTreeData(null);
-    setInputValue(1); 
     setTarget("");
-    setInputError(""); 
     setNodeCount(0);
     setSolutionCount(0);
     setTimeCount(0);
+  }
+
+
+  const handleCancel = () => {
+    resetVal
+    setInputValue(1); 
+    setInputError(""); 
     setIsMultiValue(false); 
     setShowTreeModal(false);
     setShowInputModal(false);
+  };
+
+  const handleTreeClose = () => {
+    resetVal
+    setShowTreeModal(false);
   };
 
 
@@ -146,11 +166,12 @@ export default function Home() {
         setInputValue={setInputValue} 
         onSubmit={handleSubmitValue} 
         inputError={inputError} 
+        onInputEror={setInputError}
       />
 
       <TreeModal
         isOpen={showTreeModal}
-        onClose={handleCancel}
+        onClose={handleTreeClose}
         target={currTarget} 
         treeRaw={treeData}    
         countNode={nodeCount}
@@ -158,7 +179,7 @@ export default function Home() {
         programTime={timeCount}
       />
 
-      {/*loading modal*/}
+      {/*modal prosess query*/}
       {isLoading && (
       <div className="fixed inset-0 flex items-center justify-center z-50"
       style={{ backgroundColor: 'rgba(209, 213, 219, 0.7)' }}>
@@ -176,6 +197,26 @@ export default function Home() {
           </button>
           </div>
       </div>)}
+
+      {/*modal no solution*/}
+      {showNoSolutionModal && (
+      <div className="fixed inset-0 flex items-center justify-center z-50"
+      style={{ backgroundColor: 'rgba(209, 213, 219, 0.7)' }}>
+        <div className="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h2 className="text-xl font-bold mb-4 text-red-600">Tidak ada solusi ditemukan</h2>
+          <p className="mb-6 text-gray-700">Silakan coba elemen lain.</p>
+          <button
+            onClick={() => {
+              setShowNoSolutionModal(false);
+              resetVal();
+            }}
+            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          >
+            Tutup
+          </button>
+        </div>
+      </div>
+    )}
 
     </div>
   );
