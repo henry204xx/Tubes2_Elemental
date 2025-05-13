@@ -12,6 +12,8 @@ type Node struct {
 	Components [][]*Node
 }
 
+var visited sync.Map
+
 var nodeCache = make(map[string]*Node)
 var nodeMu sync.Mutex
 var activeJobMu sync.Mutex
@@ -81,63 +83,69 @@ func getElementComponent(parentName string, mapTier map[string]int,
 
 }
 
+//dfs paralel hehe
+
+// func worker(id int, jobsQue chan string, nodeCache map[string]*Node,
+// 	mapTier map[string]int, resToElemMap map[string][]string, wg *sync.WaitGroup) {
+
+// 	for elementName := range jobsQue {
+
+// 		if _, ok := nodeCache[elementName]; !ok {
+// 			//get parent component
+// 			parentNode := newNode(id, elementName)
+// 			component := getElementComponent(elementName, mapTier, resToElemMap)
+
+// 			for _, element := range component {
+// 				fmt.Println("go ID:", id, "INI PARENT :", elementName)
+// 				fmt.Println("go ID:", id, "INI COMPONENT PARENT :", element)
+
+// 				parts := strings.Split(element, " + ")
+
+// 				if _, ok := nodeCache[parts[0]]; !ok {
+// 					if parts[0] != "Earth" && parts[0] != "Air" && parts[0] != "Water" && parts[0] != "Fire" {
+// 						jobsQue <- parts[0]
+// 						fmt.Println("go ID:", id, "yang dimasukin :", parts[0])
+// 						incrementActiveJob()
+// 						fmt.Println("go ID:", id, "actuve job :", activeJob)
+// 						incrementWg(wg)
+// 					}
+
+// 				}
+
+// 				if _, ok := nodeCache[parts[1]]; !ok {
+// 					if parts[1] != "Earth" && parts[1] != "Air" && parts[1] != "Water" && parts[1] != "Fire" {
+// 						jobsQue <- parts[1]
+// 						fmt.Println("go ID:", id, "yang dimasukin :", parts[1])
+// 						incrementActiveJob()
+// 						fmt.Println("go ID:", id, "actuve job :", activeJob)
+// 						incrementWg(wg)
+// 					}
+
+// 				}
+
+// 				// make his component
+// 				child_1 := newNode(id, parts[0])
+// 				child_2 := newNode(id, parts[1])
+
+// 				// add his component
+// 				componentsMu.Lock()
+// 				parentNode.Components = append(parentNode.Components, []*Node{child_1, child_2})
+// 				componentsMu.Unlock()
+// 			}
+// 		} else {
+
+// 		}
+
+// 		decrementActiveJob()
+// 		decreaseWg(wg)
+// 		fmt.Println("INI ACTIVE JOB", activeJob)
+
+// 	}
+// }
+
 func worker(id int, jobsQue chan string, nodeCache map[string]*Node,
 	mapTier map[string]int, resToElemMap map[string][]string, wg *sync.WaitGroup) {
 
-	for elementName := range jobsQue {
-
-		if _, ok := nodeCache[elementName]; !ok {
-			//get parent component
-			parentNode := newNode(id, elementName)
-			component := getElementComponent(elementName, mapTier, resToElemMap)
-
-			for _, element := range component {
-				fmt.Println("go ID:", id, "INI COMPONENT PARENT :", element)
-
-				parts := strings.Split(element, " + ")
-
-				CU.Lock()
-				if _, ok := nodeCache[parts[0]]; !ok {
-					if parts[0] != "Earth" && parts[0] != "Air" && parts[0] != "Water" && parts[0] != "Fire" {
-						jobsQue <- parts[0]
-						fmt.Println("go ID:", id, "yang dimasukin :", parts[0])
-						incrementActiveJob()
-						fmt.Println("go ID:", id, "actuve job :", activeJob)
-						incrementWg(wg)
-					}
-
-				}
-
-				if _, ok := nodeCache[parts[1]]; !ok {
-					if parts[1] != "Earth" && parts[1] != "Air" && parts[1] != "Water" && parts[1] != "Fire" {
-						jobsQue <- parts[1]
-						fmt.Println("go ID:", id, "yang dimasukin :", parts[1])
-						incrementActiveJob()
-						fmt.Println("go ID:", id, "actuve job :", activeJob)
-						incrementWg(wg)
-					}
-
-				}
-				CU.Unlock()
-
-				// make his component
-				child_1 := newNode(id, parts[0])
-				child_2 := newNode(id, parts[1])
-
-				// add his component
-				componentsMu.Lock()
-				parentNode.Components = append(parentNode.Components, []*Node{child_1, child_2})
-				componentsMu.Unlock()
-			}
-		} else {
-
-		}
-
-		decrementActiveJob()
-		decreaseWg(wg)
-		fmt.Println("INI ACTIVE JOB", activeJob)
-
-	}
 }
 
 func main() {
@@ -147,10 +155,10 @@ func main() {
 
 	if err := scraper.LoadTierElem(); err != nil {
 		fmt.Println("Error loading tiers:", err)
-	}
+	// }
 
-	mapTier := scraper.ElemTier
-	resToElemMap := scraper.ReverseMapping
+	// mapTier := scraper.ElemTier
+	// resToElemMap := scraper.ReverseMapping
 	done := make(chan struct{})
 	jobsQue := make(chan string, 100)
 	var wg sync.WaitGroup
@@ -162,7 +170,7 @@ func main() {
 	}
 
 	wg.Add(1)
-	jobsQue <- "Sandwich"
+	jobsQue <- "Alien"
 
 	go func() {
 		wg.Wait()
